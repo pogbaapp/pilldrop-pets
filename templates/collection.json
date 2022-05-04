@@ -18,10 +18,10 @@
       }
     },
     "1651365058ec2a8203": {
-      "type": "scroller",
+      "type": "tileSlider",
       "blocks": {
         "1651365058e29b6185-0": {
-          "type": "scroller_item",
+          "type": "tileSlider_item",
           "settings": {
             "heading": "Anxiety",
             "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
@@ -30,7 +30,7 @@
           }
         },
         "1651365058e29b6185-1": {
-          "type": "scroller_item",
+          "type": "tileSlider_item",
           "settings": {
             "heading": "Anxiety",
             "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
@@ -39,7 +39,7 @@
           }
         },
         "1651365058e29b6185-2": {
-          "type": "scroller_item",
+          "type": "tileSlider_item",
           "settings": {
             "heading": "Anxiety",
             "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
@@ -54,7 +54,7 @@
         "1651365058e29b6185-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/scroller.jpg",
+        "image": "shopify:\/\/shop_images\/tileSlider.jpg",
         "heading": "",
         "content": "<p>The most common conditions we treat with medicinal cannabis are listed below.<br\/>Feel free to discuss any other conditions with us. We will give you an honest opinion as to whether medicinal cannabis would be worth trying.<\/p>"
       }

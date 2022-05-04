@@ -168,7 +168,7 @@ body:not(.Toast\\Pages\\HomePage) .header {
             @include media(1100px) {
                 display: flex;
             }
-
+ 
             @include media(1100px) {
                 margin-left: 0;
             }

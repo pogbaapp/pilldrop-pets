@@ -45,10 +45,10 @@
       }
     },
     "16492312090f4dccd0": {
-      "type": "scroller",
+      "type": "tileSlider",
       "blocks": {
         "16492312095b6f3515-0": {
-          "type": "scroller_item",
+          "type": "tileSlider_item",
           "settings": {
             "heading": "Pain",
             "content": "<p>CBD can be used to treat most types of chronic pain and improve quality of life.<\/p>",
@@ -57,7 +57,7 @@
           }
         },
         "16492312095b6f3515-1": {
-          "type": "scroller_item",
+          "type": "tileSlider_item",
           "settings": {
             "heading": "Anxiety",
             "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
@@ -66,7 +66,7 @@
           }
         },
         "16492312095b6f3515-2": {
-          "type": "scroller_item",
+          "type": "tileSlider_item",
           "settings": {
             "heading": "Insomnia",
             "content": "<p>CBD under the expert advice of your doctor, can be a very effective long term management.<\/p>",
@@ -75,7 +75,7 @@
           }
         },
         "39a58217-b81b-43e2-9904-4433f1c2cfe1": {
-          "type": "scroller_item",
+          "type": "tileSlider_item",
           "settings": {
             "heading": "Mental Health",
             "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
@@ -91,7 +91,7 @@
         "39a58217-b81b-43e2-9904-4433f1c2cfe1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/scroller.jpg",
+        "image": "shopify:\/\/shop_images\/tileSlider.jpg",
         "heading": "How we can help",
         "content": "<p>The most common conditions we treat with medicinal cannabis are listed below.<br\/>Feel free to discuss any other conditions with us. We will give you an honest opinion as to whether medicinal cannabis would be worth trying.<\/p>"
       }

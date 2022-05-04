@@ -1,0 +1,133 @@
+/*------------------------------------------------------------------
+Tile Slider
+------------------------------------------------------------------*/
+
+.tileSlider {
+    position: relative;
+    width: 100%;
+    padding: 10rem 2rem;
+
+    @include media($md, max) {
+        padding: 4rem 2rem 6rem;
+    }
+
+    &__wrap {
+        width: 100%;
+        margin: 0 auto;
+        max-width: $lg;
+
+        &__heading {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 4rem;
+
+            @include media($md, max) {
+                margin-bottom: 0;
+            }
+        }
+
+        &__slider {
+            width: 100%;
+            position: relative;
+
+            &__prev {
+                -webkit-appearance: none;
+                border: 0;
+                background: transparent;
+                @include vertical-align;
+                left: -10rem;
+                cursor: pointer;
+
+                @include media(1280px, max) {
+                    left: 50%;
+                    margin-left: -10rem;
+                    top: 100%;
+                    transform: translateY(0);
+                }
+
+                @include media($md, max) {
+                    display: none;
+                }
+            }
+
+            &__next {
+                -webkit-appearance: none;
+                border: 0;
+                background: transparent;
+                @include vertical-align;
+                right: -10rem;
+                cursor: pointer;
+
+                @include media(1280px, max) {
+                    right: 50%;
+                    margin-right: -10rem;
+                    top: 100%;
+                    transform: translateY(0);
+                }
+
+                @include media($md, max) {
+                    display: none;
+                }
+            }
+
+            &__tray {
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+                min-height: 25rem;
+                outline: 0;
+
+                &::before {
+                    @include pseudo;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    width: 4rem;
+                    z-index: 4;
+                    background: linear-gradient(to left, rgba(white, 0) 50%, rgba(white, 1) 100%);
+                }
+
+                &::after {
+                    @include pseudo;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    width: 4rem;
+                    z-index: 4;
+                    background: linear-gradient(to right, rgba(white, 0) 50%, rgba(white, 1) 100%);
+                }
+
+                &__item {
+                    padding: 2.5rem;
+                    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+                    border-radius: 1rem;
+                    margin: 2rem 2rem;
+                    width: calc(33.3% - 4rem);
+                    min-height: 18rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+
+                    @include media($xmd, max) {
+                        width: calc(50% - 4rem);
+                        margin: 2rem 2rem;
+                    }
+
+                    @include media($md, max) {
+                        width: calc(100% - 4rem);
+                        margin: 2rem 2rem;
+                    }
+
+                    h4 {
+                        width: 100%;
+                    }
+
+                    p {
+                        line-height: 1.4;
+                    }
+                }
+            }
+        }
+    }
+}
