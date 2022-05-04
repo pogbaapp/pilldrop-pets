@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16510315198c1783c4": {
+      "type": "banner-slim",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alternative-banner.jpg",
+        "subheading": "",
+        "subheading_size": "h4",
+        "heading": "<p>Our doctors<\/p>",
+        "heading_size": "h1",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>"
+      }
+    },
+    "1651136197af166bfc": {
+      "type": "image-with-text-alternative",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dr_Richard_Batt.jpg",
+        "heading": "Dr Richard Batt",
+        "heading_size": "h2",
+        "text": "<p><strong>FRNZCGP MB ChB Otago <br\/>DIH (with Distinction) D Av Med. <\/strong><\/p><p>Our Medical Director is a very experienced General Practitioner in Auckland, New Zealand.<\/p><p>Along with one other New Zealand doctor he completed the very first Medicinal Cannabis training programme in 2018. Since then he has continued to take advanced Medicinal Cannabis training.<\/p>",
+        "button_label": "Book a consultation",
+        "button_link": "shopify:\/\/pages\/contact",
+        "layout": "left"
+      }
+    },
+    "1651037785dcfb2f3f": {
+      "type": "split-block",
+      "settings": {
+        "background_colour": "#235454",
+        "heading_main": "Getting started",
+        "heading_main_size": "h2",
+        "heading_left": "Send us your prescription",
+        "heading_left_size": "h2",
+        "text_left": "<p>Get a prescription through your doctor or book an appointment with one of our doctors.<\/p>",
+        "button_left_label": "SUBMIT NOW",
+        "button_left_link": "",
+        "heading_right": "Book an appointment",
+        "heading_right_size": "h2",
+        "text_right": "<p>Get a prescription through your doctor or book an appointment with one of our doctors.<\/p>",
+        "button_right_label": "BOOK NOW",
+        "button_right_link": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16510315198c1783c4",
+    "1651136197af166bfc",
+    "1651037785dcfb2f3f"
+  ],
+  "wrapper": "div.main-wrapper"
+}

@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "banner": {
+      "type": "banner-slim",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner-collection.jpg",
+        "subheading": "<p>OUR PRODUCTS<\/p>",
+        "subheading_size": "h4",
+        "heading": "<p><strong>No middleman.<\/strong><\/p><p><strong>No price games.<\/strong><\/p><p><strong>Huge savings.<\/strong><\/p>",
+        "heading_size": "h1",
+        "text": ""
+      }
+    },
+    "product-grid": {
+      "type": "product-grid",
+      "settings": {
+        "heading": ""
+      }
+    },
+    "1651365058ec2a8203": {
+      "type": "scroller",
+      "blocks": {
+        "1651365058e29b6185-0": {
+          "type": "scroller_item",
+          "settings": {
+            "heading": "Anxiety",
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1651365058e29b6185-1": {
+          "type": "scroller_item",
+          "settings": {
+            "heading": "Anxiety",
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1651365058e29b6185-2": {
+          "type": "scroller_item",
+          "settings": {
+            "heading": "Anxiety",
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651365058e29b6185-0",
+        "1651365058e29b6185-1",
+        "1651365058e29b6185-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/scroller.jpg",
+        "heading": "",
+        "content": "<p>The most common conditions we treat with medicinal cannabis are listed below.<br\/>Feel free to discuss any other conditions with us. We will give you an honest opinion as to whether medicinal cannabis would be worth trying.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1651365058ec2a8203"
+  ]
+}

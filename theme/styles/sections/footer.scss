@@ -1,0 +1,95 @@
+/*------------------------------------------------------------------
+Footer
+------------------------------------------------------------------*/
+
+.footer {
+    position: relative;
+
+    /*------------------------------------------------------------------
+    CTA
+    ------------------------------------------------------------------*/
+
+    &__cta {
+        @include cover;
+        background-color: var(--green-dark);
+        position: relative;
+
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: var(--inner-content-width);
+            margin: 0 auto;
+            justify-content: space-between;
+            padding: 8rem 2rem 6rem;
+
+            &__left {
+                width: calc(100% - 20rem);
+
+                @include media($xmd, max) {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+
+            &__right {
+                width: 20rem;
+
+                @include media($xmd, max) {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    /*------------------------------------------------------------------
+    Main
+    ------------------------------------------------------------------*/
+
+    &__main {
+        background-color: var(--green-darker);
+        position: relative;
+
+        &__wrap {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            max-width: var(--inner-content-width);
+            margin: 0 auto;
+            justify-content: space-between;
+            padding: 8rem 2rem 6rem;
+
+            &__menu {
+                display: flex;
+                flex-wrap: wrap;
+
+                &__item {
+                    &__link {
+                        padding: 1rem;
+                        color: var(--green-light);
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            &__details {
+                a {
+                    padding: 1rem 0;
+                    color: var(--green-light);
+                    font-weight: 500;
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+            &__copyright {
+                width: 100%;
+
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+{% comment %}
+  Product grid
+{% endcomment %}
+
+<div class="collection">
+  <div class="collection__grid">
+
+    {% for product in collection.products %}
+
+      {% assign on_sale = false %}
+      {% if product.compare_at_price > product.price %}
+      {%- assign on_sale = true -%}
+      {% endif %}
+
+      <div class="collection__grid__item">
+        {% if product.media[0] %}
+        <a  href="{{ product.url }}" class="collection__grid__item__image">
+
+          <img loading="lazy"
+            srcset="{{ product.media[0] | image_url: width: 480 }} 480w,
+                    {{ product.media[0] | image_url: width: 800 }} 800w,
+                    {{ product.media[0] | image_url: width: 1920 }} 1600w,"
+            sizes="(max-width: 600px) 480px,
+                   (max-width: 1000px) 800px,
+                   1000px"
+            src="{{ product.media[0] | image_url: width: 1920 }}"
+            alt="{{ product.media[0].alt | escape }}"
+            width="{{ product.media[0].width }}"
+            height="{{ product.media[0].height }}">
+
+
+          {% if on_sale %}
+          {% endif %}
+            <span class="collection__grid__item__image__sale">SALE</span>
+
+          {% if product.available %}
+          {% else %}
+            <span class="collection__grid__item__image__unavailable">SOLD OUT</span>
+          {% endif %}
+
+        </a>
+      {% endif %}
+
+      <a href="{{ product.url }}" class="collection__grid__item__details">
+        <div class="collection__grid__item__details__title">
+          <h6 class="colour--green-dark"><strong>{{ product.title | escape }} &nbsp;</strong></h6>
+          <p class="colour--green-mid">{{ product.price | money }}</p>
+        </div>
+      </a>
+    </div>
+
+    {% endfor %}
+    
+  </div>
+</div>
+
+{% schema %}
+{ 
+  "name": "Product Grid",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Grid"
+    }
+  ]
+}   
+{% endschema %}

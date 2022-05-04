@@ -1,0 +1,57 @@
+<footer class="footer">
+ {% comment %} 
+    footer cta  
+    {% endcomment %}
+    <div class="footer__cta" style="background-image:url({{ 'footer-cannabis-leaves-background.jpg' | asset_url }})">
+        <div class="footer__cta__wrap">
+            
+            <div class="footer__cta__wrap__left">
+                <h2 class="colour--white">Book your consultation today</h2>
+            </div>
+            
+            <div class="footer__cta__wrap__right">
+                <p class="colour--white"><a href="#" class="button button--yellow">GIVE US A CALL</a></p>
+            </div>
+
+        </div>
+    </div>
+
+    {% comment %} 
+    footer main  
+    {% endcomment %}
+    <div class="footer__main">
+        <div class="footer__main__wrap">
+
+            <div class="footer__main__wrap__menu">
+                {% for link in linklists.main-menu.links %}
+                    <div class="footer__main__wrap__menu__item {% if link.current %}current{% endif %}">
+                        <a href="{{ link.url }}" class="footer__main__wrap__menu__item__link">
+                            {{ link.title | escape }}
+                        </a>
+                    </div>
+                {%- endfor -%}
+            </div>
+
+            <div class="footer__main__wrap__social">
+                <a href="#" class="footer__main__wrap__social__link"><img src="{{ 'facebook-icon.svg' | asset_url }}" width="24" height="24" loading="lazy" /></a>
+                <a href="#" class="footer__main__wrap__social__link"><img src="{{ 'instagram-icon.svg' | asset_url }}" width="24" height="24" loading="lazy" /></a>
+            </div>
+
+            <div class="footer__main__wrap__details">
+                <p class="colour--white"><b>CONTACT US</b></p>
+                <p class="colour--white">
+                    Auckland<br>
+                    <a href="tel:09 276 9090" class="">09 276 9090</a>
+                    Outside Auckland<br>
+                    <a href="tel:0800 745 537" class="">0800 745 537</a>
+                </p>
+            </div>
+
+            <div class="footer__main__wrap__copyright">
+                <p class="colour--white">© The New Zealand Cannabis Dispensary 2022 - all rights reserved.</p>
+            </div>
+
+        </div>
+    </div>
+
+</footer>  

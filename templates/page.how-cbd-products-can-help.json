@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
+    "16510315198c1783c4": {
+      "type": "banner-slim",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/alternative-banner.jpg",
+        "subheading": "",
+        "subheading_size": "h4",
+        "heading": "<p><strong>How CBD products can help?<\/strong><\/p>",
+        "heading_size": "h1",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>"
+      }
+    },
+    "16511354564f2a20e7": {
+      "type": "accordion-text",
+      "blocks": {
+        "1651135456cd726942-0": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Pain",
+            "content": "<p>CBD can be used to treat most types of chronic pain and improve quality of life.<\/p><p><strong>These include:<\/strong><\/p><p><strong>•  <\/strong>Arthritic pain - osteoarthritis, rheumatoid and psoriatic arthritis.<\/p><p><strong>•  <\/strong>Neuropathic pain - fibromyalgia, regional pain syndromes.<\/p><p><strong>•  <\/strong>Chronic back, neck and other joint pains.<\/p><p><strong>•  <\/strong>Pelvic pain, post surgical pain and migraine.<\/p>"
+          }
+        },
+        "1651135456cd726942-1": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Anxiety",
+            "content": "<p>CBD can be used to treat most types of chronic pain and improve quality of life.<\/p><p><strong>These include:<\/strong><\/p><p><strong>•  <\/strong>Arthritic pain - osteoarthritis, rheumatoid and psoriatic arthritis.<\/p><p><strong>•  <\/strong>Neuropathic pain - fibromyalgia, regional pain syndromes.<\/p><p><strong>•  <\/strong>Chronic back, neck and other joint pains.<\/p><p><strong>•  <\/strong>Pelvic pain, post surgical pain and migraine.<\/p>"
+          }
+        },
+        "1651135456cd726942-2": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Insomnia",
+            "content": "<p>CBD can be used to treat most types of chronic pain and improve quality of life.<\/p><p><strong>These include:<\/strong><\/p><p><strong>•  <\/strong>Arthritic pain - osteoarthritis, rheumatoid and psoriatic arthritis.<\/p><p><strong>•  <\/strong>Neuropathic pain - fibromyalgia, regional pain syndromes.<\/p><p><strong>•  <\/strong>Chronic back, neck and other joint pains.<\/p><p><strong>•  <\/strong>Pelvic pain, post surgical pain and migraine.<\/p>"
+          }
+        },
+        "1651135456cd726942-3": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Inflamation",
+            "content": "<p>CBD can be used to treat most types of chronic pain and improve quality of life.<\/p><p><strong>These include:<\/strong><\/p><p><strong>•  <\/strong>Arthritic pain - osteoarthritis, rheumatoid and psoriatic arthritis.<\/p><p><strong>•  <\/strong>Neuropathic pain - fibromyalgia, regional pain syndromes.<\/p><p><strong>•  <\/strong>Chronic back, neck and other joint pains.<\/p><p><strong>•  <\/strong>Pelvic pain, post surgical pain and migraine.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1651135456cd726942-0",
+        "1651135456cd726942-1",
+        "1651135456cd726942-2",
+        "1651135456cd726942-3"
+      ],
+      "settings": {
+        "heading": "The most common conditions we treat with medicinal cannabis are listed here.",
+        "heading_size": "h3",
+        "content": "<p>Feel free to discuss any other conditions with us. We will give you an honest opinion as to whether medicinal cannabis would be worth trying.<\/p>"
+      }
+    },
+    "16510310124e67975c": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/laughing-couple-mask.png",
+        "heading": "Am I elligible?",
+        "heading_size": "h2",
+        "text": "<p>Cannabinoids including CBD and THC, extracted from the cannabis plant under strict medical supervision, have been shown to work very well on the symptoms of some chronic medical conditions that conventional prescription medicines have been ineffective at treating.<\/p><p>​So, if prescription medicines from your doctor aren’t working for you, Medicinal Cannabis may be a great natural option.<\/p>",
+        "button_label": "READ MORE",
+        "button_link": "",
+        "layout": "left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16510315198c1783c4",
+    "16511354564f2a20e7",
+    "16510310124e67975c"
+  ],
+  "wrapper": "div.main-wrapper"
+}
