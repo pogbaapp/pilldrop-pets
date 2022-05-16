@@ -35,8 +35,8 @@ body:not(.template--index) .header {
 
         &__logo {
             @include svg(308, 81);
-            width: 14.1rem;
-            margin: 1.5rem 1rem 2rem 2rem;
+            width: 22rem;
+            margin: 1rem 1rem 2rem 2rem;
             z-index: 3;
         }
 
@@ -58,12 +58,14 @@ body:not(.template--index) .header {
 
             &__menu {
                 padding-left: 1rem;
+
                 &__item {
-                    font-weight: 600;
+                    font-weight: 500;
                     color: white;
                     text-transform: uppercase;
                     padding: 1.2rem 1rem 1.1rem 1rem;
                     display: inline-block;
+                    font-size: 1.4rem;
                 }
             }
 
@@ -134,10 +136,8 @@ body:not(.template--index) .header {
             flex-wrap: wrap;
             display: none;
             margin-left: -5rem;
-
             width: 100%;
             justify-content: center;
-
             padding-right: 11rem;
 
             @include media(1100px) {
@@ -149,10 +149,11 @@ body:not(.template--index) .header {
             }
 
             &__item {
-                font-weight: bold;
+                font-weight: 500;
                 position: relative;
                 padding: 2rem 1.5rem;
                 color: var(--grey-dark);
+                text-transform: uppercase;
             }
         }
 

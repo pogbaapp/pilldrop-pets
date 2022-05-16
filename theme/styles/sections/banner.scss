@@ -1,22 +1,11 @@
 .banner {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: -1rem auto 0;
     position: relative;
-
-    .image-to-the-left {
-        .banner__text {
-            order: 2;
-        }
-
-        .banner__image {
-            order: 1;
-        }
-    }
 
     &__text {
         background: var(--green-mid);
-        width: 50%;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -100,18 +89,7 @@
     }
 
     &__image {
-        width: 50%;
-        position: relative;
-        background-color: var(--green-lighter);
-
-        @include media(900px, max) {
-            position: absolute;
-            width: auto;
-            top: 0;
-            left: 40%;
-            right: 0;
-            bottom: 0;
-        }
+        @include full;
 
         img {
             height: 100%;
