@@ -6,6 +6,7 @@
 
   <div class="scroller__heading">
     <div class="scroller__heading__inner">
+      <h6 class="colour--white">{{ section.settings.subheading }}</h6>
       <h2 class="colour--white">{{ section.settings.heading }}</h2>
       {{ section.settings.content }}
     </div>
@@ -16,8 +17,12 @@
 
     {%- for block in section.blocks -%}
       <div class="scroller__grid__carousel__item" id="{{ block.id }}" >
+        <div class="scroller__grid__carousel__item__icon">
+          <img loading="lazy" src="{{ block.settings.icon | image_url: width: 240, height: 240 }}"
+            alt="{{ block.settings.icon.alt | escape }}" width="120" height="120">
+        </div>
         <div class="scroller__grid__carousel__item__heading">
-          <h4>{{ block.settings.heading }}</h4>
+          <h6>{{ block.settings.heading }}</h6>
         </div>
         <div class="scroller__grid__carousel__item__content">
           {{ block.settings.content }}

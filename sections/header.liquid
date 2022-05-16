@@ -50,7 +50,7 @@ Header
         <!-- -----------------------------------------------------------------
         Navburger 
         ------------------------------------------------------------------ -->
-        <div class="header__wrap__navburger [ js-toggle-nav ]">
+        <div class="header__wrap__navburger" onclick="toggleMobileMenu(event)">
             <span class="header__wrap__navburger__ring header__wrap__navburger__ring--1"></span>
             <span class="header__wrap__navburger__ring header__wrap__navburger__ring--2"></span>
             <span class="header__wrap__navburger__ring header__wrap__navburger__ring--3"></span>
@@ -76,3 +76,23 @@ Mobile Menu
     {%- endfor -%}
 
 </div>
+
+<script>
+    /*------------------------------------------------------------------
+    Sticky header on scroll
+    ------------------------------------------------------------------*/
+    window.addEventListener('scroll', function () {
+        var header = document.querySelector('.header');
+        header.classList.toggle('sticky', window.scrollY > 44);
+    });
+
+
+    /**
+    * Close the newsletter popup
+    */
+    function toggleMobileMenu(e) {
+        e.preventDefault();
+        document.querySelector('body').classList.toggle('mobile-menu-active');
+    }
+    
+</script> 

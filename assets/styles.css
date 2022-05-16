@@ -986,14 +986,14 @@ body:not(.template--index) .header {
           top: 2.8rem;
           z-index: 3; }
 
-.mobileMenuActive .header__wrap__navburger__ring--1 {
+.mobile-menu-active .header__wrap__navburger__ring--1 {
   transform: rotate(45deg) translateX(0.7rem) translateY(0.7rem); }
 
-.mobileMenuActive .header__wrap__navburger__ring--2 {
+.mobile-menu-active .header__wrap__navburger__ring--2 {
   transform: scaleX(0);
   transform-origin: 50% 50%; }
 
-.mobileMenuActive .header__wrap__navburger__ring--3 {
+.mobile-menu-active .header__wrap__navburger__ring--3 {
   transform: rotate(-45deg) translateX(0.7rem) translateY(-0.7rem); }
 
 .icons {
@@ -1295,63 +1295,36 @@ Newsletter popup
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  padding: 10rem 8rem 8rem; }
+  padding: 10rem 8rem 8rem;
+  display: flex;
+  flex-wrap: wrap; }
   @media only screen and (max-width: 767px) {
     .scroller {
       padding: 6rem 4rem 6rem; } }
   .scroller__heading {
-    width: 100%;
+    width: 50%;
     max-width: var(--content-width);
     margin: 0 auto;
-    padding: 0 2rem; }
+    padding: 2rem 4rem 0 2rem; }
     .scroller__heading__inner {
-      max-width: 55rem; }
+      max-width: 39rem; }
       .scroller__heading__inner p {
         color: white; }
   .scroller__grid {
-    margin: 6rem auto;
-    width: 100%;
+    margin: 0 auto;
+    width: 50%;
     max-width: var(--content-width);
-    position: relative; }
-    .scroller__grid .tns-nav {
-      width: 100%;
-      position: absolute;
-      bottom: -3rem; }
-      .scroller__grid .tns-nav button {
-        max-width: 10rem;
-        width: 12%;
-        border: 0;
-        height: 2px;
-        background: white;
-        margin-right: 1rem;
-        position: relative; }
-        .scroller__grid .tns-nav button:after {
-          position: absolute;
-          display: block;
-          content: '';
-          width: 100%;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          background: var(--yellow-mid);
-          transform: scaleX(0); }
-        .scroller__grid .tns-nav button.tns-nav-active:after {
-          transform: scaleX(1); }
-    .scroller__grid .tns-controls button {
-      border: 0;
-      width: 4rem;
-      height: 4rem;
-      background-color: transparent;
-      background-size: cover;
-      font-size: 0;
-      position: absolute;
-      top: 50%;
-      cursor: pointer;
-      z-index: 44; }
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem; }
     .scroller__grid__carousel {
-      width: 100%; }
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap; }
       .scroller__grid__carousel__item {
-        padding: 2rem; }
+        padding: 0 2rem 2rem;
+        width: calc(50%); }
         .scroller__grid__carousel__item__heading {
           color: white;
           max-width: 30rem; }

@@ -2,19 +2,21 @@
     @include cover;
     position: relative;
     padding: 10rem 8rem 8rem;
+    display: flex;
+    flex-wrap: wrap;
 
     @include media($md, max) {
         padding: 6rem 4rem 6rem;
     }
 
     &__heading {
-        width: 100%;
+        width: 50%;
         max-width: var(--content-width);
         margin: 0 auto;
-        padding: 0 2rem;
+        padding: 2rem 4rem 0 2rem;
 
         &__inner {
-            max-width: 55rem;
+            max-width: 39rem;
 
             p {
                 color: white;
@@ -23,63 +25,22 @@
     }
 
     &__grid {
-        margin: 6rem auto;
-        width: 100%;
+        margin: 0 auto;
+        width: 50%;
         max-width: var(--content-width);
         position: relative;
-
-        .tns-nav {
-            width: 100%;
-            position: absolute;
-            bottom: -3rem;
-
-            button {
-                max-width: 10rem;
-                width: 12%;
-                border: 0;
-                height: 2px;
-                background: white;
-                margin-right: 1rem;
-                position: relative;
-
-                &:after {
-                    @include pseudo;
-                    width: 100%;
-                    top: 0;
-                    left: 0;
-                    bottom: 0;
-                    background: var(--yellow-mid);
-                    transform: scaleX(0);
-                }
-
-                &.tns-nav-active {
-                    &:after {
-                        transform: scaleX(1);
-                    }
-                }
-            }
-        }
-
-        .tns-controls {
-            button {
-                border: 0;
-                width: 4rem;
-                height: 4rem;
-                background-color: transparent;
-                background-size: cover;
-                font-size: 0;
-                position: absolute;
-                top: 50%;
-                cursor: pointer;
-                z-index: 44;
-            }
-        }
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 2rem;
 
         &__carousel {
             width: 100%;
+            display: flex;
+            flex-wrap: wrap;
 
             &__item {
-                padding: 2rem;
+                padding: 0 2rem 2rem;
+                width: calc(50%);
 
                 &__heading {
                     color: white;
