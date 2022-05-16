@@ -78,7 +78,7 @@ html {
   font-variant-ligatures: no-common-ligatures !important; }
 
 body {
-  font-family: 'TT Norms', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: var(--p-size);
   color: var(--text); }
 
@@ -797,7 +797,7 @@ select {
 /*------------------------------------------------------------------
 Header
 ------------------------------------------------------------------*/
-body:not(.Toast\\Pages\\HomePage) .header {
+body:not(.template--index) .header {
   background: white !important;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1) !important; }
 
@@ -843,7 +843,7 @@ body:not(.Toast\\Pages\\HomePage) .header {
         content: '';
         position: relative;
         display: block;
-        padding-bottom: 34.04255%; }
+        padding-bottom: 26.2987%; }
       .header__wrap__logo svg {
         position: absolute;
         top: 0;
@@ -860,33 +860,14 @@ body:not(.Toast\\Pages\\HomePage) .header {
       @media only screen and (min-width: 1100px) {
         .header__wrap__secondary {
           background-color: var(--primary); } }
-      .header__wrap__secondary__notice p {
-        margin: 0;
-        line-height: 4rem;
-        padding-left: 1rem;
-        color: var(--primary);
-        font-size: 1.4rem; }
-        @media only screen and (min-width: 1100px) {
-          .header__wrap__secondary__notice p {
-            color: white;
-            padding-left: 2rem; } }
-        @media only screen and (max-width: 639px) {
-          .header__wrap__secondary__notice p {
-            font-size: 1.1rem; } }
-      .header__wrap__secondary__notice__link {
-        position: relative; }
-        @media only screen and (max-width: 639px) {
-          .header__wrap__secondary__notice__link {
-            display: none; } }
-        .header__wrap__secondary__notice__link:after {
-          position: absolute;
-          display: block;
-          content: '';
-          left: 0;
-          right: 0;
-          height: 1px;
-          background: white;
-          bottom: -1px; }
+      .header__wrap__secondary__menu {
+        padding-left: 1rem; }
+        .header__wrap__secondary__menu__item {
+          font-weight: 600;
+          color: white;
+          text-transform: uppercase;
+          padding: 1.2rem 1rem 1.1rem 1rem;
+          display: inline-block; }
       .header__wrap__secondary__call {
         margin-right: 0;
         margin-left: auto;
