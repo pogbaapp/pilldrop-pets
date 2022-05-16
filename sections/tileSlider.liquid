@@ -1,10 +1,11 @@
 {% comment %}
-  tileSlider
+  Tile slider
 {% endcomment %}
 
 <!-- -----------------------------------------------------------------
 Tile Slider Section
 ------------------------------------------------------------------ -->
+
 <section class="tileSlider tileSlider--{{ section.id }}">
   <div class="tileSlider__wrap">
 
@@ -12,23 +13,18 @@ Tile Slider Section
       <!-- -----------------------------------------------------------------
       Heading
       ------------------------------------------------------------------ -->
+
       <div class="tileSlider__wrap__heading">
           <h2 class="colour--red">{{ section.settings.heading }}</h2>
       </div>
+
 
       <!-- -----------------------------------------------------------------
       Slider
       ------------------------------------------------------------------ -->
       
       <div class="tileSlider__wrap__slider">
-              <button class="tileSlider__wrap__slider__prev [ js-tile-slider-prev ]">
-                <img src="{{ 'tile-slider-previous.svg' | asset_url }}" width="81" height="27" loading="lazy" />
-              </button>
-              <button class="tileSlider__wrap__slider__next [ js-tile-slider-next ]">
-                <img src="{{ 'tile-slider-next.svg' | asset_url }}" width="81" height="27" loading="lazy" />
-              </button>
-
-          <div class="tileSlider__wrap__slider__tray [ js-tile-slider ]">
+          <div class="tileSlider__wrap__slider__tray [ js-tile-slider ]" id="tileSlider--{{ section.id }}">
             {%- for block in section.blocks -%}
                   <div class="tileSlider__wrap__slider__tray__item">
                     {{ block.settings.content }}
@@ -36,39 +32,24 @@ Tile Slider Section
                 {%- endfor -%} 
           </div>
       </div>
+
+
+      <!-- -----------------------------------------------------------------
+      Button link
+      ------------------------------------------------------------------ -->
+
+      {%- if block.settings.button_link != blank -%}
+      <div class="tileSlider__wrap__button">
+        <p>
+          <a href="{{ block.settings.button_link }}" class="scroller__grid__carousel__item__link">
+            <b>{{ block.settings.button_label }}</b>
+          </a>
+        </p>
+      </div>
+
+
   </div>
 </section>
-
-
-<div class="tileSlider tileSlider--{{ section.id }}">
-
-  <div class="tileSlider__heading">
-    <div class="tileSlider__heading__inner">
-      <h2 class="colour--white">{{ section.settings.heading }}</h2>
-      {{ section.settings.content }}
-    </div>
-  </div>
-
-  <div class="tileSlider__grid">
-    <div class="tileSlider__grid__carousel" id="tileSlider--{{ section.id }}">
-
-    {%- for block in section.blocks -%}
-      <div class="tileSlider__grid__carousel__item" id="{{ block.id }}" >
-        <div class="tileSlider__grid__carousel__item__heading">
-          <h4>{{ block.settings.heading }}</h4>
-        </div>
-        <div class="tileSlider__grid__carousel__item__content">
-          {{ block.settings.content }}
-        </div>
-        <a href="{{ block.settings.button_link }}" class="tileSlider__grid__carousel__item__link">
-          {{ block.settings.button_label }}
-        </a>
-      </div>
-    {%- endfor -%} 
-  
-    </div>
-  </div>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
@@ -76,12 +57,16 @@ Tile Slider Section
 
 <style>
   .tns-controls button:first-of-type {
-    background-image: url({{ 'previous.svg' | asset_url }});
+    background-image: url({{ 'tile-slider-previous.svg' | asset_url }});
     left: -4rem;
+    width:81px;
+    height:27px;
   }
   .tns-controls button:last-of-type {
-    background-image: url({{ 'next.svg' | asset_url }});
+    background-image: url({{ 'tile-slider-next.svg' | asset_url }});
     right: -4rem;
+    width:81px;
+    height:27px;
   }
 </style>
 
@@ -113,6 +98,16 @@ Tile Slider Section
       "id": "heading",
       "default": "Our Promise",
       "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
     }
   ],
   "blocks": [
