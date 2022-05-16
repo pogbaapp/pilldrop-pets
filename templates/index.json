@@ -14,6 +14,45 @@
         "layout": "right"
       }
     },
+    "1652742560da5a5df4": {
+      "type": "hero",
+      "blocks": {
+        "16527425609378dfb3-0": {
+          "type": "hero_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard.jpg",
+            "heading": "Cat shop",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "16527425609378dfb3-1": {
+          "type": "hero_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_Copy_4.jpg",
+            "heading": "Dog shop",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "16527425609378dfb3-2": {
+          "type": "hero_item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Artboard_Copy_5.jpg",
+            "heading": "Horse Shop",
+            "button_label": "SHOP NOW",
+            "button_link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "16527425609378dfb3-0",
+        "16527425609378dfb3-1",
+        "16527425609378dfb3-2"
+      ],
+      "settings": {
+      }
+    },
     "16492312090f4dccd0": {
       "type": "tileSlider",
       "blocks": {
@@ -49,7 +88,9 @@
         "39a58217-b81b-43e2-9904-4433f1c2cfe1"
       ],
       "settings": {
-        "heading": "Our Promise"
+        "heading": "Our Promise",
+        "button_label": "",
+        "button_link": ""
       }
     },
     "165268048583a69a14": {
@@ -112,6 +153,7 @@
   },
   "order": [
     "16490384482dbd99cf",
+    "1652742560da5a5df4",
     "16492312090f4dccd0",
     "165268048583a69a14"
   ]
