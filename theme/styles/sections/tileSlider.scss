@@ -30,43 +30,33 @@ Tile Slider
             width: 100%;
             position: relative;
 
-            &__prev {
-                -webkit-appearance: none;
-                border: 0;
-                background: transparent;
-                @include vertical-align;
-                left: -10rem;
-                cursor: pointer;
-
-                @include media(1280px, max) {
-                    left: 50%;
-                    margin-left: -10rem;
-                    top: 100%;
-                    transform: translateY(0);
+            .tns-controls {
+                button {
+                    border: 0;
+                    width: 4rem;
+                    height: 4rem;
+                    background-color: transparent;
+                    background-size: cover;
+                    font-size: 0;
+                    position: absolute;
+                    top: 50%;
+                    cursor: pointer;
+                    z-index: 44;
                 }
 
-                @include media($md, max) {
-                    display: none;
-                }
-            }
+                @include media(1250px, max) {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    text-align: center;
 
-            &__next {
-                -webkit-appearance: none;
-                border: 0;
-                background: transparent;
-                @include vertical-align;
-                right: -10rem;
-                cursor: pointer;
-
-                @include media(1280px, max) {
-                    right: 50%;
-                    margin-right: -10rem;
-                    top: 100%;
-                    transform: translateY(0);
-                }
-
-                @include media($md, max) {
-                    display: none;
+                    button {
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                    }
                 }
             }
 
@@ -77,6 +67,7 @@ Tile Slider
                 overflow: hidden;
                 min-height: 25rem;
                 outline: 0;
+                display: block;
 
                 &::before {
                     @include pseudo;
@@ -103,11 +94,8 @@ Tile Slider
                     box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
                     border-radius: 1rem;
                     margin: 2rem 2rem;
-                    width: calc(33.3% - 4rem);
                     min-height: 18rem;
-                    display: flex;
-                    flex-wrap: wrap;
-                    align-items: center;
+                    position: relative;
 
                     @include media($xmd, max) {
                         width: calc(50% - 4rem);
@@ -119,12 +107,18 @@ Tile Slider
                         margin: 2rem 2rem;
                     }
 
-                    h4 {
-                        width: 100%;
-                    }
+                    &__flex {
+                        display: flex;
+                        flex-wrap: wrap;
+                        height: 100%;
+                        align-items: center;
+                        min-height: 14rem;
 
-                    p {
-                        line-height: 1.4;
+                        p {
+                            font-weight: 500;
+                            line-height: 1.4;
+                            margin: 0;
+                        }
                     }
                 }
             }

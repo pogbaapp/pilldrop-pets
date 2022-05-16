@@ -1,36 +1,9 @@
-.comparison {
+.hero {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
-
-    &__background {
-        position: absolute;
-        display: block;
-
-        &--left {
-            left: 0;
-            bottom: 0;
-            transform: translateX(-10%) translateY(5%);
-            width: 40%;
-            height: auto;
-            min-width: 50rem;
-        }
-
-        &--right {
-            left: 100%;
-            bottom: 10%;
-            transform: translateX(-40%) translateY(10%);
-            width: 40%;
-            height: auto;
-            min-width: 40rem;
-
-            @include media(768px, max) {
-                bottom: 60%;
-            }
-        }
-    }
 
     &__wrap {
         display: flex;

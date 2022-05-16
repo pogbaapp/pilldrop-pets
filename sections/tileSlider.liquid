@@ -26,10 +26,12 @@ Tile Slider Section
       <div class="tileSlider__wrap__slider">
           <div class="tileSlider__wrap__slider__tray [ js-tile-slider ]" id="tileSlider--{{ section.id }}">
             {%- for block in section.blocks -%}
-                  <div class="tileSlider__wrap__slider__tray__item">
-                    {{ block.settings.content }}
-                  </div>
-                {%- endfor -%} 
+              <div class="tileSlider__wrap__slider__tray__item">
+                <div class="tileSlider__wrap__slider__tray__item__flex">
+                  {{ block.settings.content }}
+                </div>
+              </div>
+            {%- endfor -%} 
           </div>
       </div>
 
@@ -46,6 +48,7 @@ Tile Slider Section
           </a>
         </p>
       </div>
+      {%- endif -%} 
 
 
   </div>
@@ -58,13 +61,13 @@ Tile Slider Section
 <style>
   .tns-controls button:first-of-type {
     background-image: url({{ 'tile-slider-previous.svg' | asset_url }});
-    left: -4rem;
+    left: -10rem;
     width:81px;
     height:27px;
   }
   .tns-controls button:last-of-type {
     background-image: url({{ 'tile-slider-next.svg' | asset_url }});
-    right: -4rem;
+    right: -10rem;
     width:81px;
     height:27px;
   }
@@ -75,15 +78,16 @@ Tile Slider Section
     container:"#tileSlider--{{ section.id }}" ,
     items: 1,
     mouseDrag: true,
-    nav: true,
+    nav: false,
     controls: true,
     slideBy: 1,
+    gutter: 20,
+    center: true,
+    edgePadding: 10,
     responsive: {
       800: {
-        items: 2
-      },
-      1000: {
-        items: 3
+        items: 3.4,
+        gutter: 20,
       }
     }
   });
@@ -101,7 +105,7 @@ Tile Slider Section
     },
     {
       "type": "text",
-      "id": "button_label",
+      "id": "button_label", 
       "label": "Button label"
     },
     {

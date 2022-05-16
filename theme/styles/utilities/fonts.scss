@@ -126,21 +126,14 @@ a:not([class]) {
   color: white !important;
 }
 
-.colour--green-light {
-  color: var(--green-light) !important;
+.colour--red {
+  color: var(--primary) !important;
 }
 
-.colour--green-mid {
-  color: var(--green-mid) !important;
-}
-
-.colour--green-dark {
-  color: var(--green-dark) !important;
-}
 
 b,
 strong {
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .text-center {
