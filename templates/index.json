@@ -53,46 +53,6 @@
       "settings": {
       }
     },
-    "16492312090f4dccd0": {
-      "type": "tileSlider",
-      "blocks": {
-        "16492312095b6f3515-0": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>Your prescription medicines, sorted by the dose and delivered <strong>at no cost<\/strong> - to anyone taking at least 5 regular medications.<\/p>"
-          }
-        },
-        "16492312095b6f3515-1": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
-          }
-        },
-        "16492312095b6f3515-2": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>You will never wait in line at a pharmacy.<\/p>"
-          }
-        },
-        "39a58217-b81b-43e2-9904-4433f1c2cfe1": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "16492312095b6f3515-0",
-        "16492312095b6f3515-1",
-        "16492312095b6f3515-2",
-        "39a58217-b81b-43e2-9904-4433f1c2cfe1"
-      ],
-      "settings": {
-        "heading": "Our Promise",
-        "button_label": "",
-        "button_link": ""
-      }
-    },
     "165268048583a69a14": {
       "type": "scroller",
       "blocks": {
@@ -149,12 +109,52 @@
         "heading": "Why choose PillDrop Pets",
         "content": "<p>We will inform you once we have received your prescriptions. We will inform you once we have received your prescriptions.<\/p>"
       }
+    },
+    "16492312090f4dccd0": {
+      "type": "tileSlider",
+      "blocks": {
+        "16492312095b6f3515-0": {
+          "type": "tileSlider_item",
+          "settings": {
+            "content": "<p>Your prescription medicines, sorted by the dose and delivered <strong>at no cost<\/strong> - to anyone taking at least 5 regular medications.<\/p>"
+          }
+        },
+        "16492312095b6f3515-1": {
+          "type": "tileSlider_item",
+          "settings": {
+            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
+          }
+        },
+        "16492312095b6f3515-2": {
+          "type": "tileSlider_item",
+          "settings": {
+            "content": "<p>You will never wait in line at a pharmacy.<\/p>"
+          }
+        },
+        "39a58217-b81b-43e2-9904-4433f1c2cfe1": {
+          "type": "tileSlider_item",
+          "settings": {
+            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16492312095b6f3515-0",
+        "16492312095b6f3515-1",
+        "16492312095b6f3515-2",
+        "39a58217-b81b-43e2-9904-4433f1c2cfe1"
+      ],
+      "settings": {
+        "heading": "Our Promise",
+        "button_label": "LEARN MORE",
+        "button_link": "shopify:\/\/pages\/contact"
+      }
     }
   },
   "order": [
     "16490384482dbd99cf",
     "1652742560da5a5df4",
-    "16492312090f4dccd0",
-    "165268048583a69a14"
+    "165268048583a69a14",
+    "16492312090f4dccd0"
   ]
 }
