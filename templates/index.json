@@ -35,7 +35,7 @@
         "16492312095b6f3515-0": {
           "type": "tileSlider_item",
           "settings": {
-            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
+            "content": "<p>Your prescription medicines, sorted by the dose and delivered <strong>at no cost<\/strong> - to anyone taking at least 5 regular medications.<\/p>"
           }
         },
         "16492312095b6f3515-1": {
@@ -47,7 +47,7 @@
         "16492312095b6f3515-2": {
           "type": "tileSlider_item",
           "settings": {
-            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
+            "content": "<p>You will never wait in line at a pharmacy.<\/p>"
           }
         },
         "39a58217-b81b-43e2-9904-4433f1c2cfe1": {
@@ -64,7 +64,7 @@
         "39a58217-b81b-43e2-9904-4433f1c2cfe1"
       ],
       "settings": {
-        "heading": "How we can help"
+        "heading": "Our Promise"
       }
     },
     "165268048583a69a14": {
