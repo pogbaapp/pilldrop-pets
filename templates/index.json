@@ -3,14 +3,14 @@
     "16490384482dbd99cf": {
       "type": "banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner.jpg",
+        "image": "shopify:\/\/shop_images\/home_page_banner.jpg",
         "heading": "<p>No middleman.<br\/>No price games.<br\/>Huge savings.<\/p>",
         "heading_size": "h1",
         "text": "",
-        "button_label": "SEND PRESCRIPTION",
+        "button_label": "SHOP PET PRESCRIPTIONS",
         "button_link": "shopify:\/\/collections\/frontpage",
-        "second_button_label": "BOOK CONSULTATION",
-        "second_button_link": "shopify:\/\/pages\/contact",
+        "second_button_label": "",
+        "second_button_link": "",
         "layout": "right"
       }
     },
@@ -19,13 +19,10 @@
       "settings": {
         "heading": "How it works",
         "heading_size": "h2",
-        "image1": "shopify:\/\/shop_images\/prescription.png",
         "heading1": "Get prescription",
         "text1": "<p>Get a prescription through your doctor or book an appointment with one of our doctors.<\/p>",
-        "image2": "shopify:\/\/shop_images\/trolley.png",
         "heading2": "Place your order",
         "text2": "<p>Place your order via our online store and upload a copy of your prescription.<\/p>",
-        "image3": "shopify:\/\/shop_images\/package.png",
         "heading3": "We deliver to you",
         "text3": "<p>We will prepare your order and get it delivered to your door within 48 hours*.<\/p>",
         "button_label": "GET STARTED",
@@ -35,7 +32,6 @@
     "1649138292fca04856": {
       "type": "image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/laughing-couple-mask.png",
         "heading": "Am I elligible?",
         "heading_size": "h2",
         "text": "<p>Cannabinoids including CBD and THC, extracted from the cannabis plant under strict medical supervision, have been shown to work very well on the symptoms of some chronic medical conditions that conventional prescription medicines have been ineffective at treating.<\/p><p>​So, if prescription medicines from your doctor aren’t working for you, Medicinal Cannabis may be a great natural option.<\/p>",
@@ -50,37 +46,25 @@
         "16492312095b6f3515-0": {
           "type": "tileSlider_item",
           "settings": {
-            "heading": "Pain",
-            "content": "<p>CBD can be used to treat most types of chronic pain and improve quality of life.<\/p>",
-            "button_label": "READ MORE",
-            "button_link": "shopify:\/\/pages\/contact"
+            "content": "<p>CBD can be used to treat most types of chronic pain and improve quality of life.<\/p>"
           }
         },
         "16492312095b6f3515-1": {
           "type": "tileSlider_item",
           "settings": {
-            "heading": "Anxiety",
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
-            "button_label": "LEARN",
-            "button_link": "shopify:\/\/pages\/contact"
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
           }
         },
         "16492312095b6f3515-2": {
           "type": "tileSlider_item",
           "settings": {
-            "heading": "Insomnia",
-            "content": "<p>CBD under the expert advice of your doctor, can be a very effective long term management.<\/p>",
-            "button_label": "ABOUT ANXIETY",
-            "button_link": "shopify:\/\/pages\/contact"
+            "content": "<p>CBD under the expert advice of your doctor, can be a very effective long term management.<\/p>"
           }
         },
         "39a58217-b81b-43e2-9904-4433f1c2cfe1": {
           "type": "tileSlider_item",
           "settings": {
-            "heading": "Mental Health",
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
-            "button_label": "READ MORE",
-            "button_link": "shopify:\/\/pages\/contact"
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
           }
         }
       },
@@ -91,15 +75,12 @@
         "39a58217-b81b-43e2-9904-4433f1c2cfe1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tileSlider.jpg",
-        "heading": "How we can help",
-        "content": "<p>The most common conditions we treat with medicinal cannabis are listed below.<br\/>Feel free to discuss any other conditions with us. We will give you an honest opinion as to whether medicinal cannabis would be worth trying.<\/p>"
+        "heading": "How we can help"
       }
     },
     "1649306371e791c201": {
       "type": "image-with-text-alternative",
       "settings": {
-        "image": "shopify:\/\/shop_images\/image-and-text-alt.jpg",
         "heading": "Our doctors",
         "heading_size": "h2",
         "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.<\/p><p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.<\/p>",
