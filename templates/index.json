@@ -66,11 +66,69 @@
       "settings": {
         "heading": "How we can help"
       }
+    },
+    "165268048583a69a14": {
+      "type": "scroller",
+      "blocks": {
+        "1652680485ef574f60-0": {
+          "type": "scroller_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Artboard.png",
+            "heading": "Every Day Low Prices on Pet Meds",
+            "content": "<p>This is a small description about pricing.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1652680485ef574f60-1": {
+          "type": "scroller_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Artboard_Copy.png",
+            "heading": "100% Satisfaction Guarantee",
+            "content": "<p>We guarantee that we will deliver to you…<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1652680485ef574f60-2": {
+          "type": "scroller_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Artboard_Copy_2.png",
+            "heading": "Free Shipping on all orders",
+            "content": "<p>All prescription orders will have free shipping.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "1652680485ef574f60-3": {
+          "type": "scroller_item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/Artboard_Copy_3.png",
+            "heading": "Fully Licensed Pharmacy",
+            "content": "<p>We are a fully licensed pharmacy.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1652680485ef574f60-0",
+        "1652680485ef574f60-1",
+        "1652680485ef574f60-2",
+        "1652680485ef574f60-3"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/sroller.jpg",
+        "subheading": "IT'S SIMPLE",
+        "heading": "Why choose PillDrop Pets",
+        "content": "<p>We will inform you once we have received your prescriptions. We will inform you once we have received your prescriptions.<\/p>"
+      }
     }
   },
   "order": [
     "16490384482dbd99cf",
     "16490585872c54e98a",
-    "16492312090f4dccd0"
+    "16492312090f4dccd0",
+    "165268048583a69a14"
   ]
 }
