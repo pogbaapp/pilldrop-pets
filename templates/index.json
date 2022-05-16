@@ -29,17 +29,6 @@
         "button_link": "shopify:\/\/pages\/contact"
       }
     },
-    "1649138292fca04856": {
-      "type": "image-with-text",
-      "settings": {
-        "heading": "Am I elligible?",
-        "heading_size": "h2",
-        "text": "<p>Cannabinoids including CBD and THC, extracted from the cannabis plant under strict medical supervision, have been shown to work very well on the symptoms of some chronic medical conditions that conventional prescription medicines have been ineffective at treating.<\/p><p>​So, if prescription medicines from your doctor aren’t working for you, Medicinal Cannabis may be a great natural option.<\/p>",
-        "button_label": "Read more",
-        "button_link": "shopify:\/\/pages\/contact",
-        "layout": "left"
-      }
-    },
     "16492312090f4dccd0": {
       "type": "tileSlider",
       "blocks": {
@@ -77,24 +66,11 @@
       "settings": {
         "heading": "How we can help"
       }
-    },
-    "1649306371e791c201": {
-      "type": "image-with-text-alternative",
-      "settings": {
-        "heading": "Our doctors",
-        "heading_size": "h2",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.<\/p><p>ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.<\/p>",
-        "button_label": "VIEW TEAM",
-        "button_link": "shopify:\/\/pages\/contact",
-        "layout": "right"
-      }
     }
   },
   "order": [
     "16490384482dbd99cf",
     "16490585872c54e98a",
-    "1649138292fca04856",
-    "16492312090f4dccd0",
-    "1649306371e791c201"
+    "16492312090f4dccd0"
   ]
 }
