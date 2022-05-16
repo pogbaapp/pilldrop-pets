@@ -14,21 +14,6 @@
         "layout": "right"
       }
     },
-    "16490585872c54e98a": {
-      "type": "icons",
-      "settings": {
-        "heading": "How it works",
-        "heading_size": "h2",
-        "heading1": "Get prescription",
-        "text1": "<p>Get a prescription through your doctor or book an appointment with one of our doctors.<\/p>",
-        "heading2": "Place your order",
-        "text2": "<p>Place your order via our online store and upload a copy of your prescription.<\/p>",
-        "heading3": "We deliver to you",
-        "text3": "<p>We will prepare your order and get it delivered to your door within 48 hours*.<\/p>",
-        "button_label": "GET STARTED",
-        "button_link": "shopify:\/\/pages\/contact"
-      }
-    },
     "16492312090f4dccd0": {
       "type": "tileSlider",
       "blocks": {
@@ -127,7 +112,6 @@
   },
   "order": [
     "16490384482dbd99cf",
-    "16490585872c54e98a",
     "16492312090f4dccd0",
     "165268048583a69a14"
   ]
