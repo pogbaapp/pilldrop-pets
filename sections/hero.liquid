@@ -6,9 +6,9 @@
 
   <div class="hero__wrap">
     {%- for block in section.blocks -%}
-      <div class="hero__wrap__item [ js-in-view ]" id="{{ block.id }}" onclick="toggleActive('{{ block.id }}')">
+      <div class="hero__wrap__item" id="{{ block.id }}" onclick="toggleActive('{{ block.id }}')">
 
-        <img loading="lazy" src="{{ block.settings.image | image_url: width: 800 }}" alt="{{ block.settings.image.alt | escape }}" width="400" height="500">
+        <img class="hero__wrap__item__image" loading="lazy" src="{{ block.settings.image | image_url: width: 800 }}" alt="{{ block.settings.image.alt | escape }}" width="400" height="500">
 
         <div class="hero__wrap__item__heading">
           <h4>{{ block.settings.heading }}</h4>
@@ -17,11 +17,11 @@
         <div class="hero__wrap__item__content">
           {%- if block.settings.button_label != blank -%}
             <p>
-              <a href="{{ block.settings.button_link }}" class="button button--yellow">{{ block.settings.button_label }}</a>
+              <a href="{{ block.settings.button_link }}" class="button">{{ block.settings.button_label }}</a>
             </p>
           {%- endif -%}
         </div>
-        
+
       </div>
     {%- endfor -%}
   </div>

@@ -5,8 +5,8 @@
     display: flex;
     flex-wrap: wrap;
 
-    @include media($md, max) {
-        padding: 6rem 4rem 6rem;
+    @include media($xmd, max) {
+        padding: 6rem 0rem 6rem;
     }
 
     &__heading {
@@ -15,8 +15,18 @@
         margin: 0 auto;
         padding: 2rem 4rem 0 2rem;
 
+        @include media($xmd, max) {
+            width: 100%;
+            padding: 2rem 4rem 0 2rem;
+
+        }
+
         &__inner {
             max-width: 39rem;
+
+            @include media($xmd, max) {
+                width: 100%;
+            }
 
             p {
                 color: white;
@@ -31,7 +41,11 @@
         position: relative;
         display: flex;
         flex-wrap: wrap;
-        padding-left: 2rem;
+        padding-left: 1rem;
+
+        @include media($xmd, max) {
+            width: 100%;
+        }
 
         &__carousel {
             width: 100%;
