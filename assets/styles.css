@@ -345,6 +345,44 @@ Sections
     .announce__content p {
       margin: 0; }
 
+/*------------------------------------------------------------------
+Background Image
+------------------------------------------------------------------*/
+.background-image {
+  width: 100%;
+  position: relative;
+  background: var(--off-white);
+  overflow: hidden; }
+  .background-image__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    bottom: auto;
+    height: 140%;
+    top: 0%; }
+  .background-image__wrap {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    z-index: 2;
+    position: relative; }
+    .background-image__wrap__content {
+      padding: 20rem 0;
+      max-width: 60rem;
+      margin: 0 auto; }
+      @media only screen and (max-width: 767px) {
+        .background-image__wrap__content {
+          padding: 10rem 0 8rem; } }
+
 .banner {
   display: flex;
   flex-wrap: wrap;
