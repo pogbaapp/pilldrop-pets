@@ -4,15 +4,15 @@
   {% endcomment %}
 
 
-  <section class="backgroundImage background-image--{{ section.id }}">
+  <section class="background-image background-image--{{ section.id }}">
     
-    <div class="backgroundImage__background [ js-parallax ]">
+    <div class="background-image__background [ js-parallax ]">
       <img src="{{ section.settings.image | image_url: width: 1920, height: 1080 }}" loading="lazy" width="1920" height="1080">
     </div>
 
-    <div class="backgroundImage__wrap">
-        <div class="backgroundImage__wrap__content">
-          <h2 class="{{ section.settings.heading_size }} colour--green-mid">{{ section.settings.heading | escape }}</h2>
+    <div class="background-image__wrap">
+        <div class="background-image__wrap__content">
+          <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
           {{ section.settings.text }}
           {%- if section.settings.button_label != blank -%}
             <p>

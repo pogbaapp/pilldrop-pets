@@ -378,7 +378,7 @@ Background Image
     .background-image__wrap__content {
       padding: 20rem 0;
       max-width: 60rem;
-      margin: 0 auto; }
+      color: white; }
       @media only screen and (max-width: 767px) {
         .background-image__wrap__content {
           padding: 10rem 0 8rem; } }

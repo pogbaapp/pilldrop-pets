@@ -30,11 +30,12 @@ Background Image
         &__content {
             padding: 20rem 0;
             max-width: 60rem;
-            margin: 0 auto;
+            color: white;
 
             @include media($md, max) {
                 padding: 10rem 0 8rem;
             }
+
         }
     }
 }
