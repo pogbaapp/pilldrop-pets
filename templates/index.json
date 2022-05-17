@@ -149,12 +149,32 @@
         "button_label": "LEARN MORE",
         "button_link": "shopify:\/\/pages\/contact"
       }
+    },
+    "165274939840989f58": {
+      "type": "icons-with-image",
+      "settings": {
+        "heading": "How it works",
+        "image": "shopify:\/\/shop_images\/dog.jpg",
+        "heading_size": "h2",
+        "image1": "shopify:\/\/shop_images\/Artboard_e714124e-35da-4abc-b224-b844f91964f6.png",
+        "heading1": "Shop for the product you need",
+        "text1": "<p>Place your order via our shop. <\/p>",
+        "image2": "shopify:\/\/shop_images\/Artboard_Copy_6.png",
+        "heading2": "Send your prescription to  PillDrop, there are 3 ways how:",
+        "text2": "<p>•Take a photo of your prescription and securely upload it with your order<\/p><p>•Ask your vet to send the prescription directly to <br\/>Email: delivery@pilldrop.co.nz<br\/>Fax: 09 276 9292<\/p><p>•Post the prescription to <br\/>PO Box: 62283, Sylvia Park, Auckland<\/p>",
+        "image3": "shopify:\/\/shop_images\/Artboard_Copy_7.png",
+        "heading3": "Get prescription",
+        "text3": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "16490384482dbd99cf",
     "1652742560da5a5df4",
     "165268048583a69a14",
-    "16492312090f4dccd0"
+    "16492312090f4dccd0",
+    "165274939840989f58"
   ]
 }
