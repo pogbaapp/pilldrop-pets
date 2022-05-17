@@ -166,6 +166,17 @@
         "heading3": "Get prescription",
         "text3": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>"
       }
+    },
+    "1652752504e0ced0e0": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/woof.jpg",
+        "heading": "PillDrop Pets. Your new way of pharmacy.",
+        "heading_size": "h2",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "ORDER NOW",
+        "button_link": "shopify:\/\/pages\/contact"
+      }
     }
   },
   "order": [
@@ -173,6 +184,7 @@
     "1652742560da5a5df4",
     "165268048583a69a14",
     "16492312090f4dccd0",
-    "165274939840989f58"
+    "165274939840989f58",
+    "1652752504e0ced0e0"
   ]
 }
