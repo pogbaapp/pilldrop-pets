@@ -59,7 +59,7 @@
         "1652680485ef574f60-0": {
           "type": "scroller_item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Artboard.png",
+            "icon": "shopify:\/\/shop_images\/Artboard_0308d052-9620-4795-869f-c052825f6de0.png",
             "heading": "Every Day Low Prices on Pet Meds",
             "content": "<p>This is a small description about pricing.<\/p>",
             "button_label": "",
@@ -69,7 +69,7 @@
         "1652680485ef574f60-1": {
           "type": "scroller_item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Artboard_Copy.png",
+            "icon": "shopify:\/\/shop_images\/Artboard_Copy_76485bd0-9d30-498d-89d4-0dd82f94fcfc.png",
             "heading": "100% Satisfaction Guarantee",
             "content": "<p>We guarantee that we will deliver to you…<\/p>",
             "button_label": "",
@@ -79,7 +79,7 @@
         "1652680485ef574f60-2": {
           "type": "scroller_item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Artboard_Copy_2.png",
+            "icon": "shopify:\/\/shop_images\/Artboard_Copy_2_6cbc8313-bea2-4135-85ae-9b3594971232.png",
             "heading": "Free Shipping on all orders",
             "content": "<p>All prescription orders will have free shipping.<\/p>",
             "button_label": "",
@@ -89,7 +89,7 @@
         "1652680485ef574f60-3": {
           "type": "scroller_item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/Artboard_Copy_3.png",
+            "icon": "shopify:\/\/shop_images\/Artboard_Copy_3_daa30d64-c745-49d7-9adc-99b165e2c484.png",
             "heading": "Fully Licensed Pharmacy",
             "content": "<p>We are a fully licensed pharmacy.<\/p>",
             "button_label": "",
@@ -164,9 +164,7 @@
         "text2": "<p>•Take a photo of your prescription and securely upload it with your order<\/p><p>•Ask your vet to send the prescription directly to <br\/>Email: delivery@pilldrop.co.nz<br\/>Fax: 09 276 9292<\/p><p>•Post the prescription to <br\/>PO Box: 62283, Sylvia Park, Auckland<\/p>",
         "image3": "shopify:\/\/shop_images\/Artboard_Copy_7.png",
         "heading3": "Get prescription",
-        "text3": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>",
-        "button_label": "",
-        "button_link": ""
+        "text3": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>"
       }
     }
   },
