@@ -4,6 +4,7 @@
     padding: 10rem 8rem 8rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     @include media($xmd, max) {
         padding: 6rem 0rem 6rem;
@@ -11,18 +12,16 @@
 
     &__heading {
         width: 50%;
-        max-width: var(--content-width);
-        margin: 0 auto;
         padding: 2rem 4rem 0 2rem;
+        max-width: calc(var(--inner-content-width) / 2);
 
         @include media($xmd, max) {
             width: 100%;
             padding: 2rem 4rem 0 2rem;
-
         }
 
         &__inner {
-            max-width: 39rem;
+            // max-width: 39rem;
 
             @include media($xmd, max) {
                 width: 100%;
@@ -35,9 +34,8 @@
     }
 
     &__grid {
-        margin: 0 auto;
         width: 50%;
-        max-width: var(--content-width);
+        max-width: calc(var(--inner-content-width) / 2);
         position: relative;
         display: flex;
         flex-wrap: wrap;

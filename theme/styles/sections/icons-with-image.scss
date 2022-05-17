@@ -34,8 +34,13 @@
         flex-wrap: wrap;
         align-items: flex-start;
         justify-content: center;
-        padding: 12rem 8rem;
+        padding: 6rem 8rem;
         justify-content: flex-start;
+
+        &__heading {
+            margin-bottom: 3rem;
+            width: 100%;
+        }
 
         @include media($xmd, max) {
             width: 100%;
@@ -43,8 +48,29 @@
             padding: 10rem 4rem 6rem;
         }
 
-        &__constraint {
-            max-width: calc(var(--content-width) / 3);
+        &__item {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+
+            &__icon {
+                width: 8rem;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+            &__text {
+                width: calc(100% - 8rem);
+                padding-left: 2rem;
+
+                h6 {
+                    margin-bottom: 1rem;
+                }
+            }
         }
     }
 
@@ -54,7 +80,6 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
-        padding-right: 10rem;
 
         @include media($xmd, max) {
             width: 100%;
@@ -64,12 +89,9 @@
         }
 
         img {
-            align-self: flex-start;
             width: 100%;
-            height: auto;
-            display: block;
-            max-width: 60rem;
-            margin-bottom: -6rem;
+            height: 100%;
+            object-fit: cover;
         }
     }
 }

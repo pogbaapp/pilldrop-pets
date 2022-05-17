@@ -1,5 +1,5 @@
 .hero {
-    margin: -5rem auto 0;
+    margin: -5rem auto 10rem;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -15,7 +15,7 @@
 
         &__item {
             width: calc(33.333333% - 4rem);
-            margin: 2rem; 
+            margin: 2rem;
             background: white;
             box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
             position: relative;
@@ -24,6 +24,9 @@
             will-change: opacity, transform;
             opacity: 1;
             transform: matrix(1, 0, 0, 1, 0, 0) !important;
+            border-radius: 1rem;
+            position: relative;
+            overflow: hidden;
 
             @include media($xmd, max) {
                 width: 100%;
