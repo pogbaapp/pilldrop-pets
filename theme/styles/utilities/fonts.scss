@@ -131,6 +131,11 @@ a:not([class]) {
   color: var(--primary) !important;
 }
 
+.colour--text,
+.colour--text * {
+  color: var(--text) !important;
+}
+
 b,
 strong {
   font-weight: 800;

@@ -28,7 +28,7 @@
     <div class="split__text">
       <div class="split__text__item split__text__item--left">
           <div class="split__text__item__constraint">
-            <h3 class="{{ section.settings.heading_left_size }} colour--green-mid">{{ section.settings.heading_left | escape }}</h3>
+            <h3 class="{{ section.settings.heading_left_size }} colour--red">{{ section.settings.heading_left | escape }}</h3>
             {{ section.settings.text_left }}
             {%- if section.settings.button_left_label != blank -%}
               <p>
@@ -44,7 +44,7 @@
     
       <div class="split__text__item split__text__item--right">
           <div class="split__text__item__constraint">
-            <h3 class="{{ section.settings.heading_right_size }} colour--green-mid">{{ section.settings.heading_right | escape }}</h3>
+            <h3 class="{{ section.settings.heading_right_size }} colour--red">{{ section.settings.heading_right | escape }}</h3>
             {{ section.settings.text_right }}
             {%- if section.settings.button_right_label != blank -%}
               <p>

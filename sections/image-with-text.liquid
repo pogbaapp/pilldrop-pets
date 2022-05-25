@@ -6,7 +6,7 @@
   <div class="image-with-text image-with-text--{{ section.id }} image-to-the-{{ section.settings.layout }}">
     <div class="image-with-text__text">
         <div class="image-with-text__text__constraint">
-          <h2 class="{{ section.settings.heading_size }} colour--green-mid">{{ section.settings.heading | escape }}</h2>
+          <h2 class="{{ section.settings.heading_size }} colour--red">{{ section.settings.heading | escape }}</h2>
           {{ section.settings.text }}
           {%- if section.settings.button_label != blank -%}
             <p>

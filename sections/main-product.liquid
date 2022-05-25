@@ -50,10 +50,10 @@
       <div class="product__wrap__details">
         <div class="product__wrap__details__inner [ js-in-view ]">
   
-          <h1 class="colour--green-dark">{{ product.title }}</h1>
-          <h3 class="[ js-variation-price ] colour--green-dark">{{ product.price | money }}</h3>
+          <h1 class="colour--text">{{ product.title }}</h1>
+          <h3 class="[ js-variation-price ] colour--text">{{ product.price | money }}</h3>
           <hr>
-          <p class="colour--green-dark">{{ product.description }}</p>
+          <p class="colour--text">{{ product.description }}</p>
   
           <div class="product__wrap__details__form">
   
@@ -103,7 +103,7 @@
   </div>
 
 
-  {% comment %}
+{% comment %}
   Product Slider
 {% endcomment %}
 
@@ -111,7 +111,7 @@
   <div class="sliderAlt__wrap">
 
     <div class="sliderAlt__wrap__heading [ js-in-view ]">
-      <h2 class="colour--green-dark" data-splitting>You may also like...</h2>
+      <h2 class="colour--text" data-splitting>You may also like...</h2>
       <p><b><a href="/collections/all" class="arrow-link">VIEW ALL PRODUCTS <img src="{{ 'mini-arrow-right.svg' | asset_url }}" width="14" height="22" loading="lazy" /></a></b></p>
     </div>
 
@@ -154,8 +154,8 @@
 
       <a href="{{ product.url }}" class="collection__grid__item__details">
         <div class="collection__grid__item__details__title">
-            <h6 class="colour--green-dark text-center"><strong>{{ product.title | escape }} &nbsp;</strong></h6>
-            <p class="colour--green-mid text-center"><b>VIEW PRODUCT</b></p>
+            <h6 class="colour--text text-center"><strong>{{ product.title | escape }} &nbsp;</strong></h6>
+            <p class="colour--red text-center"><b>VIEW PRODUCT</b></p>
           </div>
         </a>
       </div>
