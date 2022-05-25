@@ -15,11 +15,30 @@
         "heading_size": "h1",
         "text": ""
       }
+    },
+    "1653454661e42a83a4": {
+      "type": "icons-with-text",
+      "settings": {
+        "subheading": "IT'S SIMPLE",
+        "subheading_size": "h3",
+        "heading": "Getting started.",
+        "heading_size": "h1",
+        "image1": "shopify:\/\/shop_images\/Artboard_Copy_6.png",
+        "heading1": "Get prescription",
+        "text1": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>",
+        "image2": "shopify:\/\/shop_images\/Artboard_e714124e-35da-4abc-b224-b844f91964f6.png",
+        "heading2": "Get prescription",
+        "text2": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>",
+        "image3": "shopify:\/\/shop_images\/Artboard_Copy_7.png",
+        "heading3": "Get prescription",
+        "text3": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>"
+      }
     }
   },
   "order": [
     "main",
-    "16510315198c1783c4"
+    "16510315198c1783c4",
+    "1653454661e42a83a4"
   ],
   "wrapper": "div.main-wrapper"
 }
