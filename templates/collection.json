@@ -3,12 +3,12 @@
     "banner": {
       "type": "banner-slim",
       "settings": {
-        "image": "shopify:\/\/shop_images\/banner-collection.jpg",
-        "subheading": "<p>OUR PRODUCTS<\/p>",
+        "image": "shopify:\/\/shop_images\/banner_slim.jpg",
+        "subheading": "",
         "subheading_size": "h4",
-        "heading": "<p><strong>No middleman.<\/strong><\/p><p><strong>No price games.<\/strong><\/p><p><strong>Huge savings.<\/strong><\/p>",
+        "heading": "<p><strong>Shop products<\/strong><\/p>",
         "heading_size": "h1",
-        "text": ""
+        "text": "<p>We sort, pack and delivery your prescriptions to your door.<\/p>"
       }
     },
     "product-grid": {
@@ -23,28 +23,19 @@
         "1651365058e29b6185-0": {
           "type": "tileSlider_item",
           "settings": {
-            "heading": "Anxiety",
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
           }
         },
         "1651365058e29b6185-1": {
           "type": "tileSlider_item",
           "settings": {
-            "heading": "Anxiety",
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
           }
         },
         "1651365058e29b6185-2": {
           "type": "tileSlider_item",
           "settings": {
-            "heading": "Anxiety",
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
           }
         }
       },
@@ -54,9 +45,9 @@
         "1651365058e29b6185-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tileSlider.jpg",
         "heading": "",
-        "content": "<p>The most common conditions we treat with medicinal cannabis are listed below.<br\/>Feel free to discuss any other conditions with us. We will give you an honest opinion as to whether medicinal cannabis would be worth trying.<\/p>"
+        "button_label": "",
+        "button_link": ""
       }
     }
   },

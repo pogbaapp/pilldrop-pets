@@ -11,7 +11,7 @@
         "image": "shopify:\/\/shop_images\/banner_slim.jpg",
         "subheading": "<p><strong>HOW IT WORKS<\/strong><\/p>",
         "subheading_size": "h4",
-        "heading": "<p>Pet prescriptions made easy</p>",
+        "heading": "<p>Pet prescriptions made easy<\/p>",
         "heading_size": "h1",
         "text": ""
       }
@@ -20,7 +20,6 @@
       "type": "icons-with-text",
       "settings": {
         "subheading": "IT'S SIMPLE",
-        "subheading_size": "h3",
         "heading": "Getting started.",
         "heading_size": "h1",
         "image1": "shopify:\/\/shop_images\/Artboard_Copy_6.png",
