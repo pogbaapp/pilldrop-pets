@@ -126,10 +126,10 @@ a:not([class]) {
   color: white !important;
 }
 
-.colour--red {
+.colour--red,
+.colour--red * {
   color: var(--primary) !important;
 }
-
 
 b,
 strong {
@@ -138,4 +138,14 @@ strong {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+hr {
+  border: 0;
+  margin: 3rem auto;
+  border-bottom: 1px solid #f2f2f2;
 }

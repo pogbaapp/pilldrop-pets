@@ -5,12 +5,24 @@
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
-        max-width: var(--content-width);
+        max-width: var(--content-width); 
 
         &__item {
             width: calc(25% - 4rem);
             margin: 2rem;
             position: relative;
+
+            @include media($xmd, max) {
+                width: calc(33.333% - 4rem);
+            }
+
+            @include media($md, max) {
+                width: calc(50% - 4rem);
+            }
+
+            @include media($xs, max) {
+                width: calc(100%);
+            }
 
             &__image {
                 @include aspect(280, 430);
@@ -24,6 +36,7 @@
                     position: absolute;
                     top: 0;
                     left: 0;
+                    object-fit: cover;
                 }
 
                 &__sale {

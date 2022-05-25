@@ -4,6 +4,11 @@
     margin: -1rem auto 0;
     position: relative;
 
+    &__push {
+        margin-top: 10rem;
+        display: block;
+    }
+
     &__text {
         background: var(--green-mid);
         display: flex;

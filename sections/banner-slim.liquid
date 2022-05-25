@@ -6,8 +6,8 @@
   <div class="bannerSlim bannerSlim--{{ section.id }} image-to-the-{{ section.layout }}">
     <div class="bannerSlim__text">
         <div class="bannerSlim__text__constraint">
-          <p class="{{ section.settings.subheading_size }}">{{ section.settings.subheading}}</p>
-          <h1 class="{{ section.settings.heading_size }}">{{ section.settings.heading}}</h1>
+          <div class="colour--red {{ section.settings.subheading_size }}">{{ section.settings.subheading}}</div>
+          <h1 class="colour--white {{ section.settings.heading_size }}"><b>{{ section.settings.heading}}</b></h1>
           {{ section.settings.text }}
           {%- if section.settings.button_label != blank -%}
             <p>

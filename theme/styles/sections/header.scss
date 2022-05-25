@@ -1,10 +1,43 @@
 /*------------------------------------------------------------------
 Header
 ------------------------------------------------------------------*/
+.template--index {
+    .header:not(.sticky) .header__wrap__logo path {
+        &:nth-child(3) {
+            fill: white;
+            stroke: white;
+        }
+        &:nth-child(4) {
+            fill: white;
+            stroke: white;
+        }
+        &:nth-child(5) {
+            fill: white;
+        }
+        &:nth-child(6) {
+            fill: white;
+        }
+    }
+}
 
 body:not(.template--index) .header {
     background: white !important;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1) !important;
+
+    .header__wrap__nav__item {
+        color: var(--text);
+    }
+
+    .header__wrap__logo {
+        path {
+            &:nth-child(4) {
+                fill: var(--grey-mid);
+            }
+            &:nth-child(11) {
+                fill: var(--grey-mid);
+            }
+        }
+    }
 }
 
 .header {
@@ -19,6 +52,10 @@ body:not(.template--index) .header {
     &.sticky {
         background: white;
         box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+
+        .header__wrap__nav__item {
+            color: var(--text);
+        }
     }
 
     @include media(1100px) {
