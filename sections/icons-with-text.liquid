@@ -51,7 +51,7 @@
 
       <div class="icons-with-text__heading">
         <div class="icons-with-text__heading__inner">
-          <h3 class="{{ section.settings.subheading_size }}">{{ section.settings.subheading | escape }}</h3>
+          <h5 class="colour--red">{{ section.settings.subheading | escape }}</h5>
           <h2 class="{{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
         </div> 
       </div>
@@ -68,26 +68,6 @@
       "id": "subheading",
       "default": "Icons with text",
       "label": "Subheading"
-    },
-    {
-      "type": "select",
-      "id": "subheading_size",
-      "options": [
-        {
-          "value": "h1",
-          "label": "h1"
-        },
-        {
-          "value": "h2",
-          "label": "h2"
-        },
-        {
-          "value": "h3",
-          "label": "h3"
-        }
-      ],
-      "default": "h2",
-      "label": "Subheading size"
     },
     {
       "type": "text",

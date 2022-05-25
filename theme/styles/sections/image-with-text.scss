@@ -4,7 +4,7 @@
     margin: 0 auto 12rem;
     background: var(--off-white);
 
-    &.image-to-the-left { 
+    &.image-to-the-left {
         .image-with-text__text {
             order: 2;
         }
@@ -45,8 +45,6 @@
 
         &__constraint {
             max-width: calc(var(--content-width) / 3);
-
-        
         }
     }
 

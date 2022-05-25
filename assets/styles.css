@@ -1197,6 +1197,74 @@ body:not(.template--index) .header {
       -o-object-fit: cover;
          object-fit: cover; }
 
+.icons-with-text {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 4rem 0; }
+  .icons-with-text.image-to-the-left .icons-with-text__text {
+    order: 2; }
+  .icons-with-text.image-to-the-left .icons-with-text__heading {
+    order: 1; }
+  .icons-with-text.image-to-the-right .icons-with-text__text {
+    order: 1;
+    justify-content: flex-end; }
+  .icons-with-text.image-to-the-right .icons-with-text__heading {
+    justify-content: flex-start;
+    order: 2;
+    padding-right: 0rem;
+    padding-left: 10rem; }
+  .icons-with-text__text {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 6rem 8rem;
+    justify-content: flex-start;
+    order: 2; }
+    .icons-with-text__text__heading {
+      margin-bottom: 3rem;
+      width: 100%; }
+    @media only screen and (max-width: 967px) {
+      .icons-with-text__text {
+        width: 100%;
+        order: 2 !important;
+        padding: 3rem 4rem 6rem; } }
+    .icons-with-text__text__item {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 2rem; }
+      .icons-with-text__text__item__icon {
+        width: 8rem; }
+        .icons-with-text__text__item__icon img {
+          width: 100%;
+          height: auto; }
+      .icons-with-text__text__item__text {
+        width: calc(100% - 8rem);
+        padding-left: 2rem; }
+        .icons-with-text__text__item__text h6 {
+          margin-bottom: 1rem; }
+  .icons-with-text__heading {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    order: 1;
+    padding: 6rem 8rem; }
+    .icons-with-text__heading h5 {
+      margin-bottom: 0; }
+    @media only screen and (max-width: 967px) {
+      .icons-with-text__heading {
+        width: 100%;
+        order: 1 !important;
+        padding: 0 6rem; }
+        .icons-with-text__heading__inner {
+          width: 100%; } }
+
 .icons {
   margin: 0 auto;
   position: relative;
