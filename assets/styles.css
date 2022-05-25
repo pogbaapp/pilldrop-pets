@@ -1135,7 +1135,6 @@ body:not(.template--index) .header {
 .icons-with-image {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto 12rem;
   background: var(--off-white); }
   .icons-with-image.image-to-the-left .icons-with-image__text {
     order: 2; }
