@@ -18,6 +18,7 @@
     },
     "1653454661e42a83a4": {
       "type": "icons-with-text",
+      "disabled": true,
       "settings": {
         "subheading": "IT'S SIMPLE",
         "heading": "Getting started.",
@@ -64,7 +65,7 @@
         "165406382718befed6-2"
       ],
       "settings": {
-        "heading": ""
+        "heading": "fwfew"
       }
     }
   },
