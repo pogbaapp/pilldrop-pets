@@ -9,9 +9,9 @@
       "type": "banner-slim",
       "settings": {
         "image": "shopify:\/\/shop_images\/Pilldrop_aboutus.jpg",
-        "subheading": "<p><strong>ABOUT US<\/strong><\/p>",
+        "subheading": "<p><strong>OUR STORY<\/strong><\/p>",
         "subheading_size": "h5",
-        "heading": "<p>Prescriptions delivered straight to your door<\/p>",
+        "heading": "<p>About us<\/p>",
         "heading_size": "h1",
         "text": ""
       }
@@ -19,9 +19,19 @@
     "165407221457d375a5": {
       "type": "text",
       "settings": {
-        "heading": "Image with text",
+        "heading": "Our pets are a cherished part of our family.  That undeniable love inspired PillDrop Pets.",
         "heading_size": "h2",
         "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "165407237486075401": {
+      "type": "text",
+      "settings": {
+        "heading": "What we do.",
+        "heading_size": "h3",
+        "text": "<p>Following the success of PillDrop, New Zealand’s first full-service digital pharmacy, here’s another NZ first: Your full service digital pet pharmacy - PillDrop Pets! <\/p><p><strong>We’ve done it again!<\/strong><\/p><p>We’ve listened to you, our customers, rave about the simplicity, accessibility and affordability of PillDrop. And we know that you want – and deserve – the same level of service and convenience for your pets.<\/p><p>As proud dog owners ourselves, we know that pets are a central part of the family and we want to give them the best care we can. But no matter how much we love them the reality is managing your pets’ regular medication can be very costly and another job on your to-do list. <\/p><p><strong>Now you can get pet medication straight to your door.<\/strong><\/p><p>For all these reasons, we’ve launched PillDrop Pets where we dispense and deliver pet medication for your cat, dog, or horse* straight to your door. <\/p><p>We can deliver your pets’ prescription medicines and vet-only nutraceuticals (such as vitamins) to your door anywhere in New Zealand. We deliver in the usual form that you expect – liquid, pill bottles, injections, creams and more. We’re here to make it easy to manage your pets’ health and wellbeing and their long-term conditions, keeping them healthy and happy for longer.  <\/p><p><strong>Forget the hassle and costly mark-ups.<\/strong><\/p><p>While pet medication is not subsidised, PillDrop Pets removes the middle person – and the huge mark-ups – which means we can pass on some serious savings to you. <\/p><p><strong>We give you an integrated medicine diary for your whole family – including your four-legged friends.<\/strong><\/p><p>The other bonus is if you are a PillDrop customer, you can fully integrate your pets’ medicine diary with your family’s personalised PillDrop Account. All the vital medication information for your family members – including the four-legged ones – is now in one easy place.  <\/p><p>*Currently our services are available to cats, dogs and horses.<\/p>",
         "button_label": "",
         "button_link": ""
       }
@@ -30,7 +40,8 @@
   "order": [
     "main",
     "16510315198c1783c4",
-    "165407221457d375a5"
+    "165407221457d375a5",
+    "165407237486075401"
   ],
   "wrapper": "div.main-wrapper"
 }
