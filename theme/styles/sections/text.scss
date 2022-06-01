@@ -7,5 +7,9 @@
         display: flex;
         flex-wrap: wrap;
         max-width: var(--inner-content-width);
+
+        h2 {
+            width: 100%;
+        }
     }
 }

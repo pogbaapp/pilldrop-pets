@@ -28,6 +28,12 @@ body:not(.template--index) .header {
     background: white !important;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1) !important;
 
+    .header__wrap__nav__item {
+        @include media(1100px) {
+            color: var(--text) !important;
+        }
+    }
+
     &.sticky .header__wrap__nav__item {
         @include media(1100px, max) {
             color: var(--text);
