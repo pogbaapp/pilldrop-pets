@@ -32,12 +32,24 @@
         "heading3": "Delivered",
         "text3": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>"
       }
+    },
+    "16540708003027a173": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pilldrop_aboutus.jpg",
+        "heading": "Fast & Free Delivery",
+        "heading_size": "h2",
+        "text": "",
+        "button_label": "Shop now",
+        "button_link": "shopify:\/\/collections\/all"
+      }
     }
   },
   "order": [
     "main",
     "16510315198c1783c4",
-    "1653454661e42a83a4"
+    "1653454661e42a83a4",
+    "16540708003027a173"
   ],
   "wrapper": "div.main-wrapper"
 }
