@@ -16,44 +16,10 @@
       "settings": {
         "heading": ""
       }
-    },
-    "1651365058ec2a8203": {
-      "type": "tileSlider",
-      "blocks": {
-        "1651365058e29b6185-0": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
-          }
-        },
-        "1651365058e29b6185-1": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
-          }
-        },
-        "1651365058e29b6185-2": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>Anxiety is a very common condition and CBD has proved to be very effective in treating it.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1651365058e29b6185-0",
-        "1651365058e29b6185-1",
-        "1651365058e29b6185-2"
-      ],
-      "settings": {
-        "heading": "",
-        "button_label": "",
-        "button_link": ""
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "1651365058ec2a8203"
+    "product-grid"
   ]
 }
