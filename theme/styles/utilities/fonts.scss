@@ -154,3 +154,28 @@ hr {
   margin: 3rem auto;
   border-bottom: 1px solid #f2f2f2;
 }
+
+
+.arrow-link {
+  color: var(--primary);
+  font-weight: bold;
+
+  &:hover {
+    img {
+      transform: translateX(3px);
+    }
+  }
+
+  img {
+    width: 8px;
+    height: 12.57px;
+    position: relative;
+    top: 0.5px;
+    margin-left: 4px;
+    transition: all $fast;
+
+    path {
+      fill: var(--primary);
+    }
+  }
+}
