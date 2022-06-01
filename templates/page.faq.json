@@ -85,6 +85,69 @@
             "heading": "How do I order “RX” medication?",
             "content": "<p>For any prescription medication, we require a valid prescription from your vet before we can send it to you.<br\/>For safety reasons and to meet our legal obligations, we can’t ship the medication until we receive the<br\/>prescription.<\/p><p><br\/><strong>Here are the six easy steps to follow:<\/strong><br\/>1) Find and select the medication you need.<br\/>2) Add to cart.<br\/>3) Go to checkout.<br\/>4) Pay for the medication<br\/>5) Submit your prescription by either:<br\/><\/p><p><strong>Posting the original to:<\/strong> PO Box 62283, Sylvia Park, Auckland, 1060<\/p><p><br\/><strong>Asking your vet to send it to us directly: <\/strong>email: <a href=\"mailto:delivery@pilldrop.co.nz\" title=\"mailto:delivery@pilldrop.co.nz\">delivery@pilldrop.co.nz<\/a> or via fax: 09 276 9292<\/p>"
           }
+        },
+        "68401fca-621f-4250-b467-1af85fcf12cb": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "I already have the prescription. How do I get it to PillDrop Pets?",
+            "content": "<p>Please post the original prescription to us: PO Box 62283, Sylvia Park, Auckland, 1060<br\/><\/p><p>Or you can ask your vet to email the prescription to us directly: email: <a href=\"mailto:delivery@pilldrop.co.nz\" title=\"mailto:delivery@pilldrop.co.nz\">delivery@pilldrop.co.nz<\/a> or via fax: 09 276 9292<\/p>"
+          }
+        },
+        "25ace2b0-becd-474b-acc5-cf4b5da29415": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "How do I get repeats?",
+            "content": "<p>If you have a PillDrop Account, log into your account, go to My Medicines, click the name of your pet<br\/>and choose the medication you need repeats for.<br\/>Or you can request your repeats to be sent to you by emailing us: <a href=\"mailto:delivery@pilldrop.co.nz\" title=\"mailto:delivery@pilldrop.co.nz\">delivery@pilldrop.co.nz<\/a> or calling us:<br\/><a href=\"tel:0800 745 537\" title=\"tel:0800 745 537\">0800 745 537<\/a><\/p>"
+          }
+        },
+        "53fe48d6-d1e2-45f4-a0ba-71eb105e1e20": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Can you supply part packs? I don’t need hundreds of tablets.",
+            "content": "<p>Yes, of course. We don’t want to sell you quantities that you don’t need. We always look for ways on how we can help you save!<\/p>"
+          }
+        },
+        "08bb9fd5-63a3-4ec9-a21a-56729f2fac46": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Can I access my pet’s medication history and information online?",
+            "content": "<p>Yes, within your PillDrop account, the relevant info will appear in the customer portal – My Medicines.<\/p>"
+          }
+        },
+        "558a6d14-8559-4c66-bc68-e84fcd88b0a8": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Do my pets get a colourful PillDrop dispenser and PillSachets?",
+            "content": "<p>Although that would be cute, we’re sorry to say no. Animal medication comes in so many different sizes<br\/>and forms – creams, pills, drops etc. – so it’s not practical to pack them into PillSachets. They will instead<br\/>come in the usual form – bottles, tubes, injectables, etc.<\/p>"
+          }
+        },
+        "f50cd388-7db9-432c-8489-e5278ea4d203": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "What are PillSachets anyway?",
+            "content": "<p>It’s for humans! Check it out here: <a href=\"https:\/\/pilldrop.co.nz\" target=\"_blank\" title=\"https:\/\/pilldrop.co.nz\">https:\/\/pilldrop.co.nz<\/a><\/p>"
+          }
+        },
+        "291f9bfb-a826-44d0-b0dc-af5d1f2a5c4f": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Can I call PillDrop Pets if I have any concerns?",
+            "content": "<p>Yes, call our team on <a href=\"tel:0800-745-537\" title=\"tel:0800-745-537\">0800-745-537<\/a> if you require assistance. Alternatively, send our vet an email on<br\/><a href=\"mailto:vet@pilldroppets.co.nz\" title=\"mailto:vet@pilldroppets.co.nz\">vet@pilldroppets.co.nz<\/a><\/p>"
+          }
+        },
+        "13c67a44-2b4d-429c-bf8a-f3bdfa83939a": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "I’m new to PillDrop, how do I get started?",
+            "content": "<p>Welcome! To get started,<br\/>1) Find and select the medication you need.<br\/>2) Add to cart.<br\/>3) Go to checkout.<br\/>4) Pay for the medication<br\/>5) Submit your prescription by either:<br\/><br\/><strong>Posting the original to:<\/strong> PO Box 62283, Sylvia Park, Auckland, 1060<br\/><br\/><strong>Asking your vet to send it to us directly: <\/strong>email: <a href=\"mailto:delivery@pilldrop.co.nz\" title=\"mailto:delivery@pilldrop.co.nz\">delivery@pilldrop.co.nz<\/a> or via fax: <a href=\"tel:09 276 9292\" title=\"tel:09 276 9292\">09 276 9292<\/a><\/p>"
+          }
+        },
+        "8deeecd9-2072-493b-b9d2-e1a094043acb": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Do you accept returns or exchanges on prescription items?",
+            "content": "<p>For medication orders, once this has been confirmed and you have paid for the charges and delivery<br\/>fees (if any) we will not be able to offer returns or refund any of the medicines selected to be dispensed<br\/>unless they are faulty, damaged or not the items you ordered.<br\/>If goods (prescription or non-prescription) delivered to you are faulty, damaged or not the items you<br\/>ordered then you must contact us as soon as possible and return the goods to PillDropPets Pharmacy at<br\/>your cost within 21 days. If it turns out the goods are faulty, damaged or incorrect we will replace and<br\/>redeliver the goods at no charge to you.<br\/>If you are entitled to a refund the refund will be made based on the method of payment you used. If you<br\/>paid by credit card then the refunded amount will be credited back to the same credit card. If you paid<br\/>by bank transfer then the refunded amount will be deposited back to the same bank account.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -94,7 +157,16 @@
         "1b8677f3-5ccf-4936-abc5-d360bae18be7",
         "016bac0d-e2d2-488e-9c74-9553718c730f",
         "375cfe66-5b7d-454b-8271-5aee2b4d1f09",
-        "8eecd9e9-b5c0-45a6-9d83-869ac4f295f0"
+        "8eecd9e9-b5c0-45a6-9d83-869ac4f295f0",
+        "68401fca-621f-4250-b467-1af85fcf12cb",
+        "25ace2b0-becd-474b-acc5-cf4b5da29415",
+        "53fe48d6-d1e2-45f4-a0ba-71eb105e1e20",
+        "08bb9fd5-63a3-4ec9-a21a-56729f2fac46",
+        "558a6d14-8559-4c66-bc68-e84fcd88b0a8",
+        "f50cd388-7db9-432c-8489-e5278ea4d203",
+        "291f9bfb-a826-44d0-b0dc-af5d1f2a5c4f",
+        "13c67a44-2b4d-429c-bf8a-f3bdfa83939a",
+        "8deeecd9-2072-493b-b9d2-e1a094043acb"
       ],
       "settings": {
         "heading": ""
