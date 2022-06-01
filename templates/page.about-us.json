@@ -45,6 +45,17 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "1654072422ee4ffbdd": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/banner_slim.jpg",
+        "heading": "How it works",
+        "heading_size": "h2",
+        "text": "<p>Pet prescriptions made easy.<\/p>",
+        "button_label": "Learn more",
+        "button_link": "shopify:\/\/pages\/how-it-works"
+      }
     }
   },
   "order": [
@@ -52,7 +63,8 @@
     "16510315198c1783c4",
     "165407221457d375a5",
     "165407237486075401",
-    "1654072419df7eab99"
+    "1654072419df7eab99",
+    "1654072422ee4ffbdd"
   ],
   "wrapper": "div.main-wrapper"
 }
