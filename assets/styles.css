@@ -994,6 +994,35 @@ Hero Block
             top: 0;
             margin: 0 auto; } }
 
+.filter {
+  width: 100%;
+  padding: 4rem 4rem; }
+  .filter__wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--content-width); }
+    .filter__wrap__item {
+      padding: 2rem 3rem;
+      position: relative;
+      background: white;
+      box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+      border-radius: 4px;
+      overflow: hidden;
+      padding-right: 8rem;
+      margin: 0 2rem 2rem 0;
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); }
+      .filter__wrap__item:hover {
+        box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.26); }
+      .filter__wrap__item p {
+        margin: 0; }
+      .filter__wrap__item img {
+        width: 70px;
+        height: auto;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+
 /*------------------------------------------------------------------
 Footer
 ------------------------------------------------------------------*/

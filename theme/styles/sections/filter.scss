@@ -1,0 +1,41 @@
+.filter {
+    width: 100%;
+    padding: 4rem 4rem;
+
+    &__wrap {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: var(--content-width);
+
+        &__item {
+            padding: 2rem 3rem;
+            position: relative;
+            background: white;
+            box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+            overflow: hidden;
+            padding-right: 8rem;
+            margin: 0 2rem 2rem 0;
+
+            transition: all $fast;
+
+            &:hover{
+                box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.26);
+            }
+            
+
+            p {
+                margin: 0;
+            }
+
+            img {
+                width: 70px;
+                height: auto;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    }
+}
