@@ -32,12 +32,47 @@
         "heading3": "Get prescription",
         "text3": "<p>Your pet medications will be delivered straight to your door anywhere you are in New Zealand.<\/p>"
       }
+    },
+    "1654063827b9aa61f3": {
+      "type": "accordion",
+      "blocks": {
+        "165406382718befed6-0": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "A question that customers ask often",
+            "content": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<\/p>"
+          }
+        },
+        "165406382718befed6-1": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "A question that customers ask often",
+            "content": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<\/p>"
+          }
+        },
+        "165406382718befed6-2": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "A question that customers ask often",
+            "content": "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "165406382718befed6-0",
+        "165406382718befed6-1",
+        "165406382718befed6-2"
+      ],
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "main",
     "16510315198c1783c4",
-    "1653454661e42a83a4"
+    "1653454661e42a83a4",
+    "1654063827b9aa61f3"
   ],
   "wrapper": "div.main-wrapper"
 }
