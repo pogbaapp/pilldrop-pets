@@ -941,7 +941,15 @@ Product
           -o-object-fit: cover;
              object-fit: cover; }
         .collection__grid__item__image__sale {
-          background: var(--green-dark);
+          background: var(--primary);
+          color: white;
+          padding: 1rem 2rem;
+          position: absolute;
+          top: 0;
+          right: 0;
+          font-weight: 600; }
+        .collection__grid__item__image__unavailable {
+          background: var(--primary);
           color: white;
           padding: 1rem 2rem;
           position: absolute;
@@ -1011,9 +1019,12 @@ Hero Block
       overflow: hidden;
       padding-right: 8rem;
       margin: 0 2rem 2rem 0;
-      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1); }
+      transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+      border: 2px solid white; }
       .filter__wrap__item:hover {
         box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.26); }
+      .filter__wrap__item.active {
+        border-color: var(--primary); }
       .filter__wrap__item p {
         margin: 0; }
       .filter__wrap__item img {
@@ -3076,6 +3087,15 @@ Side Cart
         text-align: center; }
       .split__text__item p {
         text-align: center; }
+
+.text {
+  width: 100%;
+  padding: 4rem 4rem; }
+  .text__wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: var(--inner-content-width); }
 
 /*------------------------------------------------------------------
 Tile Slider

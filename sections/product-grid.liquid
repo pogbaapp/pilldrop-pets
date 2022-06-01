@@ -4,22 +4,21 @@
 
 <div class="filter">
   <div class="filter__wrap">
-
-    <a href="/collections/most-popular" class="filter__wrap__item">
+    <a href="/collections/most-popular" class="filter__wrap__item {% if collection.title == 'Most Popular' %}active{% endif %}">
       <p class="colour--red"><b>Most popular</b></p>
     </a>
 
-    <a href="/collections/cats" class="filter__wrap__item">
+    <a href="/collections/cats" class="filter__wrap__item {% if collection.title == 'Cats' %}active{% endif %}">
       <p class="colour--red"><b>Cats</b></p>
       <img src="{{ 'mini-cat.png' | asset_url }}" width="140" height="140" loading="lazy" />
     </a>
 
-    <a href="/collections/dogs" class="filter__wrap__item">
+    <a href="/collections/dogs" class="filter__wrap__item {% if collection.title == 'Dogs' %}active{% endif %}">
       <p class="colour--red"><b>Dogs</b></p>
       <img src="{{ 'mini-dog.png' | asset_url }}" width="140" height="140" loading="lazy" />
     </a>
 
-    <a href="/collections/horses" class="filter__wrap__item">
+    <a href="/collections/horses" class="filter__wrap__item {% if collection.title == 'Horses' %}active{% endif %}">
       <p class="colour--red"><b>Horses</b></p>
       <img src="{{ 'mini-horse.png' | asset_url }}" width="140" height="140" loading="lazy" />
     </a>
@@ -59,8 +58,8 @@
 
 
           {% if on_sale %}
-          {% endif %}
             <span class="collection__grid__item__image__sale">SALE</span>
+          {% endif %}
 
           {% if product.available %}
           {% else %}
@@ -68,6 +67,21 @@
           {% endif %}
 
         </a>
+      {% else %}
+      <a  href="{{ product.url }}" class="collection__grid__item__image">
+
+
+
+        {% if on_sale %}
+          <span class="collection__grid__item__image__sale">SALE</span>
+        {% endif %}
+
+        {% if product.available %}
+        {% else %}
+          <span class="collection__grid__item__image__unavailable">SOLD OUT</span>
+        {% endif %}
+
+      </a>
       {% endif %}
 
       <a href="{{ product.url }}" class="collection__grid__item__details">

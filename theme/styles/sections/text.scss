@@ -1,0 +1,11 @@
+.text {
+    width: 100%;
+    padding: 4rem 4rem;
+
+    &__wrap {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: var(--inner-content-width);
+    }
+}
