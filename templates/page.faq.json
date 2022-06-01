@@ -64,13 +64,37 @@
             "heading": "When can I expect to receive my pet’s medication?",
             "content": "<p><strong>For prescription items:<\/strong><br\/>Once we have received your vet’s prescription, we will sent it out within one business day.<\/p><p><br\/><strong>For non-prescription items:<\/strong><br\/>For vet-only, non-prescription items, such as vitamins, we will process within 24 hours from receiving<br\/>the order, or the following business day (please see our delivery schedule below).<\/p>"
           }
+        },
+        "016bac0d-e2d2-488e-9c74-9553718c730f": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "What is your delivery schedule?",
+            "content": "<p>We deliver during business hours, Monday to Friday.<\/p>"
+          }
+        },
+        "375cfe66-5b7d-454b-8271-5aee2b4d1f09": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "How much is your shipping fee?",
+            "content": "<p>We offer free shipping for all orders over $50. <\/p><p><br\/><strong>For orders less than $50:<\/strong><br\/>Urban deliveries: $7.50<br\/><strong>Rural: <\/strong>$12.50<br\/><br\/>For urgent delivery, please call us on <a href=\"tel:0800745537\" title=\"tel:0800745537\">0800745537<\/a><\/p>"
+          }
+        },
+        "8eecd9e9-b5c0-45a6-9d83-869ac4f295f0": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "How do I order “RX” medication?",
+            "content": "<p>For any prescription medication, we require a valid prescription from your vet before we can send it to you.<br\/>For safety reasons and to meet our legal obligations, we can’t ship the medication until we receive the<br\/>prescription.<\/p><p><br\/><strong>Here are the six easy steps to follow:<\/strong><br\/>1) Find and select the medication you need.<br\/>2) Add to cart.<br\/>3) Go to checkout.<br\/>4) Pay for the medication<br\/>5) Submit your prescription by either:<br\/><\/p><p><strong>Posting the original to:<\/strong> PO Box 62283, Sylvia Park, Auckland, 1060<\/p><p><br\/><strong>Asking your vet to send it to us directly: <\/strong>email: <a href=\"mailto:delivery@pilldrop.co.nz\" title=\"mailto:delivery@pilldrop.co.nz\">delivery@pilldrop.co.nz<\/a> or via fax: 09 276 9292<\/p>"
+          }
         }
       },
       "block_order": [
         "165406382718befed6-0",
         "165406382718befed6-1",
         "165406382718befed6-2",
-        "1b8677f3-5ccf-4936-abc5-d360bae18be7"
+        "1b8677f3-5ccf-4936-abc5-d360bae18be7",
+        "016bac0d-e2d2-488e-9c74-9553718c730f",
+        "375cfe66-5b7d-454b-8271-5aee2b4d1f09",
+        "8eecd9e9-b5c0-45a6-9d83-869ac4f295f0"
       ],
       "settings": {
         "heading": ""
