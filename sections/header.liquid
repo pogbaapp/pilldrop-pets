@@ -66,14 +66,16 @@ Mobile Menu
 
 <div class="mobileMenu" id="mobilemenu">
 
-    {% for link in linklists.main-menu.links %}
-
-        <div class="mobileMenu__group">
+    
+    <div class="mobileMenu__wrap">
+        {% for link in linklists.main-menu.links %}
             
-            <div class="mobileMenu__group__top {$LinkingMode} [ js-no-children ] {% if link.current %}current{% endif %}"><a href="{{ link.url }}" class="colour--white" style="">{{ link.title | escape }} </a></div>
+            <div class="mobileMenu__wrap__item {% if link.current %}current{% endif %}">
+                <a href="{{ link.url }}" class="colour--white" style="">{{ link.title | escape }} </a>
+            </div>
+        {%- endfor -%}
             
         </div>
-    {%- endfor -%}
 
 </div>
 
@@ -99,29 +101,6 @@ Mobile Menu
 
 
 
-
-{% comment %} 
-Mobile menu
-{% endcomment %}
-
-<section class="green-mid-slate"></section>
-
-<section class="green-light-slate"></section>
-
-<section class="mobileMenu">
-    <div class="mobileMenu__wrap">
-        <div class="mobileMenu__wrap__menu">
-            {% for link in linklists.main-menu.links %}
-                <div class="mobileMenu__wrap__menu__item mobileMenu__wrap__menu__item--has-children">
-                    <a href="{{ link.url }}" class="mobileMenu__wrap__menu__item__link {% if link.current %}current{% endif %}">
-                        {{ link.title | escape }}
-                    </a>
-                </div>
-            {%- endfor -%}
-        </div>
-    </div>
-</section> 
-  
 
 
 

@@ -1,0 +1,82 @@
+//------------------------------------------------------------------
+// Mobile Menu
+//------------------------------------------------------------------
+
+.mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--primary);
+    z-index: 999999;
+    bottom: 0;
+    padding: 3rem 0 10rem;
+    overflow: auto;
+    transition: all $fast;
+    visibility: hidden;
+    opacity: 0;
+    backface-visibility: hidden;
+    -webkit-overflow-scrolling: touch;
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        @include full;
+        align-items: center;
+        align-content: center;
+
+        &__item {
+            width: 100%;
+            color: white;
+            font-size: 2.4rem;
+            font-weight: bold;
+            text-align: center;
+            padding: 1rem;
+
+            a {
+                display: block;
+            }
+        }
+    }
+}
+
+.mobile-menu-active {
+    overflow: hidden;
+
+    .header {
+        background: var(--primary);
+        box-shadow: none !important;
+        transform: translateY(0%) !important;
+
+        .header__wrap__logo {
+            path {
+                fill: white;
+
+                &:nth-child(2) {
+                    fill: var(--primary);
+                }
+            }
+        }
+    }
+
+    .mobileMenu {
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    .header__wrap__navburger__ring--1 {
+        transform: rotate(45deg) translateX(0.7rem) translateY(0.7rem);
+        background: white;
+    }
+
+    .header__wrap__navburger__ring--2 {
+        background: transparent !important;
+    }
+
+    .header__wrap__navburger__ring--3 {
+        transform: rotate(-45deg) translateX(0.7rem) translateY(-0.7rem);
+        background: white;
+    }
+}

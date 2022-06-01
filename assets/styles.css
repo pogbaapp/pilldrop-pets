@@ -516,7 +516,7 @@ Background Image
 .bannerSlim {
   display: flex;
   flex-wrap: wrap;
-  margin: 8rem auto 0;
+  margin: 2rem auto 0;
   position: relative; }
   .bannerSlim__text {
     width: 40%;
@@ -1228,25 +1228,25 @@ input[type='checkbox'] {
 /*------------------------------------------------------------------
 Header
 ------------------------------------------------------------------*/
-.template--index .header:not(.sticky) .header__wrap__logo path:nth-child(3) {
-  fill: white;
-  stroke: white; }
-
-.template--index .header:not(.sticky) .header__wrap__logo path:nth-child(4) {
-  fill: white;
-  stroke: white; }
-
-.template--index .header:not(.sticky) .header__wrap__logo path:nth-child(5) {
-  fill: white; }
-
-.template--index .header:not(.sticky) .header__wrap__logo path:nth-child(6) {
-  fill: white; }
+.template--index .header:not(.sticky) {
+  background: transparent; }
+  .template--index .header:not(.sticky) .header__wrap__logo path:nth-child(3) {
+    fill: white;
+    stroke: white; }
+  .template--index .header:not(.sticky) .header__wrap__logo path:nth-child(4) {
+    fill: white;
+    stroke: white; }
+  .template--index .header:not(.sticky) .header__wrap__logo path:nth-child(5) {
+    fill: white; }
+  .template--index .header:not(.sticky) .header__wrap__logo path:nth-child(6) {
+    fill: white; }
 
 body:not(.template--index) .header {
   background: white !important;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1) !important; }
-  body:not(.template--index) .header .header__wrap__nav__item {
-    color: var(--text); }
+  @media only screen and (max-width: 1099px) {
+    body:not(.template--index) .header.sticky .header__wrap__nav__item {
+      color: var(--text); } }
   body:not(.template--index) .header .header__wrap__logo path:nth-child(4) {
     fill: var(--grey-mid); }
   body:not(.template--index) .header .header__wrap__logo path:nth-child(11) {
@@ -1276,8 +1276,8 @@ body:not(.template--index) .header {
     flex-wrap: wrap;
     position: relative;
     /*------------------------------------------------------------------
-      Secondary Navigation
-      ------------------------------------------------------------------*/
+        Secondary Navigation
+        ------------------------------------------------------------------*/
     /*------------------------------------------------------------------
         Navigation
         ------------------------------------------------------------------*/
@@ -1317,11 +1317,14 @@ body:not(.template--index) .header {
         padding-left: 1rem; }
         .header__wrap__secondary__menu__item {
           font-weight: 500;
-          color: white;
+          color: var(--text);
           text-transform: uppercase;
           padding: 1.2rem 1rem 1.1rem 1rem;
           display: inline-block;
           font-size: 1.4rem; }
+          @media only screen and (min-width: 1100px) {
+            .header__wrap__secondary__menu__item {
+              color: white; } }
       .header__wrap__secondary__call {
         margin-right: 0;
         margin-left: auto;
@@ -1826,6 +1829,67 @@ body:not(.template--index) .header {
       display: block;
       max-width: 60rem;
       margin-bottom: -6rem; }
+
+.mobileMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: var(--primary);
+  z-index: 999999;
+  bottom: 0;
+  padding: 3rem 0 10rem;
+  overflow: auto;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch; }
+  .mobileMenu__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    align-content: center; }
+    .mobileMenu__wrap__item {
+      width: 100%;
+      color: white;
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-align: center;
+      padding: 1rem; }
+      .mobileMenu__wrap__item a {
+        display: block; }
+
+.mobile-menu-active {
+  overflow: hidden; }
+  .mobile-menu-active .header {
+    background: var(--primary);
+    box-shadow: none !important;
+    transform: translateY(0%) !important; }
+    .mobile-menu-active .header .header__wrap__logo path {
+      fill: white; }
+      .mobile-menu-active .header .header__wrap__logo path:nth-child(2) {
+        fill: var(--primary); }
+  .mobile-menu-active .mobileMenu {
+    visibility: visible !important;
+    opacity: 1 !important; }
+  .mobile-menu-active .header__wrap__navburger__ring--1 {
+    transform: rotate(45deg) translateX(0.7rem) translateY(0.7rem);
+    background: white; }
+  .mobile-menu-active .header__wrap__navburger__ring--2 {
+    background: transparent !important; }
+  .mobile-menu-active .header__wrap__navburger__ring--3 {
+    transform: rotate(-45deg) translateX(0.7rem) translateY(-0.7rem);
+    background: white; }
 
 /*------------------------------------------------------------------
 Newsletter popup
