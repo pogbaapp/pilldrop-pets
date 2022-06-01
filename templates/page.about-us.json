@@ -9,9 +9,9 @@
       "type": "banner-slim",
       "settings": {
         "image": "shopify:\/\/shop_images\/banner_slim.jpg",
-        "subheading": "<p><strong>HOW IT WORKS<\/strong><\/p>",
+        "subheading": "<p><strong>ABOUT US<\/strong><\/p>",
         "subheading_size": "h4",
-        "heading": "<p>Pet prescriptions made easy<\/p>",
+        "heading": "<p>Prescriptions delivered straight to your door<\/p>",
         "heading_size": "h1",
         "text": ""
       }
