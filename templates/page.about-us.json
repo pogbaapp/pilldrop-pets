@@ -15,11 +15,22 @@
         "heading_size": "h1",
         "text": ""
       }
+    },
+    "165407221457d375a5": {
+      "type": "text",
+      "settings": {
+        "heading": "Image with text",
+        "heading_size": "h2",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
-    "16510315198c1783c4"
+    "16510315198c1783c4",
+    "165407221457d375a5"
   ],
   "wrapper": "div.main-wrapper"
 }
