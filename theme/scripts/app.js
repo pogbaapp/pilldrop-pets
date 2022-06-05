@@ -123,3 +123,58 @@ $(() => {
     });
 
 });
+
+
+/*------------------------------------------------------------------
+Filtering
+------------------------------------------------------------------*/
+
+$(() => {
+    let $body = $('body');
+
+
+    const filterProducts = () => {
+        $body.addClass('busy');
+        let brands = [];
+        $('.js-filter-brands:checked').each((i, el) => brands.push($(el).attr('id')));
+        let tags = [];
+        $('.js-filter-tags:checked').each((i, el) => tags.push($(el).attr('id')));
+
+        console.log(brands)
+
+        $('.collection__grid__item').each((i, el) => {
+            let $this = $(el);
+            let item_brands = $this.attr('data-brand').split(',');
+            let item_tags = $this.attr('data-collections').split(',');
+            $this.show();
+            if (brands.length > 0 && !item_brands.some(brand => brands.includes(brand))) {
+                $this.hide();
+            }
+            if (tags.length > 0 && !item_tags.some(tag => tags.includes(tag))) {
+                $this.hide();
+            }
+        });
+
+
+        setTimeout(() => {
+            $body.removeClass('busy');
+        }, 400);
+
+
+    };
+
+
+    $body.on('change', '.js-filter-tags', (e) => {
+        e.preventDefault();
+        let $this = $(e.currentTarget);
+        filterProducts();
+    });
+
+    $body.on('change', '.js-filter-brands', (e) => {
+        e.preventDefault();
+        let $this = $(e.currentTarget);
+        filterProducts();
+    });
+
+
+});

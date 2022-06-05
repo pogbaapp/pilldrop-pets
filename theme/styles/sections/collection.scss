@@ -1,11 +1,35 @@
 .collection {
     padding: 4rem 2rem;
+    max-width: var(--content-width);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    &__filters {
+        width: 30rem;
+
+        &__title {
+            margin-bottom: 2rem;
+        }
+
+        &__item {
+            position: relative;
+            display: block;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+
+            label {
+                line-height: 1.4;
+            }
+        }
+    }
 
     &__grid {
+        width: calc(100% - 30rem);
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
-        max-width: var(--content-width);
+        position: relative;
 
         &__item {
             width: calc(25% - 4rem);
@@ -69,6 +93,145 @@
                     margin: 0;
                 }
             }
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+Checkbox
+------------------------------------------------------------------*/
+
+input[type='checkbox'] {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+
+    + label {
+        position: relative;
+        padding-left: 3rem;
+        user-select: none;
+        cursor: pointer;
+        display: block;
+
+        &:before {
+            @include pseudo;
+            display: block;
+            left: 0;
+            top: 10px;
+            transform: translateY(-50%);
+            transition: all 333ms ease;
+            background: white;
+            border: 1px solid var(--grey-light);
+            width: 20px;
+            height: 20px;
+            border-radius: 0;
+        }
+
+        &:after {
+            @include pseudo;
+            transform: rotate(43deg);
+            width: 5px;
+            height: 9px;
+            border: 2px solid white;
+            border-top: 0;
+            border-left: 0;
+            left: 7px;
+            top: 10px;
+            transition: all 333ms ease;
+            margin-top: -1px;
+            transform: translateY(-50%) rotate(20deg);
+        }
+    }
+
+    &:checked {
+        + label {
+            &:before {
+                background: var(--red);
+                border-color: var(--red);
+            }
+
+            &:after {
+                transform: translateY(-50%) rotate(43deg);
+            }
+        }
+    }
+}
+
+/*------------------------------------------------------------------
+Loader
+------------------------------------------------------------------*/
+
+$size: 100px;
+
+.busy .loader {
+    visibility: visible;
+    opacity: 1;
+}
+
+.loader {
+    @include full;
+    position: absolute;
+    background: rgba(white, 0.8);
+    z-index: 999;
+    transition: all $fast;
+    visibility: hidden;
+    opacity: 0;
+
+    #loader {
+        position: absolute;
+        top: 10rem;
+        left: calc(50% - 20px);
+    }
+    @keyframes loader {
+        0% {
+            left: -100px;
+        }
+        100% {
+            left: 110%;
+        }
+    }
+    #box {
+        width: 50px;
+        height: 50px;
+        background: var(--red);
+        animation: animate 0.5s linear infinite;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 3px;
+    }
+    @keyframes animate {
+        17% {
+            border-bottom-right-radius: 3px;
+        }
+        25% {
+            transform: translateY(9px) rotate(22.5deg);
+        }
+        50% {
+            transform: translateY(18px) scale(1, 0.9) rotate(45deg);
+            border-bottom-right-radius: 40px;
+        }
+        75% {
+            transform: translateY(9px) rotate(67.5deg);
+        }
+        100% {
+            transform: translateY(0) rotate(90deg);
+        }
+    }
+    #shadow {
+        width: 50px;
+        height: 5px;
+        background: #000;
+        opacity: 0.1;
+        position: absolute;
+        top: 59px;
+        left: 0;
+        border-radius: 50%;
+        animation: shadow 0.5s linear infinite;
+    }
+    @keyframes shadow {
+        50% {
+            transform: scale(1.2, 1);
         }
     }
 }

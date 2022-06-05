@@ -1,15 +1,57 @@
 .text {
-    width: 100%;
-    padding: 4rem 4rem;
-
     &__wrap {
+        padding: 4rem 0;
         margin: 0 auto;
+        max-width: var(--inner-content-width);
         display: flex;
         flex-wrap: wrap;
-        max-width: var(--inner-content-width);
+        align-items: flex-start;
+        position: relative;
+        z-index: 2;
 
         h2 {
             width: 100%;
+        }
+
+
+        &__flex {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+
+            &__left {
+                width: 50%;
+                padding-right: 2rem;
+
+                @include media($md, max) {
+                    width: 100%;
+                    padding-left: 0;
+                }
+            }
+
+            &__right {
+                width: 50%;
+                padding-left: 2rem;
+                position: relative;
+
+                @include media($md, max) {
+                    width: 100%;
+                    padding-left: 0;
+
+                    &::before {
+                        display: none !important;
+                    }
+                }
+
+                &:before {
+                    @include pseudo;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    width: 1px;
+                    background: #ebebeb;
+                }
+            }
         }
     }
 }
