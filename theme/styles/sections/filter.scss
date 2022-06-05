@@ -1,12 +1,17 @@
 .filter {
     width: 100%;
-    padding: 4rem 4rem;
+    padding: 4rem 2rem 0;
 
     &__wrap {
-        margin: 0 auto;
+        margin: 0 auto -4rem;
         display: flex;
         flex-wrap: wrap;
         max-width: var(--content-width);
+        justify-content: flex-end;
+
+        @include media($md, max) {
+            justify-content: center;
+        }
 
         &__item {
             padding: 2rem 3rem;
@@ -16,18 +21,16 @@
             border-radius: 4px;
             overflow: hidden;
             padding-right: 8rem;
-            margin: 0 2rem 2rem 0;
+            margin: 0 0 2rem 2rem;
             transition: all $fast;
-            border:2px solid white;
+            border: 2px solid white;
 
             &:hover {
-                box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.26); 
+                box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.26);
             }
 
             &.active {
                 border-color: var(--primary);
-
-               
             }
 
             p {

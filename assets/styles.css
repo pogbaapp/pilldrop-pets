@@ -921,6 +921,9 @@ Product
   margin: 0 auto; }
   .collection__filters {
     width: 30rem; }
+    @media only screen and (max-width: 767px) {
+      .collection__filters {
+        display: none; } }
     .collection__filters__title {
       margin-bottom: 2rem; }
     .collection__filters__item {
@@ -936,6 +939,9 @@ Product
     display: flex;
     flex-wrap: wrap;
     position: relative; }
+    @media only screen and (max-width: 767px) {
+      .collection__grid {
+        width: calc(100%); } }
     .collection__grid__item {
       width: calc(25% - 4rem);
       margin: 2rem;
@@ -1173,12 +1179,16 @@ Hero Block
 
 .filter {
   width: 100%;
-  padding: 4rem 4rem; }
+  padding: 4rem 2rem 0; }
   .filter__wrap {
-    margin: 0 auto;
+    margin: 0 auto -4rem;
     display: flex;
     flex-wrap: wrap;
-    max-width: var(--content-width); }
+    max-width: var(--content-width);
+    justify-content: flex-end; }
+    @media only screen and (max-width: 767px) {
+      .filter__wrap {
+        justify-content: center; } }
     .filter__wrap__item {
       padding: 2rem 3rem;
       position: relative;
@@ -1187,7 +1197,7 @@ Hero Block
       border-radius: 4px;
       overflow: hidden;
       padding-right: 8rem;
-      margin: 0 2rem 2rem 0;
+      margin: 0 0 2rem 2rem;
       transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
       border: 2px solid white; }
       .filter__wrap__item:hover {
