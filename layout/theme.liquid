@@ -91,6 +91,8 @@
     {{ 'styles.css' | asset_url | stylesheet_tag }}
     
 
+
+  {% render 'qikify-apps' %}
 </head>
 
 <body id="body" class=" {{ page_title }} page--{{ request.page_type | handle }} template--{{ template.name }}">
