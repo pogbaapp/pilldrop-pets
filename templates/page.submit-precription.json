@@ -24,12 +24,19 @@
         "button_label": "",
         "button_link": ""
       }
+    },
+    "16546741007a3112c2": {
+      "type": "contact-embed",
+      "settings": {
+        "form_id": "192040"
+      }
     }
   },
   "order": [
     "main",
     "16510315198c1783c4",
-    "1654673680b08379e3"
+    "1654673680b08379e3",
+    "16546741007a3112c2"
   ],
   "wrapper": "div.main-wrapper"
 }
