@@ -1,0 +1,28 @@
+#body {
+    .bcontact-title {
+        margin-bottom: 1rem;
+        color: var(--primary) !important;
+    }
+
+    .bcontact-description {
+        margin-bottom: 1rem;
+    }
+
+    .bcontact-content {
+        input {
+            border-radius: 0;
+        }
+
+        [type='file'] {
+            border: 2px dashed #ebebeb;
+            border-radius: 0.5rem;
+            padding: 2rem;
+        }
+    }
+
+    .bcontact-field--file span {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        display: block;
+    }
+}
