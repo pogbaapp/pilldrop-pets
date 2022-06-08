@@ -5,6 +5,17 @@
       "settings": {
       }
     },
+    "1654671258afe5a2f9": {
+      "type": "banner-slim",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pilldrop_aboutus.jpg",
+        "subheading": "<p>CONTACT US<\/p>",
+        "subheading_size": "h6",
+        "heading": "<p>Get in touch<\/p>",
+        "heading_size": "h1",
+        "text": ""
+      }
+    },
     "165467105679d9cbc9": {
       "type": "column",
       "settings": {
@@ -36,6 +47,7 @@
   },
   "order": [
     "main",
+    "1654671258afe5a2f9",
     "165467105679d9cbc9",
     "1654671145eb99ca1b",
     "form"
