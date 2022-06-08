@@ -5,14 +5,27 @@
       "settings": {
       }
     },
+    "165467105679d9cbc9": {
+      "type": "column",
+      "settings": {
+        "heading_left": "Get in touch",
+        "heading_left_size": "h3",
+        "text_left": "<p><strong>Auckland: <\/strong><a href=\"tel:092769090\">09 276 9090<\/a><br\/><strong>Christchurch:<\/strong> <a href=\"tel:036669292\">03 666 9292<\/a><br\/><strong>Toll Free:<\/strong> <a href=\"tel:0800745537\">0800 745 537<\/a><\/p>",
+        "heading_right": "PillDrop Pharmacy",
+        "heading_right_size": "h3",
+        "text_right": "<p><strong>Auckland<\/strong><br\/>4 Hotunui Drive<br\/>Mt. Wellington, Auckland<br\/><br\/><strong>Christchurch<\/strong><br\/>6\/251 Blenheim Road<br\/>Riccarton, Christchurch<\/p>"
+      }
+    },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
       }
     }
   },
   "order": [
     "main",
+    "165467105679d9cbc9",
     "form"
   ]
 }
