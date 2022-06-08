@@ -21,12 +21,23 @@
       "settings": {
         "form_ids": "3CeDKeqtJaLaUniCqlVjaw"
       }
+    },
+    "165467618008d30973": {
+      "type": "text",
+      "settings": {
+        "heading": "Image with text",
+        "heading_size": "h2",
+        "text": "<p>&lt;div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"3CeDKeqtJaLaUniCqlVjaw\"&gt;&lt;\/div&gt;<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
     "16510315198c1783c4",
-    "1654675848a6613091"
+    "1654675848a6613091",
+    "165467618008d30973"
   ],
   "wrapper": "div.main-wrapper"
 }
