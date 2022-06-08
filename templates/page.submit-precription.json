@@ -8,11 +8,12 @@
     "16510315198c1783c4": {
       "type": "banner-slim",
       "settings": {
+        "image": "shopify:\/\/shop_images\/FAQ.jpg",
         "subheading": "<p><strong>IT'S SIMPLE<\/strong><\/p>",
         "subheading_size": "h4",
-        "heading": "<p>How it works<\/p>",
+        "heading": "<p>Submit precription<\/p>",
         "heading_size": "h1",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>"
+        "text": ""
       }
     },
     "16546741007a3112c2": {
