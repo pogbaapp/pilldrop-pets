@@ -1,6 +1,8 @@
 {
   "current": {
     "checkout_logo_image": "shopify:\/\/shop_images\/Pilldrop_colour.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
     "checkout_heading_font": "Helvetica Neue",
     "checkout_body_font": "Helvetica Neue",
     "checkout_accent_color": "#ec1d24",
