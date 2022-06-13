@@ -140,7 +140,10 @@ $(() => {
         let tags = [];
         $('.js-filter-tags:checked').each((i, el) => tags.push($(el).attr('id')));
 
-        console.log(brands)
+        let collection = [];
+
+        $('.js-filter-collections.active').each((i, el) => collection.push($(el).attr('data-id')));
+
 
         $('.collection__grid__item').each((i, el) => {
             let $this = $(el);
@@ -151,6 +154,9 @@ $(() => {
                 $this.hide();
             }
             if (tags.length > 0 && !item_tags.some(tag => tags.includes(tag))) {
+                $this.hide();
+            }
+            if (collection.length > 0 && !item_tags.some(tag => collection.includes(tag))) {
                 $this.hide();
             }
         });
@@ -164,15 +170,25 @@ $(() => {
     };
 
 
-    $body.on('change', '.js-filter-tags', (e) => {
+    $body.on('click', '.js-filter-collections', (e) => {
         e.preventDefault();
         let $this = $(e.currentTarget);
+        if ($this.hasClass('active')) {
+            $this.removeClass('active')
+        } else {
+            $('.js-filter-collections').removeClass('active');
+            $this.addClass('active')
+        }
+        filterProducts();
+    });
+
+    $body.on('change', '.js-filter-tags', (e) => {
+        e.preventDefault();
         filterProducts();
     });
 
     $body.on('change', '.js-filter-brands', (e) => {
         e.preventDefault();
-        let $this = $(e.currentTarget);
         filterProducts();
     });
 

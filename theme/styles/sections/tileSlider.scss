@@ -5,10 +5,10 @@ Tile Slider
 .tileSlider {
     position: relative;
     width: 100%;
-    padding: 10rem 2rem;
+    padding: 10rem 0rem;
 
     @include media($md, max) {
-        padding: 4rem 2rem 6rem;
+        padding: 4rem 0rem 6rem;
     }
 
     &__wrap {
@@ -20,6 +20,7 @@ Tile Slider
             width: 100%;
             text-align: center;
             margin-bottom: 4rem;
+            padding: 0 2rem;
 
             @include media($md, max) {
                 margin-bottom: 0;
@@ -97,15 +98,15 @@ Tile Slider
                     min-height: 18rem;
                     position: relative;
 
-                    @include media($xmd, max) {
-                        width: calc(50% - 4rem);
-                        margin: 2rem 2rem;
-                    }
+                    // @include media($xmd, max) {
+                    //     width: calc(50% - 4rem);
+                    //     margin: 2rem 2rem;
+                    // }
 
-                    @include media($md, max) {
-                        width: calc(100% - 4rem);
-                        margin: 2rem 2rem;
-                    }
+                    // @include media($md, max) {
+                    //     width: calc(100% - 4rem);
+                    //     margin: 2rem 2rem;
+                    // }
 
                     &__flex {
                         display: flex;

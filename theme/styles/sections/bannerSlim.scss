@@ -1,5 +1,6 @@
-.page--collection .bannerSlim {
-    margin-top: 0;
+.page--collection .bannerSlim__text {
+    padding: 20rem 4rem 20rem;
+    margin-top: 10rem;
 }
 
 .template--page .bannerSlim {
@@ -32,6 +33,7 @@
         @include media($md, max) {
             width: 100%;
             order: 2;
+            padding: 15rem 2rem 10rem;
         }
 
         &__constraint {

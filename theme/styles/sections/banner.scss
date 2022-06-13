@@ -43,7 +43,7 @@
 
         @include media(900px, max) {
             width: 100%;
-            padding: 10rem 2rem 10rem;
+            padding: 20rem 2rem 10rem;
             background: transparent;
             justify-content: flex-start;
         }
@@ -62,7 +62,7 @@
                 @extend .h1;
 
                 @include media(900px, max) {
-                    font-size: 90%;
+                    font-size: 80%;
                 }
             }
 
@@ -70,7 +70,7 @@
                 @extend .h2;
 
                 @include media(900px, max) {
-                    font-size: 90%;
+                    font-size: 80%;
                 }
             }
 
@@ -78,7 +78,7 @@
                 @extend .h3;
 
                 @include media(900px, max) {
-                    font-size: 90%;
+                    font-size: 80%;
                 }
             }
 

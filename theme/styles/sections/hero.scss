@@ -28,7 +28,7 @@
             position: relative;
             overflow: hidden;
 
-            @include media($xmd, max) {
+            @include media(860px, max) {
                 width: 100%;
             }
 
@@ -38,6 +38,10 @@
                 position: absolute;
                 object-fit: cover;
                 z-index: 1;
+
+                @include media($md, max) {
+                    object-position: 50% 20%;
+                }
             }
 
             &__heading {

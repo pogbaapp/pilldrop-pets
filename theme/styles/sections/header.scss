@@ -2,23 +2,25 @@
 Header
 ------------------------------------------------------------------*/
 .template--index {
-    .header:not(.sticky) {
-        background: transparent;
+    @include media(1100px) {
+        .header:not(.sticky) {
+            background: transparent;
 
-        .header__wrap__logo path {
-            &:nth-child(3) {
-                fill: white;
-                stroke: white;
-            }
-            &:nth-child(4) {
-                fill: white;
-                stroke: white;
-            }
-            &:nth-child(5) {
-                fill: white;
-            }
-            &:nth-child(6) {
-                fill: white;
+            .header__wrap__logo path {
+                &:nth-child(3) {
+                    fill: white;
+                    stroke: white;
+                }
+                &:nth-child(4) {
+                    fill: white;
+                    stroke: white;
+                }
+                &:nth-child(5) {
+                    fill: white;
+                }
+                &:nth-child(6) {
+                    fill: white;
+                }
             }
         }
     }
@@ -28,13 +30,13 @@ body:not(.template--index) .header {
     background: white !important;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1) !important;
 
-    .header__wrap__nav__item {
+    .header__wrap__nav__item__link {
         @include media(1100px) {
             color: var(--text) !important;
         }
     }
 
-    &.sticky .header__wrap__nav__item {
+    &.sticky .header__wrap__nav__item__link {
         @include media(1100px, max) {
             color: var(--text);
         }
@@ -66,7 +68,9 @@ body:not(.template--index) .header {
         box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 
         .header__wrap__nav__item {
-            color: var(--text);
+            &__link {
+                color: var(--text);
+            }
         }
     }
 
@@ -118,6 +122,10 @@ body:not(.template--index) .header {
 
                     @include media(1100px) {
                         color: white;
+                    }
+
+                    @include media($md, max) {
+                        font-size: 1rem;
                     }
                 }
             }
@@ -202,11 +210,67 @@ body:not(.template--index) .header {
             }
 
             &__item {
-                font-weight: 500;
                 position: relative;
-                padding: 2rem 1.5rem;
-                color: var(--grey-dark);
-                text-transform: uppercase;
+                perspective: 800px;
+
+                &:hover .header__wrap__nav__item__menu {
+                    opacity: 1 !important;
+                    visibility: visible !important;
+                    transform: rotateX(0deg) !important;
+                }
+
+                &__link {
+                    position: relative;
+                    font-weight: 500;
+                    padding: 2rem 1.5rem;
+                    color: var(--grey-dark);
+                    display: block;
+                    text-transform: uppercase;
+                }
+
+                &__menu {
+                    position: absolute;
+                    background: white;
+                    padding: 1rem;
+                    border-radius: 0.5rem;
+                    width: 20rem;
+                    left: 50%;
+                    margin-left: -10rem;
+                    transform-origin: 50% 0;
+                    transition: all $medium;
+                    transform: translateY(0.5rem);
+                    opacity: 0;
+                    visibility: hidden;
+                    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+                    &::after {
+                        @include pseudo;
+                        width: 2rem;
+                        height: 2rem;
+                        background: white;
+                        border-radius: 0.2rem;
+                        transform: rotate(45deg);
+                        top: -0.3rem;
+                        left: 50%;
+                        margin-left: -1rem;
+                    }
+
+                    &__item {
+                        text-transform: uppercase;
+
+                        a {
+                            color: var(--text);
+                            font-size: 1.2rem;
+                            font-weight: 600;
+                            transition: all $fast;
+                            padding: 1rem;
+                            display: block;
+
+                            &:hover {
+                                color: var(--primary);
+                            }
+                        }
+                    }
+                }
             }
         }
 

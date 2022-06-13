@@ -4,12 +4,46 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    position: relative;
+
+    @include media($md, max) {
+        padding: 4rem 0rem;
+    }
 
     &__filters {
         width: 30rem;
+        position: relative;
+        top: -8.5rem;
+
+        &__toggle {
+            background: var(--primary);
+            padding: 1rem;
+            margin: -2rem -2rem 2rem;
+            display: block;
+            font-weight: bold;
+            color: white;
+
+            polygon {
+                fill: white;
+            }
+        }
+
+        @include media(1111px, max) {
+            top: 0;
+        }
 
         @include media($md, max) {
-            display: none;
+            position: absolute;
+            top: 7rem;
+            left: 0;
+            background: white;
+            box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+            z-index: 66;
+            padding: 2rem;
+            max-width: 400px;
+            width: 100%;
+            transition: all $fast;
+            // transform: translateX(-105%);
         }
 
         &__title {
@@ -49,11 +83,8 @@
             }
 
             @include media($md, max) {
-                width: calc(50% - 4rem);
-            }
-
-            @include media($xs, max) {
-                width: calc(100%);
+                width: calc(50% - 2rem);
+                margin: 1rem;
             }
 
             &__image {
@@ -61,6 +92,12 @@
                 display: block;
                 width: 100%;
                 background-color: var(--grey-light);
+                &:before {
+                    @include pseudo;
+                    @include full;
+                    background: rgba(black, 0.05);
+                    z-index: 3;
+                }
 
                 img {
                     width: 100%;
@@ -243,3 +280,5 @@ $size: 100px;
         }
     }
 }
+
+

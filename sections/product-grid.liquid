@@ -4,27 +4,36 @@
 
 <div class="filter">
   <div class="filter__wrap">
-    <a href="/collections/most-popular" class="filter__wrap__item {% if collection.title == 'Most Popular' %}active{% endif %}">
+    <a href="/collections/most-popular" class="filter__wrap__item [ js-filter-collections ] {% if collection.title == 'Most Popular' %}active{% endif %}" data-id="Most Popular">
       <p class="colour--red"><b>Most popular</b></p>
     </a>
 
-    <a href="/collections/cats" class="filter__wrap__item {% if collection.title == 'Cats' %}active{% endif %}">
+    <a href="/collections/cats" class="filter__wrap__item [ js-filter-collections ] {% if collection.title == 'Cats' %}active{% endif %}" data-id="Cats">
       <p class="colour--red"><b>Cats</b></p>
       <img src="{{ 'mini-cat.png' | asset_url }}" width="140" height="140" loading="lazy" />
     </a>
 
-    <a href="/collections/dogs" class="filter__wrap__item {% if collection.title == 'Dogs' %}active{% endif %}">
+    <a href="/collections/dogs" class="filter__wrap__item [ js-filter-collections ] {% if collection.title == 'Dogs' %}active{% endif %}" data-id="Dogs">
       <p class="colour--red"><b>Dogs</b></p>
       <img src="{{ 'mini-dog.png' | asset_url }}" width="140" height="140" loading="lazy" />
     </a>
 
-    <a href="/collections/horses" class="filter__wrap__item {% if collection.title == 'Horses' %}active{% endif %}">
+    <a href="/collections/horses" class="filter__wrap__item [ js-filter-collections ] {% if collection.title == 'Horses' %}active{% endif %}" data-id="Horses">
       <p class="colour--red"><b>Horses</b></p>
       <img src="{{ 'mini-horse.png' | asset_url }}" width="140" height="140" loading="lazy" />
     </a>
     
   </div>
 </div>
+
+<a href="#" class="filter__toggle [ js-toggle-filters ]">
+  <span class="[ js-toggle-filters-text ]">Show Filters</span>
+  <span class="filter-icon">
+      <b><i></i></b>
+      <b><i></i></b>
+      <b><i></i></b>
+  </span>
+</a>
 
 {% comment %}
   Product grid
@@ -38,6 +47,11 @@
     Product Filters
   {% endcomment %}
   <div class="collection__filters">
+
+    <a href="#" class="collection__filters__toggle">
+      <span><svg xmlns="http://www.w3.org/2000/svg" width="15" height="11" viewBox="0 0 15 11"><polygon fill="#000" fill-rule="evenodd" points="14.7 4.776 3.12 4.776 6.652 1.245 5.502 .095 0 5.597 5.502 11.1 6.652 9.95 3.12 6.419 14.7 6.419"/></svg> CLOSE<span>
+    </a>
+
     <h4 class="colour--red">Shop by...</h4>
     
     <h6 class="collection__filters__title">Condition</h6>
