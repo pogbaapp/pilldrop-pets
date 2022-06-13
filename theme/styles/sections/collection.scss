@@ -22,7 +22,12 @@
             display: block;
             font-weight: bold;
             color: white;
+            display: none;
 
+            @include media($md, max) {
+                display: block;
+            }
+            
             polygon {
                 fill: white;
             }
@@ -43,7 +48,7 @@
             max-width: 400px;
             width: 100%;
             transition: all $fast;
-            // transform: translateX(-105%);
+            transform: translateX(-105%);
         }
 
         &__title {
@@ -280,5 +285,3 @@ $size: 100px;
         }
     }
 }
-
-

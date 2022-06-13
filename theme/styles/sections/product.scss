@@ -4,7 +4,7 @@ Product
 
 .product {
     position: relative;
-    
+
     &__wrap {
         margin: 0 auto;
         display: flex;
@@ -52,7 +52,6 @@ Product
                     position: relative;
                     display: block;
 
-
                     &__sale {
                         background: var(--green-dark);
                         color: white;
@@ -84,6 +83,24 @@ Product
                 padding-right: 0;
             }
 
+            &__description {
+                line-height: 1.4;
+
+                h3 {
+                    font-size: 2.2rem;
+                }
+            }
+
+            .breadcrumbs__wrap {
+                padding-left: 0;
+                padding-bottom: 0;
+
+                &__item {
+                    &:first-of-type {
+                        padding-left: 0;
+                    }
+                }
+            }
             h1 {
                 margin-bottom: 0;
             }

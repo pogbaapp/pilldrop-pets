@@ -29,7 +29,7 @@ $green-dark: #305c59;
     top: 0;
     bottom: 0;
     right: 0;
-    background: $grey-light;
+    background: white;
     transition: all $fast;
     transform: translateX(100%);
     will-change: transform;
@@ -94,7 +94,7 @@ $green-dark: #305c59;
         font-size: 1.1rem;
         position: relative;
         padding-right: 1rem;
-        background: $grey-light;
+        background: white;
         z-index: 1;
       }
     }
@@ -137,7 +137,7 @@ $green-dark: #305c59;
       width: 100%;
       max-height: calc(100vh - 33.2rem);
       position: relative;
-      background: $grey-light;
+      background: white;
       overflow: hidden;
 
       @include media($md, max) {
@@ -184,7 +184,7 @@ $green-dark: #305c59;
         transition: opacity $medium, transform $medium;
         will-change: opacity, transform;
         opacity: 0;
-        background: $grey-light;
+        background: white;
         backface-visibility: hidden;
 
         @for $i from 0 through 12 {
@@ -330,7 +330,6 @@ $green-dark: #305c59;
 
   strong:last-of-type {
     color: $grey-light;
-    // background: $blue-dark;
     background: $green-dark;
     position: relative;
     margin-left: 0.5rem;

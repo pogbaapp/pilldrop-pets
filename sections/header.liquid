@@ -82,10 +82,25 @@ Mobile Menu
 
     
     <div class="mobileMenu__wrap">
-        {% for link in linklists.main-menu.links %}
+        {% for link in linklists.mobile-menu.links %}
             
-            <div class="mobileMenu__wrap__item {% if link.current %}current{% endif %}">
-                <a href="{{ link.url }}" class="colour--white" style="">{{ link.title | escape }} </a>
+            <div class="mobileMenu__wrap__item {% if link.current %}current{% endif %}" data-id="{{ link.url }}">
+                <a href="{{ link.url }}" style="">{{ link.title | escape }} </a>
+
+                {% if link.links != blank %}
+                    
+                    <span onclick="toggleMobileMenu('{{ link.url }}')"></span>
+
+                    <div class="mobileMenu__wrap__item__menu">
+                        {% for childlink in link.links %}
+                        <div class="mobileMenu__wrap__item__menu__item">
+                            <a href="{{ childlink.url }}" data-id="{{ childlink.title }}" class="mobileMenu__wrap__item__menu__item__link {% if childlink.active %}mobileMenu__wrap__item__menu__item__link--current{% endif %}">
+                                {{ childlink.title | escape }}
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
             </div>
         {%- endfor -%}
             

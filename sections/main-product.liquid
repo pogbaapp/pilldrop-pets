@@ -1,10 +1,5 @@
 <div class="banner__push"></div>
 
-{% comment %}
-    Breadcrumbs
-{% endcomment %}
-    
-    {% render 'breadcrumbs' %}
 
 <div class="product">
     <div class="product__wrap">
@@ -50,10 +45,17 @@
       <div class="product__wrap__details">
         <div class="product__wrap__details__inner [ js-in-view ]">
   
+          {% comment %}
+          Breadcrumbs
+          {% endcomment %}
+    
+          {% render 'breadcrumbs' %}
+
+
           <h1 class="colour--text">{{ product.title }}</h1>
           <h3 class="[ js-variation-price ] colour--text">{{ product.price | money }}</h3>
           <hr>
-          <p class="colour--text">{{ product.description }}</p>
+         
   
           <div class="product__wrap__details__form">
   
@@ -93,7 +95,12 @@
             </button>
   
             {% endform %}
-  
+
+            <hr>
+            <div class="product__wrap__details__description">
+              {{ product.description }}
+            </div>
+
           </div>
   
         </div>

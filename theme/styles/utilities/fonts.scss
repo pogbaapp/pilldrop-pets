@@ -145,6 +145,10 @@ strong {
   text-align: center;
 }
 
+.small {
+  font-size: 80%;
+}
+
 .text-right {
   text-align: right;
 }
@@ -154,7 +158,6 @@ hr {
   margin: 3rem auto;
   border-bottom: 1px solid #f2f2f2;
 }
-
 
 .arrow-link {
   color: var(--primary);
