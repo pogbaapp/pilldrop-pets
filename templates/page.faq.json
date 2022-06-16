@@ -9,7 +9,7 @@
       "type": "banner-slim",
       "settings": {
         "image": "shopify:\/\/shop_images\/pilldrop_pet_prescriptions_contact.jpg",
-        "subheading": "<p><strong>LEARN MORE<\/strong><\/p>",
+        "subheading": "",
         "subheading_size": "h6",
         "heading": "<p>Frequently Asked<br\/>Questions<\/p>",
         "heading_size": "h1",
