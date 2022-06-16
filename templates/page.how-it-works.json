@@ -10,8 +10,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/banner_slim.jpg",
         "subheading": "<p><strong>HOW IT WORKS<\/strong><\/p>",
-        "subheading_size": "h4",
-        "heading": "<p>Pet prescriptions made easy<\/p>",
+        "subheading_size": "h6",
+        "heading": "<p>Pet prescriptions <br\/>made easy<\/p>",
         "heading_size": "h1",
         "text": ""
       }
