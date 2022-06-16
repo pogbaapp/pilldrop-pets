@@ -100,7 +100,7 @@
                 &:before {
                     @include pseudo;
                     @include full;
-                    background: rgba(black, 0.05);
+                    background: rgba(black, 0.025);
                     z-index: 3;
                 }
 

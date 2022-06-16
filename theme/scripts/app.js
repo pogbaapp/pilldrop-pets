@@ -192,5 +192,19 @@ $(() => {
         filterProducts();
     });
 
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const filterString = urlParams.get('filter')
+    console.log(filterString);
+
+    if (filterString.length) {
+        let filters = filterString.split(',');
+        filters.forEach(filter => {
+            $(`.js-filter-tags[id="${filter.replaceAll('-', ' ')}"]`).prop('checked', true);
+            $(`.js-filter-collections[data-id="${filter.replaceAll('-', ' ')}"]`).addClass('active');
+        });
+        filterProducts();
+    }
+
 
 });

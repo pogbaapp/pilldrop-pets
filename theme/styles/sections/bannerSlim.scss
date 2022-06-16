@@ -18,10 +18,13 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         padding: 20rem 4rem 20rem;
         position: relative;
         z-index: 3;
+        width: 100%;
+        max-width: 1450px;
+        margin: 0 auto;
 
         &:after {
             @include pseudo;

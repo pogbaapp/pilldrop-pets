@@ -18,7 +18,7 @@
             @include full;
             background: rgba(black, 0.4);
         }
- 
+
         iframe {
             position: absolute;
             width: 100%;
@@ -37,9 +37,12 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         padding: 20rem 4rem 20rem;
         position: relative;
+        width: 100%;
+        max-width: 1450px;
+        margin: 0 auto;
 
         @include media(900px, max) {
             &:before {
