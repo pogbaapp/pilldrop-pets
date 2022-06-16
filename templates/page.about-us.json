@@ -10,7 +10,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Pilldrop_aboutus.jpg",
         "subheading": "<p><strong>OUR STORY<\/strong><\/p>",
-        "subheading_size": "h5",
+        "subheading_size": "h6",
         "heading": "<p>About us<\/p>",
         "heading_size": "h1",
         "text": ""
