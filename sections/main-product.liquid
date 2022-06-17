@@ -71,6 +71,7 @@
               {% endfor %}
             </select>
   
+            <div class="divide"></div>
   
             <div class="quantity quantity--inline">
               <a href="#" class="quantity__subtract [ js-change-quantity-inline ]" data-type="subtract">
@@ -223,6 +224,28 @@
 
 
 {% assign current_variant = product.selected_or_first_available_variant %}
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/choices.js@9.0.1/public/assets/scripts/choices.min.js"></script>
+
+
+
+<script>
+  // Declare our selects
+  var selects = document.querySelectorAll('.js-choices');
+
+  // Hide all other menus
+  selects.forEach(function (item) { 
+    var choices = new Choices(item, {
+      itemSelectText: '',
+      searchEnabled: false,
+    });
+    
+  })
+</script>
+
 
 <script type="application/ld+json">
     {

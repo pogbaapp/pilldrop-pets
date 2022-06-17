@@ -652,8 +652,7 @@ Background Image
     height: 100%;
     position: absolute;
     z-index: 1;
-    overflow: hidden;
-    background: #000; }
+    overflow: hidden; }
     .bannerSlim__image img {
       height: 120%;
       width: 100%;
@@ -2843,6 +2842,20 @@ Quantity
   .quantity--cart .quantity__quantity {
     width: 4rem;
     font-size: 2.4rem; }
+
+.divide {
+  width: 100%;
+  height: 2px;
+  display: block; }
+
+.choices {
+  width: 100%;
+  max-width: 35rem; }
+  .choices .choices__inner {
+    background: transparent; }
+  .choices .choices__item {
+    position: relative;
+    top: 3px; }
 
 .scroller {
   background-size: cover;

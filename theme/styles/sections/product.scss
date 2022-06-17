@@ -198,3 +198,21 @@ Quantity
         font-size: 2.4rem;
     }
 }
+
+.divide {
+    width: 100%;
+    height: 2px;
+    display: block;
+}
+
+.choices {
+    width: 100%;
+    max-width: 35rem;
+    .choices__inner {
+        background: transparent;
+    }
+    .choices__item {
+        position: relative;
+        top: 3px;
+    }
+}

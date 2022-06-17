@@ -130,7 +130,6 @@ $(() => {
 
     $body.on('click', '.js-change-quantity-inline', (e) => {
         e.preventDefault();
-        console.log('fdhjkfjshkd')
         let $this = $(e.currentTarget);
         let $quantity = $this.parent().find('input');
         let quantity = parseInt($quantity.val());
