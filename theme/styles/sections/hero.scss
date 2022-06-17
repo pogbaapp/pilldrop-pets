@@ -1,14 +1,18 @@
 .hero {
-    margin: -5rem auto 10rem;
+    margin: -18rem auto 10rem;
     position: relative;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
 
+    @include media($xmd, max) {
+        margin: -6rem auto 10rem;
+    }
+
     &__wrap {
         display: flex;
         flex-wrap: wrap;
-        max-width: var(--content-width);
+        max-width: var(--inner-content-width);
         margin: 0 auto;
         padding: 0;
         width: 100%;
@@ -27,6 +31,7 @@
             border-radius: 1rem;
             position: relative;
             overflow: hidden;
+            color: var(--text);
 
             @include media(860px, max) {
                 width: 100%;
@@ -49,10 +54,10 @@
                 padding: 4rem 1rem 0;
                 position: relative;
                 z-index: 2;
-                margin-bottom: 36rem;
+                margin-bottom: 24rem;
 
                 @include media(1200px, max) {
-                    margin-bottom: 24rem;
+                    margin-bottom: 22rem;
                 }
 
                 h4 {

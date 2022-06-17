@@ -10,7 +10,40 @@ import Shop from './shop';
 import $ from 'jquery';
 import slick from 'slick-carousel';
 
+
+const queryAll = document.querySelectorAll.bind(document);
+
+let parallaxItems = [];
+
+const scrollHandler = () => {
+    let windowHeight = window.innerHeight;
+    parallaxItems.forEach((item) => {
+        let ratio = parseFloat(item.getAttribute('data-parallax'));
+        let rect = item.getBoundingClientRect();
+
+        if (rect.top < window.innerHeight && rect.bottom > 0) {
+            let normalized = (rect.top - windowHeight) / (rect.top - rect.bottom - windowHeight);
+            normalized = Math.max(0, Math.min(1, normalized));
+            let y = normalized * ratio * rect.height;
+            item.style.webkitTransform = 'translate(0, ' + y + 'px)';
+            item.style.msTransform = 'translate(0, ' + y + 'px)';
+            item.style.transform = 'translate(0, ' + y + 'px)';
+            let opacity = (100 - (y / 6 * y / 100) + 20 - 4.73) / 100;
+            item.style.opacity = opacity
+
+        }
+    });
+}
+
+
 $(() => {
+
+
+    parallaxItems = [...queryAll('[data-parallax]')];
+
+    scrollHandler();
+
+    window.addEventListener('scroll', scrollHandler);
 
     new Shop($('body'));
 
@@ -195,9 +228,8 @@ $(() => {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const filterString = urlParams.get('filter')
-    console.log(filterString);
 
-    if (filterString.length) {
+    if (filterString && filterString.length) {
         let filters = filterString.split(',');
         filters.forEach(filter => {
             $(`.js-filter-tags[id="${filter.replaceAll('-', ' ')}"]`).prop('checked', true);

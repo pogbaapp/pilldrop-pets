@@ -88,7 +88,7 @@
 
     {%- endif -%}
     <div class="banner__image">
-        <img loading="lazy"
+        <img loading="lazy" data-parallax="-.2"
             srcset="{{ section.settings.image | image_url: width: 480 }} 480w,
                     {{ section.settings.image | image_url: width: 800 }} 800w,
                     {{ section.settings.image | image_url: width: 1600 }} 1600w,"
@@ -101,6 +101,8 @@
             height="{{ section.settings.image.height }}">
     </div>
   </div>
+
+
    
 
 {% schema %}

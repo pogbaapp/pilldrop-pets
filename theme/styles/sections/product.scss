@@ -51,6 +51,7 @@ Product
                 &__featured {
                     position: relative;
                     display: block;
+                    margin-top: 8rem;
 
                     &__sale {
                         background: var(--green-dark);
@@ -65,6 +66,16 @@ Product
                     img {
                         width: 100%;
                         height: auto;
+                    }
+
+                    .js-product-imagery-slider > div {
+                        position: relative;
+
+                        &:after {
+                            @include pseudo;
+                            @include full;
+                            background: rgba(black, 0.025);
+                        }
                     }
                 }
             }
@@ -92,6 +103,7 @@ Product
             }
 
             .breadcrumbs__wrap {
+                margin-top: 6rem;
                 padding-left: 0;
                 padding-bottom: 0;
 
