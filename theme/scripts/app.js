@@ -4,8 +4,9 @@ Import styles
 
 import './../styles/style.scss';
 
-console.log('Shopify Skeleton 💀');
+console.log('Shopify Skeleton 1.1 💀');
 
+import './predictive-search';
 import Shop from './shop';
 import $ from 'jquery';
 import slick from 'slick-carousel';
@@ -236,6 +237,10 @@ $(() => {
         });
         filterProducts();
     }
+
+
+
+
 
 
 });

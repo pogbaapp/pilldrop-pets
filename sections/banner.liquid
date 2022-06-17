@@ -38,7 +38,6 @@
                         let bh = banner.clientHeight;
                         let ratio = 1920 / 1080;
 
-                        console.log(bannerVideo);
                         if (bw / bh < ratio) {
                             bannerVideo.style.height = bh + 'px';
                             bannerVideo.style.width = bh * ratio + 'px';
@@ -73,8 +72,8 @@
 
                         function onPlayerStateChange(event) {
                           if (event.data == YT.PlayerState.ENDED) {
-                            setTimeout(player.playVideo(), 60);
-                          }
+                            setTimeout(function(){ player.playVideo()}, 60);
+                          } 
                         }
                          
                         window.addEventListener('resize', throttle(resizeVideo, 100));
