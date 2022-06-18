@@ -4,7 +4,7 @@ Import styles
 
 import './../styles/style.scss';
 
-console.log('Shopify Skeleton 1.1 💀');
+console.log('Shopify Skeleton 1.2 💀');
 
 import './predictive-search';
 import Shop from './shop';
@@ -19,10 +19,7 @@ $(() => {
         let scrollAmount = window.scrollY;
 
         let opacity = (scrollHeight - scrollAmount) / scrollHeight
-        console.log(scrollHeight, scrollAmount);
-
         let scale = 1.1 - ((scrollHeight - scrollAmount) / scrollHeight) / 10;
-        console.log(scale)
 
         $('.bannerSlim__image').css({ opacity: opacity.toFixed(2) });
         $('.bannerSlim__image img').css({ transform: `scale(${scale})` });

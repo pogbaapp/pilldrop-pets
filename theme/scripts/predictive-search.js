@@ -6,9 +6,6 @@ $(() => {
 
     $('body').on('click', '.js-toggle-search', (e) => {
         e.preventDefault();
-
-        console.log('toggle search')
-
         $('body').toggleClass('search-active');
         setTimeout(() => $('.js-search-query').get(0).focus(), 1000);
     });

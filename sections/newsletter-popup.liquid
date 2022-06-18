@@ -19,7 +19,7 @@
       {% if section.settings.popup_title != blank %}
         <h3>{{ section.settings.popup_title }}</h3>
       {% endif %}
-
+ 
       {% if section.settings.popup_image %}
       <div class="popup__inner__content__image">
         <img loading="lazy" src="{{ section.settings.popup_image | image_url: width: 475, height: 135 }}" 
