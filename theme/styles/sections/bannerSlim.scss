@@ -12,6 +12,7 @@
     flex-wrap: wrap;
     margin: 2rem auto 0;
     position: relative;
+    background: var(--text);
 
     &__text {
         width: 40%;
@@ -122,13 +123,12 @@
         overflow: hidden;
 
         img {
-            height: 120%;
+            height: 100%;
             width: 100%;
             position: absolute;
-            top: 20%;
+            top: 0%;
             left: 0;
             object-fit: cover;
         }
     }
 }
-

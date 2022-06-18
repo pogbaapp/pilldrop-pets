@@ -21,14 +21,13 @@
         }
 
         &__inner {
-            // max-width: 39rem;
-
             @include media($xmd, max) {
                 width: 100%;
             }
 
             p {
                 color: white;
+                font-weight: 600;
             }
         }
     }
@@ -62,6 +61,10 @@
                 &__content {
                     max-width: 30rem;
                     color: white;
+
+                    p {
+                        font-weight: 600;
+                    }
                 }
 
                 &__link {

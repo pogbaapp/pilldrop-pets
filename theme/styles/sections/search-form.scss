@@ -273,6 +273,10 @@ Active styles
     transform: translateY(0);
   }
 
+  .header {
+    background: white !important;
+  }
+
   .header__wrap__nav,
   .header__wrap__account,
   .header__wrap__logo {
@@ -325,7 +329,7 @@ Results
     &__item {
       width: calc(25% - 4rem);
       margin: 0 2rem 2rem;
-      
+
       &__image {
         @include aspect(1, 1);
         width: 100%;
@@ -346,7 +350,7 @@ Results
         }
       }
 
-      p a{
+      p a {
         color: var(--primary);
       }
     }

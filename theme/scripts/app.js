@@ -12,35 +12,22 @@ import $ from 'jquery';
 import slick from 'slick-carousel';
 
 
-const queryAll = document.querySelectorAll.bind(document);
-
-let parallaxItems = [];
-
-const scrollHandler = () => {
-    let windowHeight = window.innerHeight;
-    parallaxItems.forEach((item) => {
-        let ratio = parseFloat(item.getAttribute('data-parallax'));
-        let rect = item.getBoundingClientRect();
-
-        if (rect.top < window.innerHeight && rect.bottom > 0) {
-            let normalized = (rect.top - windowHeight) / (rect.top - rect.bottom - windowHeight);
-            normalized = Math.max(0, Math.min(1, normalized));
-            let y = normalized * ratio * rect.height;
-            item.style.webkitTransform = 'translate(0, ' + y + 'px)';
-            item.style.msTransform = 'translate(0, ' + y + 'px)';
-            item.style.transform = 'translate(0, ' + y + 'px)';
-            let opacity = (100 - (y / 6 * y / 100) + 20 - 4.73) / 100;
-            item.style.opacity = opacity
-
-        }
-    });
-}
-
-
 $(() => {
 
+    const scrollHandler = () => {
+        let scrollHeight = $('.bannerSlim').height();
+        let scrollAmount = window.scrollY;
 
-    parallaxItems = [...queryAll('[data-parallax]')];
+        let opacity = (scrollHeight - scrollAmount) / scrollHeight
+        console.log(scrollHeight, scrollAmount);
+
+        let scale = 1.1 - ((scrollHeight - scrollAmount) / scrollHeight) / 10;
+        console.log(scale)
+
+        $('.bannerSlim__image').css({ opacity: opacity.toFixed(2) });
+        $('.bannerSlim__image img').css({ transform: `scale(${scale})` });
+
+    };
 
     scrollHandler();
 

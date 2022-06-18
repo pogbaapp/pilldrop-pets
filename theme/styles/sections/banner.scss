@@ -5,8 +5,10 @@
     position: relative;
     overflow: hidden;
 
+
     &--off-white {
         background: var(--off-white);
+
         .bannerSlim__text {
             padding: 20rem 4rem 10rem;
         }
