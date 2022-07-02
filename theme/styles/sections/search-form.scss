@@ -288,11 +288,16 @@ Active styles
     opacity: 1;
     visibility: visible;
     z-index: 99999999;
-    // transition-delay: 666ms;
     padding-top: 4rem;
   }
 
   .header__wrap__search {
+    border-color: transparent;
+
+    p {
+      opacity: 0;
+    }
+
     svg {
       opacity: 0;
       transform: scale(0.7);
@@ -305,11 +310,6 @@ Active styles
         opacity: 1;
         transform: scale(1.1);
       }
-    }
-
-    &__dot {
-      // transition-delay: 0ms;
-      // transform: translateX(-50%) translateY(-50%) scale(1);
     }
   }
 }
