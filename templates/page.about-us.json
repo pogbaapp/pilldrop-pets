@@ -46,6 +46,16 @@
         "button_link": ""
       }
     },
+    "16568793494c583c31": {
+      "type": "text",
+      "settings": {
+        "heading": "Introducing our veterinarian: Louise Harvey",
+        "heading_size": "h2",
+        "text": "<p>PillDrop Pets is proud to welcome experienced veterinarian, Louise Harvey, to the team. <br\/>Louise is excited to join PillDrop Pets and is the perfect fit. She believes every owner should<br\/>have access to affordable, consistent, and excellent care to support their pets to live longer,<br\/>happier, and healthier lives. <br\/>Louise grew up on a sheep farm near Gore and so began her love for animal health. As a<br\/>child, she helped her dad care for sick sheep during the lambing season, reared stray kittens<br\/>who later became family pets, and enjoyed the company of a large gang of working and<br\/>hunting dogs.<br\/>Graduating from Palmerston North in 2016 with a Bachelor of Veterinary Science, Louise’s<br\/>first job was as a companion animal vet in a central Auckland clinic. Since then, her patients<br\/>have mainly been cats and dogs.<br\/>During her time at the clinic, Louise became a pet sitter which included animals with chronic<br\/>medical conditions who couldn’t stay at kennels or catteries. Through this experience, she<br\/>was exposed to the very real challenges of medicating pets at home. She saw first-hand how<br\/>difficult it could be for owners to follow the right medicine regime for their pets with the<br\/>various tablets, capsules, liquids, and ointments that are prescribed.<br\/>All this experience means Louise has a keen interest in the different ways vets can improve;<br\/>to both meet the medical needs for pets – and make the experience much easier for owners.<br\/>One way to achieve this is by personalising a pet’s medication regime so that it meets the<br\/>owner’s needs for efficiency and accessibility and improves the pet’s quality of life and<br\/>longevity. Another way is making sure pets have the best exercise, diet, and lifestyle<br\/>routines to complement their medical care. <br\/>Louise really enjoys the uniqueness of each patient she treats and says, “I love the<br\/>challenge of expanding my repertoire of ways in which I can help pets, be this with medicine,<br\/>diet or lifestyle adjustments.”  <br\/><br\/>At PillDrop Pets, Louise will be helping you better understand what your animals have been<br\/>prescribed, so that you can confidently manage your pet's medications at home. She will be<br\/>available for advice and support on how you can help your much-loved pets have and<br\/>maintain a healthy lifestyle where correct medicine management is key.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
     "1654072422ee4ffbdd": {
       "type": "background-image",
       "settings": {
@@ -56,16 +66,6 @@
         "button_label": "Learn more",
         "button_link": "shopify:\/\/pages\/how-it-works"
       }
-    },
-    "16568793494c583c31": {
-      "type": "text",
-      "settings": {
-        "heading": "Introducing our veterinarian: Louise Harvey",
-        "heading_size": "h2",
-        "text": "<p>PillDrop Pets is proud to welcome experienced veterinarian, Louise Harvey, to the team. <br\/>Louise is excited to join PillDrop Pets and is the perfect fit. She believes every owner should<br\/>have access to affordable, consistent, and excellent care to support their pets to live longer,<br\/>happier, and healthier lives. <br\/>Louise grew up on a sheep farm near Gore and so began her love for animal health. As a<br\/>child, she helped her dad care for sick sheep during the lambing season, reared stray kittens<br\/>who later became family pets, and enjoyed the company of a large gang of working and<br\/>hunting dogs.<br\/>Graduating from Palmerston North in 2016 with a Bachelor of Veterinary Science, Louise’s<br\/>first job was as a companion animal vet in a central Auckland clinic. Since then, her patients<br\/>have mainly been cats and dogs.<br\/>During her time at the clinic, Louise became a pet sitter which included animals with chronic<br\/>medical conditions who couldn’t stay at kennels or catteries. Through this experience, she<br\/>was exposed to the very real challenges of medicating pets at home. She saw first-hand how<br\/>difficult it could be for owners to follow the right medicine regime for their pets with the<br\/>various tablets, capsules, liquids, and ointments that are prescribed.<br\/>All this experience means Louise has a keen interest in the different ways vets can improve;<br\/>to both meet the medical needs for pets – and make the experience much easier for owners.<br\/>One way to achieve this is by personalising a pet’s medication regime so that it meets the<br\/>owner’s needs for efficiency and accessibility and improves the pet’s quality of life and<br\/>longevity. Another way is making sure pets have the best exercise, diet, and lifestyle<br\/>routines to complement their medical care. <br\/>Louise really enjoys the uniqueness of each patient she treats and says, “I love the<br\/>challenge of expanding my repertoire of ways in which I can help pets, be this with medicine,<br\/>diet or lifestyle adjustments.”  <br\/><br\/>At PillDrop Pets, Louise will be helping you better understand what your animals have been<br\/>prescribed, so that you can confidently manage your pet's medications at home. She will be<br\/>available for advice and support on how you can help your much-loved pets have and<br\/>maintain a healthy lifestyle where correct medicine management is key.<\/p>",
-        "button_label": "",
-        "button_link": ""
-      }
     }
   },
   "order": [
@@ -74,8 +74,8 @@
     "165407221457d375a5",
     "165407237486075401",
     "1654072419df7eab99",
-    "1654072422ee4ffbdd",
-    "16568793494c583c31"
+    "16568793494c583c31",
+    "1654072422ee4ffbdd"
   ],
   "wrapper": "div.main-wrapper"
 }
