@@ -16,7 +16,7 @@
 
     &--dark {
         * {
-            color: var(--text);
+            color: var(--text) !important;
         }
     }
 
