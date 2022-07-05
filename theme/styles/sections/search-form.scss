@@ -13,9 +13,7 @@
   max-width: 70rem;
   margin: 0 auto;
 
-  @include media($md, max) {
-    height: 6rem;
-  }
+
 
   &__wrapper {
     width: 100%;
@@ -73,6 +71,7 @@
 
     @include media($md, max) {
       padding: 1rem 2rem;
+      margin-top: 6.5rem;
     }
 
     &__title {
