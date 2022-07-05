@@ -56,6 +56,18 @@
         "button_link": ""
       }
     },
+    "16570076576ba4e626": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cat_banner_lifestyle.png",
+        "heading": "Introducing our veterinarian: Louise Harvey",
+        "heading_size": "h2",
+        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "layout": "right"
+      }
+    },
     "1654072422ee4ffbdd": {
       "type": "background-image",
       "settings": {
@@ -75,6 +87,7 @@
     "165407237486075401",
     "1654072419df7eab99",
     "16568793494c583c31",
+    "16570076576ba4e626",
     "1654072422ee4ffbdd"
   ],
   "wrapper": "div.main-wrapper"
