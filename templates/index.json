@@ -172,9 +172,9 @@
       "type": "background-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/woof.jpg",
-        "heading": "PillDrop Pets. Your new way of pharmacy.",
+        "heading": "FREE delivery*",
         "heading_size": "h2",
-        "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+        "text": "<p><strong>With PillDrop Pets, you will enjoy FREE delivery* on all orders over $150.<\/strong><\/p>",
         "button_label": "SHOP NOW",
         "button_link": "shopify:\/\/collections\/all"
       }
