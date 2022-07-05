@@ -5,6 +5,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/cat_banner.jpg",
         "subheading": "",
+        "colour": "dark",
         "subheading_size": "h4",
         "heading": "<p><strong>Dog shop.<\/strong><\/p>",
         "heading_size": "h1",
