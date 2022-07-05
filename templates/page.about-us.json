@@ -46,15 +46,27 @@
         "button_link": ""
       }
     },
+    "16570076576ba4e626": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cat_banner_lifestyle.png",
+        "heading": "Introducing our veterinarian: Louise Harvey",
+        "heading_size": "h2",
+        "text": "<p>PillDrop Pets is proud to welcome experienced veterinarian, Louise Harvey, to the team. <br\/>Louise is excited to join PillDrop Pets and is the perfect fit. She believes every owner should<br\/>have access to affordable, consistent, and excellent care to support their pets to live longer,<br\/>happier, and healthier lives. <\/p>",
+        "button_label": "Read more",
+        "button_link": "",
+        "layout": "right"
+      }
+    },
     "1654072422ee4ffbdd": {
       "type": "background-image",
       "settings": {
         "image": "shopify:\/\/shop_images\/banner_slim.jpg",
-        "heading": "How it works",
+        "heading": "Fast & Free delivery*",
         "heading_size": "h2",
-        "text": "<p>Pet prescriptions made easy.<\/p>",
-        "button_label": "Learn more",
-        "button_link": "shopify:\/\/pages\/how-it-works"
+        "text": "<p><strong>With PillDrop Pets, you will enjoy FREE delivery*<br\/>on all orders over $150.<\/strong><\/p>",
+        "button_label": "Shop now",
+        "button_link": "shopify:\/\/collections\/all"
       }
     }
   },
@@ -64,6 +76,7 @@
     "165407221457d375a5",
     "165407237486075401",
     "1654072419df7eab99",
+    "16570076576ba4e626",
     "1654072422ee4ffbdd"
   ],
   "wrapper": "div.main-wrapper"
