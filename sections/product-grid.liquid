@@ -180,7 +180,7 @@
 
   </div>
 
-    {% for product in collection.products %}
+    {% for product in collections['all'].products %}
 
       {% assign on_sale = false %}
       {% if product.compare_at_price > product.price %}

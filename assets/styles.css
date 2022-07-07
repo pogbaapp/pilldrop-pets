@@ -498,8 +498,8 @@ Background Image
       background: rgba(0, 0, 0, 0.4); }
     .banner__video iframe {
       position: absolute;
-      width: 100%;
-      height: 100%;
+      width: 105%;
+      height: 105%;
       pointer-events: none; }
   .banner__push {
     margin-top: 10rem;
@@ -3356,6 +3356,28 @@ Results
         z-index: 4; }
     .collectionList__wrap__item p a {
       color: var(--primary); }
+
+.About .image-with-text {
+  margin-bottom: 0; }
+
+@media only screen and (max-width: 967px) {
+  .About .image-with-text__text {
+    margin: 0 auto;
+    justify-content: center !important; } }
+
+@media only screen and (max-width: 967px) {
+  .About .image-with-text__image {
+    justify-content: center !important; } }
+
+@media only screen and (min-width: 968px) {
+  .About .image-with-text__image img {
+    position: absolute;
+    top: 0;
+    left: 10rem;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover; } }
 
 /*------------------------------------------------------------------
 Side Cart
