@@ -8,8 +8,9 @@
     "16510315198c1783c4": {
       "type": "banner-slim",
       "settings": {
-        "image": "shopify:\/\/shop_images\/pilldrop_pet_prescriptions_aboutus.jpg",
+        "image": "shopify:\/\/shop_images\/vet_pilldrop.jpg",
         "subheading": "<p><strong>INTRODUCING OUR VETERINARIAN:<\/strong><\/p>",
+        "colour": "light",
         "subheading_size": "h6",
         "heading": "<p>Louise Harvey<\/p>",
         "heading_size": "h1",
