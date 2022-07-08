@@ -3,7 +3,7 @@
     "banner": {
       "type": "banner-slim",
       "settings": {
-        "image": "shopify:\/\/shop_images\/cat_banner.jpg",
+        "image": "shopify:\/\/shop_images\/dog_banner.jpg",
         "subheading": "",
         "colour": "dark",
         "subheading_size": "h4",
