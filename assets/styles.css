@@ -595,6 +595,15 @@ Background Image
   background: var(--text); }
   .bannerSlim--dark * {
     color: var(--grey-mid) !important; }
+  .bannerSlim--left .bannerSlim__image img {
+    -o-object-position: left !important;
+       object-position: left !important; }
+  .bannerSlim--center .bannerSlim__image img {
+    -o-object-position: center !important;
+       object-position: center !important; }
+  .bannerSlim--right .bannerSlim__image img {
+    -o-object-position: right !important;
+       object-position: right !important; }
   .bannerSlim__text {
     width: 40%;
     display: flex;

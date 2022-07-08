@@ -16,8 +16,20 @@
 
     &--dark {
         * {
-            color: var(--grey-mid) !important;
+            color: var(--grey-mid) !important; 
         }
+    }
+
+    &--left .bannerSlim__image img {
+        object-position: left !important;
+    }
+
+    &--center .bannerSlim__image img {
+        object-position: center !important;
+    }
+
+    &--right .bannerSlim__image img {
+        object-position: right !important;
     }
 
     &__text {

@@ -3,7 +3,7 @@
     Banner slim type
   {% endcomment %}
   
-  <div class="bannerSlim bannerSlim--{{ section.id }} bannerSlim--{{ section.settings.colour }} image-to-the-{{ section.layout }}">
+  <div class="bannerSlim bannerSlim--{{ section.id }} bannerSlim--{{ section.settings.colour }}  bannerSlim--{{ section.settings.image_position }} image-to-the-{{ section.layout }}">
     <div class="bannerSlim__text">
         <div class="bannerSlim__text__constraint">
           <div class="colour--red {{ section.settings.subheading_size }}">{{ section.settings.subheading}}</div>
@@ -46,6 +46,26 @@
       "id": "image",
       "label": "Image"
     },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "left",
+          "label": "left"
+        },
+        {
+          "value": "center",
+          "label": "center"
+        },
+        {
+          "value": "right",
+          "label": "right"
+        }
+       ]
+      },
+
     {
       "type": "richtext",
       "id": "subheading",
