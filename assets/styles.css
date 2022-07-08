@@ -594,7 +594,7 @@ Background Image
   position: relative;
   background: var(--text); }
   .bannerSlim--dark * {
-    color: var(--text) !important; }
+    color: var(--grey-mid) !important; }
   .bannerSlim__text {
     width: 40%;
     display: flex;
@@ -2901,12 +2901,13 @@ Product
           font-size: 2.2rem; }
       .product__wrap__details .breadcrumbs__wrap {
         margin-top: 6rem;
+        margin-bottom: 1rem;
         padding-left: 0;
         padding-bottom: 0; }
         .product__wrap__details .breadcrumbs__wrap__item:first-of-type {
           padding-left: 0; }
       .product__wrap__details h1 {
-        margin-bottom: 0; }
+        margin-bottom: 1rem; }
       .product__wrap__details h3 {
         font-weight: 500; }
       .product__wrap__details p {
@@ -2925,7 +2926,11 @@ Quantity
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
-  margin-right: 4rem; }
+  margin-right: 3rem;
+  border: 1px solid #dddddd;
+  border-radius: 100rem;
+  padding-left: 2rem;
+  padding-right: 2rem; }
   .quantity--inline .quantity__subtract,
   .quantity--inline .quantity__add {
     background: transparent;
@@ -2935,14 +2940,19 @@ Quantity
         -ms-user-select: none;
             user-select: none;
     cursor: pointer; }
-  .quantity--inline svg path {
-    fill: var(--green-dark); }
+  .quantity--inline svg {
+    width: 1.2rem;
+    height: 1.2rem; }
+    .quantity--inline svg path {
+      fill: #dddddd; }
+    .quantity--inline svg:hover path {
+      fill: var(--primary); }
   .quantity--inline .quantity__subtract {
     margin-right: 0.5rem; }
   .quantity--inline .quantity__quantity {
-    width: 7rem;
+    width: 4rem;
     background: transparent;
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--green-dark);
     text-align: center;
     font-weight: bold;
@@ -2953,10 +2963,13 @@ Quantity
 
 .quantity--cart {
   margin: 0; }
-  .quantity--cart .quantity__add svg,
-  .quantity--cart .quantity__subtract svg {
-    width: 2rem;
-    height: 2rem; }
+  .quantity--cart .quantity__add,
+  .quantity--cart .quantity__subtract {
+    padding: 0.5rem; }
+    .quantity--cart .quantity__add svg,
+    .quantity--cart .quantity__subtract svg {
+      width: 1.6rem;
+      height: 1.6rem; }
   .quantity--cart .quantity__quantity {
     width: 4rem;
     font-size: 2.4rem; }
