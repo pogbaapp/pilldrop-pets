@@ -9,10 +9,11 @@
       "type": "banner-slim",
       "settings": {
         "image": "shopify:\/\/shop_images\/pilldrop_vet_nz.jpg",
+        "image_position": "left",
         "subheading": "<p><strong>INTRODUCING OUR VETERINARIAN:<\/strong><\/p>",
         "colour": "light",
         "subheading_size": "h6",
-        "heading": "<p>Louise Harvey<\/p>",
+        "heading": "<p>Dr Louise Harvey<\/p>",
         "heading_size": "h1",
         "text": ""
       }
