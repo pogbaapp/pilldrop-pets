@@ -9,7 +9,9 @@
       "type": "banner-slim",
       "settings": {
         "image": "shopify:\/\/shop_images\/pilldrop_pet_prescriptions_contact.jpg",
+        "image_position": "left",
         "subheading": "",
+        "colour": "light",
         "subheading_size": "h6",
         "heading": "<p>Frequently Asked<br\/>Questions<\/p>",
         "heading_size": "h1",
@@ -135,13 +137,6 @@
             "content": "<p>Yes, call our team on <a href=\"tel:0800-745-537\" title=\"tel:0800-745-537\">0800-745-537<\/a> if you require assistance. Alternatively, send our vet an email on<br\/><a href=\"mailto:vet@pilldroppets.co.nz\" title=\"mailto:vet@pilldroppets.co.nz\">vet@pilldroppets.co.nz<\/a><\/p>"
           }
         },
-        "13c67a44-2b4d-429c-bf8a-f3bdfa83939a": {
-          "type": "accordion_item",
-          "settings": {
-            "heading": "I’m new to PillDrop, how do I get started?",
-            "content": "<p>Welcome! To get started,<br\/>1) Find and select the medication you need.<br\/>2) Add to cart.<br\/>3) Go to checkout.<br\/>4) Pay for the medication<br\/>5) Submit your prescription by either:<br\/><br\/><strong>Posting the original to:<\/strong> PO Box 62283, Sylvia Park, Auckland, 1060<br\/><br\/><strong>Asking your vet to send it to us directly: <\/strong>email: <a href=\"mailto:delivery@pilldrop.co.nz\" title=\"mailto:delivery@pilldrop.co.nz\">delivery@pilldrop.co.nz<\/a> or via fax: <a href=\"tel:09 276 9292\" title=\"tel:09 276 9292\">09 276 9292<\/a><\/p>"
-          }
-        },
         "8deeecd9-2072-493b-b9d2-e1a094043acb": {
           "type": "accordion_item",
           "settings": {
@@ -165,7 +160,6 @@
         "558a6d14-8559-4c66-bc68-e84fcd88b0a8",
         "f50cd388-7db9-432c-8489-e5278ea4d203",
         "291f9bfb-a826-44d0-b0dc-af5d1f2a5c4f",
-        "13c67a44-2b4d-429c-bf8a-f3bdfa83939a",
         "8deeecd9-2072-493b-b9d2-e1a094043acb"
       ],
       "settings": {
