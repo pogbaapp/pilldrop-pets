@@ -62,7 +62,7 @@
           "settings": {
             "icon": "shopify:\/\/shop_images\/Artboard_0308d052-9620-4795-869f-c052825f6de0.png",
             "heading": "Every Day Low Prices on Pet Meds",
-            "content": "<p>save upto 50% on prescription medications<\/p>",
+            "content": "<p>Save upto 50% on prescription medications.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -71,8 +71,8 @@
           "type": "scroller_item",
           "settings": {
             "icon": "shopify:\/\/shop_images\/Artboard_Copy_76485bd0-9d30-498d-89d4-0dd82f94fcfc.png",
-            "heading": "100% Satisfaction Guarantee",
-            "content": "<p>We guarantee that we will deliver to you…<\/p>",
+            "heading": "NZ wide delivery",
+            "content": "<p>Fast delivery to your door anywhere you are in NZ.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -81,8 +81,8 @@
           "type": "scroller_item",
           "settings": {
             "icon": "shopify:\/\/shop_images\/Artboard_Copy_2_6cbc8313-bea2-4135-85ae-9b3594971232.png",
-            "heading": "Free Shipping on all orders",
-            "content": "<p>All prescription orders will have free shipping.<\/p>",
+            "heading": "Free shipping",
+            "content": "<p>Free shipping on all orders above $50.<\/p>",
             "button_label": "",
             "button_link": ""
           }
