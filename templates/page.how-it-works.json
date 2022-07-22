@@ -9,7 +9,9 @@
       "type": "banner-slim",
       "settings": {
         "image": "shopify:\/\/shop_images\/banner_slim.jpg",
+        "image_position": "left",
         "subheading": "<p><strong>HOW IT WORKS<\/strong><\/p>",
+        "colour": "light",
         "subheading_size": "h6",
         "heading": "<p>Pet prescriptions <br\/>made easy<\/p>",
         "heading_size": "h1",
@@ -39,7 +41,7 @@
         "image": "shopify:\/\/shop_images\/Pilldrop_aboutus.jpg",
         "heading": "Fast & Free Delivery*",
         "heading_size": "h2",
-        "text": "<p><strong>With PillDrop Pets, you will enjoy FREE delivery*<br\/>on all orders over $150.<\/strong><\/p>",
+        "text": "<p><strong>With PillDrop Pets, you will enjoy FREE delivery*<br\/>on all orders over $50.<\/strong><\/p>",
         "button_label": "Shop now",
         "button_link": "shopify:\/\/collections\/all"
       }
