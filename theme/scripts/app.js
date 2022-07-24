@@ -30,7 +30,10 @@ $(() => {
 
     window.addEventListener('scroll', scrollHandler);
 
-    new Shop($('body'));
+    let SHOP = new Shop($('body'));
+
+
+
 
     let tick;
     let hovered = false;
@@ -112,6 +115,10 @@ $(() => {
 
     let $body = $('body');
 
+    $body.on('click', '.js-my-cart', (e) => {
+        e.preventDefault();
+        SHOP.openSideCart();
+    });
 
     $body.on('click', '.js-change-quantity-inline', (e) => {
         e.preventDefault();

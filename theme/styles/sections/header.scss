@@ -108,11 +108,7 @@ body:not(.template--index) .header {
             z-index: 9;
             justify-content: space-between;
             box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
-
             background-color: var(--primary);
-            @include media(1100px) {
-                // background-color: var(--primary);
-            }
 
             &__sites {
                 margin-left: 1rem;
@@ -179,6 +175,39 @@ body:not(.template--index) .header {
 
                     @include media($md, max) {
                         font-size: 1rem;
+                    }
+                }
+            }
+
+            &__cart {
+                width: 4rem;
+                height: 4rem;
+                margin-right: 0;
+                position: relative;
+                margin-left: -1.5rem;
+
+                svg {
+                    @include vertical-center;
+
+                    path {
+                        fill: white;
+                    }
+                }
+
+                &__count {
+                    width: 1.2rem;
+                    height: 1.2rem;
+                    border-radius: 1.2rem;
+                    background: white;
+                    position: absolute;
+                    right: 0.3rem;
+                    top: 0.3rem;
+
+                    span {
+                        font-weight: bold;
+                        font-size: 1rem;
+                        color: var(--primary);
+                        @include vertical-center;
                     }
                 }
             }
@@ -449,11 +478,21 @@ Search
         right: 6rem;
     }
 
+    @include media($md, max) {
+        padding: 0.8rem 1rem 0.8rem 1rem;
+        border: 0;
+    }
+
     p {
+        font-family: 'Montserrat', sans-serif;
         margin: 0;
         margin-right: 1rem;
         font-weight: bold;
         text-transform: uppercase;
+
+        @include media($md, max) {
+            display: none;
+        }
     }
 
     svg {

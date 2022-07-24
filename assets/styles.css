@@ -575,7 +575,6 @@ Background Image
       height: 120%;
       width: 100%;
       position: absolute;
-      bottom: 20%;
       left: 0;
       -o-object-fit: cover;
          object-fit: cover; }
@@ -1785,6 +1784,35 @@ body:not(.template--index) .header {
           @media only screen and (max-width: 767px) {
             .header__wrap__secondary__menu__item {
               font-size: 1rem; } }
+      .header__wrap__secondary__cart {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 0;
+        position: relative;
+        margin-left: -1.5rem; }
+        .header__wrap__secondary__cart svg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%); }
+          .header__wrap__secondary__cart svg path {
+            fill: white; }
+        .header__wrap__secondary__cart__count {
+          width: 1.2rem;
+          height: 1.2rem;
+          border-radius: 1.2rem;
+          background: white;
+          position: absolute;
+          right: 0.3rem;
+          top: 0.3rem; }
+          .header__wrap__secondary__cart__count span {
+            font-weight: bold;
+            font-size: 1rem;
+            color: var(--primary);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%); }
       .header__wrap__secondary__call {
         margin-right: 0;
         margin-left: 1rem;
@@ -1979,11 +2007,19 @@ Search
   @media only screen and (max-width: 1099px) {
     .header__wrap__search {
       right: 6rem; } }
+  @media only screen and (max-width: 767px) {
+    .header__wrap__search {
+      padding: 0.8rem 1rem 0.8rem 1rem;
+      border: 0; } }
   .header__wrap__search p {
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     margin-right: 1rem;
     font-weight: bold;
     text-transform: uppercase; }
+    @media only screen and (max-width: 767px) {
+      .header__wrap__search p {
+        display: none; } }
   .header__wrap__search svg {
     fill: var(--primary); }
     .header__wrap__search svg:nth-child(3) {
