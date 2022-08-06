@@ -32,9 +32,6 @@ $(() => {
 
     let SHOP = new Shop($('body'));
 
-
-
-
     let tick;
     let hovered = false;
     let percent = 0;
@@ -193,6 +190,8 @@ $(() => {
 
     };
 
+    filterProducts();
+
 
     $body.on('click', '.js-filter-collections', (e) => {
         e.preventDefault();
@@ -228,10 +227,5 @@ $(() => {
         });
         filterProducts();
     }
-
-
-
-
-
 
 });
