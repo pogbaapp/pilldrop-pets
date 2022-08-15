@@ -130,6 +130,10 @@ body:not(.template--index) .header {
                     align-content: center;
                     height: calc(100% - 0.4rem);
 
+                    @include media($sm, max) {
+                        padding: 0.5rem;
+                    }
+
                     &:first-of-type {
                         background: white;
                         border-radius: 0.2rem 0.2rem 0 0;
@@ -144,6 +148,10 @@ body:not(.template--index) .header {
                         font-size: 1.2rem;
                         margin: 0;
                         color: white;
+
+                        @include media($xs, max) {
+                            font-size: 1rem;
+                        }
                     }
 
                     svg {

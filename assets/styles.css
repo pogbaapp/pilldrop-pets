@@ -577,7 +577,9 @@ Background Image
       position: absolute;
       left: 0;
       -o-object-fit: cover;
-         object-fit: cover; }
+         object-fit: cover;
+      -o-object-position: 80%;
+         object-position: 80%; }
 
 .page--collection .bannerSlim__text {
   padding: 20rem 4rem 20rem;
@@ -1752,6 +1754,9 @@ body:not(.template--index) .header {
           align-items: center;
           align-content: center;
           height: calc(100% - 0.4rem); }
+          @media only screen and (max-width: 639px) {
+            .header__wrap__secondary__sites__item {
+              padding: 0.5rem; } }
           .header__wrap__secondary__sites__item:first-of-type {
             background: white;
             border-radius: 0.2rem 0.2rem 0 0; }
@@ -1762,6 +1767,9 @@ body:not(.template--index) .header {
             font-size: 1.2rem;
             margin: 0;
             color: white; }
+            @media only screen and (max-width: 539px) {
+              .header__wrap__secondary__sites__item p {
+                font-size: 1rem; } }
           .header__wrap__secondary__sites__item svg {
             margin-right: 0.5rem; }
       .header__wrap__secondary__menu {
