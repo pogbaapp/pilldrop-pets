@@ -18,6 +18,18 @@
         "text": ""
       }
     },
+    "16570076576ba4e626": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Drlouise_pilldrop.jpg",
+        "heading": "Introducing our veterinarian: Dr Louise Harvey",
+        "heading_size": "h2",
+        "text": "<p>PillDrop Pets is proud to welcome experienced veterinarian, Louise Harvey, to the team. <br\/>Louise is excited to join PillDrop Pets and is the perfect fit. She believes every owner should have access to affordable, consistent, and excellent care to support their pets to live longer, happier, and healthier lives. <\/p>",
+        "button_label": "Read more",
+        "button_link": "shopify:\/\/pages\/introducing-our-veterinarian-louise-harvey",
+        "layout": "right"
+      }
+    },
     "165407221457d375a5": {
       "type": "text",
       "settings": {
@@ -48,18 +60,6 @@
         "button_link": ""
       }
     },
-    "16570076576ba4e626": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Drlouise_pilldrop.jpg",
-        "heading": "Introducing our veterinarian: Dr Louise Harvey",
-        "heading_size": "h2",
-        "text": "<p>PillDrop Pets is proud to welcome experienced veterinarian, Louise Harvey, to the team. <br\/>Louise is excited to join PillDrop Pets and is the perfect fit. She believes every owner should have access to affordable, consistent, and excellent care to support their pets to live longer, happier, and healthier lives. <\/p>",
-        "button_label": "Read more",
-        "button_link": "shopify:\/\/pages\/introducing-our-veterinarian-louise-harvey",
-        "layout": "right"
-      }
-    },
     "1654072422ee4ffbdd": {
       "type": "background-image",
       "settings": {
@@ -75,10 +75,10 @@
   "order": [
     "main",
     "16510315198c1783c4",
+    "16570076576ba4e626",
     "165407221457d375a5",
     "165407237486075401",
     "1654072419df7eab99",
-    "16570076576ba4e626",
     "1654072422ee4ffbdd"
   ],
   "wrapper": "div.main-wrapper"
