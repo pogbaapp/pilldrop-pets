@@ -32,12 +32,12 @@
     "1654671145eb99ca1b": {
       "type": "column",
       "settings": {
-        "heading_left": "PillDrop Pharmacy",
+        "heading_left": "Send prescriptions to",
         "heading_left_size": "h3",
-        "text_left": "<p><strong>Auckland<\/strong><br\/>4 Hotunui Drive<br\/>Mt. Wellington, Auckland<br\/><br\/><strong>Christchurch<\/strong><br\/>6\/251 Blenheim Road<br\/>Riccarton, Christchurch<br\/><\/p>",
-        "heading_right": "Send prescriptions to",
+        "text_left": "<p><strong>Email:<\/strong> <a href=\"mailto:delivery@pilldrop.co.nz?subject=Pilldrop%20Enquiry\">delivery@pilldrop.co.nz<\/a><br\/><strong>Fax:<\/strong> 09 276 9292<\/p><p>OR<\/p><p>PO Box 62283<br\/>Sylvia Park, Auckland 1060<\/p>",
+        "heading_right": "PillDrop Pharmacy",
         "heading_right_size": "h3",
-        "text_right": "<p><strong>Email:<\/strong> <a href=\"mailto:delivery@pilldrop.co.nz?subject=Pilldrop%20Enquiry\">delivery@pilldrop.co.nz<\/a><br\/><strong>Fax:<\/strong> 09 276 9292<\/p><p>OR<\/p><p>PO Box 62283<br\/>Sylvia Park, Auckland 1060<\/p>"
+        "text_right": "<p><strong>Auckland<\/strong><br\/>4 Hotunui Drive<br\/>Mt. Wellington, Auckland<br\/><br\/><strong>Christchurch<\/strong><br\/>6\/251 Blenheim Road<br\/>Riccarton, Christchurch<br\/><\/p>"
       }
     },
     "form": {
