@@ -95,6 +95,13 @@
             "content": "<p>Please post the original prescription to us: PO Box 62283, Sylvia Park, Auckland, 1060<br\/><\/p><p>Or you can ask your vet to email the prescription to us directly: email: <a href=\"mailto:delivery@pilldrop.co.nz\" title=\"mailto:delivery@pilldrop.co.nz\">delivery@pilldrop.co.nz<\/a> or via fax: 09 276 9292<\/p>"
           }
         },
+        "640ee2b0-a08a-4c6f-b05b-9a76a823e486": {
+          "type": "accordion_item",
+          "settings": {
+            "heading": "Can I fax or email my pet’s prescription?",
+            "content": "<p>Faxed or scanned copies are only accepted if sent directly from the vet’s office. If you would like to send us you prescription directly, you can mail in the original prescription to <br\/>PO Box 62283Sylvia Park, Auckland 1060<\/p>"
+          }
+        },
         "25ace2b0-becd-474b-acc5-cf4b5da29415": {
           "type": "accordion_item",
           "settings": {
@@ -161,6 +168,7 @@
         "375cfe66-5b7d-454b-8271-5aee2b4d1f09",
         "8eecd9e9-b5c0-45a6-9d83-869ac4f295f0",
         "68401fca-621f-4250-b467-1af85fcf12cb",
+        "640ee2b0-a08a-4c6f-b05b-9a76a823e486",
         "25ace2b0-becd-474b-acc5-cf4b5da29415",
         "53fe48d6-d1e2-45f4-a0ba-71eb105e1e20",
         "08bb9fd5-63a3-4ec9-a21a-56729f2fac46",
