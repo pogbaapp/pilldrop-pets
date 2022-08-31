@@ -117,33 +117,26 @@
         "16492312095b6f3515-0": {
           "type": "tileSlider_item",
           "settings": {
-            "content": "<p>Your prescription medicines, sorted by the dose and delivered <strong>at no cost<\/strong> - to anyone taking at least 5 regular medications.<\/p>"
+            "content": "<p>Everyday low prices.<\/p>"
           }
         },
         "16492312095b6f3515-1": {
           "type": "tileSlider_item",
           "settings": {
-            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
+            "content": "<p>Fully licensed pharmacy.<\/p>"
           }
         },
         "16492312095b6f3515-2": {
           "type": "tileSlider_item",
           "settings": {
-            "content": "<p>You will never wait in line at a pharmacy.<\/p>"
-          }
-        },
-        "39a58217-b81b-43e2-9904-4433f1c2cfe1": {
-          "type": "tileSlider_item",
-          "settings": {
-            "content": "<p>Delivery to your doorstep anywhere you are in New Zealand, including rural addresses.<\/p>"
+            "content": "<p>100% satisfaction guarantee.<\/p>"
           }
         }
       },
       "block_order": [
         "16492312095b6f3515-0",
         "16492312095b6f3515-1",
-        "16492312095b6f3515-2",
-        "39a58217-b81b-43e2-9904-4433f1c2cfe1"
+        "16492312095b6f3515-2"
       ],
       "settings": {
         "heading": "Our Promise",
