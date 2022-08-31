@@ -215,7 +215,7 @@ hr {
     .arrow-link img path {
       fill: var(--primary); }
 
-.button {
+.button, .shopify-challenge__button {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   background: var(--primary);
@@ -228,7 +228,7 @@ hr {
   border: 0;
   border-radius: 100rem;
   text-align: center; }
-  .button .svg-loader {
+  .button .svg-loader, .shopify-challenge__button .svg-loader {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -243,13 +243,13 @@ hr {
     visibility: hidden;
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     stroke-linecap: square; }
-    .button .svg-loader use {
+    .button .svg-loader use, .shopify-challenge__button .svg-loader use {
       stroke: var(--green-dark);
       -webkit-animation: a 1.5s linear infinite;
               animation: a 1.5s linear infinite; }
-  .button.busy {
+  .button.busy, .busy.shopify-challenge__button {
     color: var(--yellow-mid) !important; }
-    .button.busy .svg-loader {
+    .button.busy .svg-loader, .busy.shopify-challenge__button .svg-loader {
       opacity: 1;
       visibility: visible; }
 
@@ -260,9 +260,9 @@ hr {
 @keyframes a {
   to {
     stroke-dashoffset: 0px; } }
-  .button:hover {
+  .button:hover, .shopify-challenge__button:hover {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); }
-  .button:active {
+  .button:active, .shopify-challenge__button:active {
     transform: translateY(1px); }
   .button--secondary {
     background: transparent;
@@ -563,7 +563,7 @@ Background Image
       .banner__text__constraint p {
         color: white;
         font-weight: bold; }
-      .banner__text__constraint .button {
+      .banner__text__constraint .button, .banner__text__constraint .shopify-challenge__button {
         min-width: 25rem; }
   .banner__image {
     position: absolute;
@@ -662,7 +662,7 @@ Background Image
         font-weight: 600; }
       .bannerSlim__text__constraint h1 p + p {
         margin-top: -3rem; }
-      .bannerSlim__text__constraint .button {
+      .bannerSlim__text__constraint .button, .bannerSlim__text__constraint .shopify-challenge__button {
         min-width: 25rem; }
   .bannerSlim__image {
     width: 100%;
@@ -759,12 +759,12 @@ Product
                 .cart__wrap__form__table__head tr th:nth-child(1) h6 {
                   text-align: left; }
               .cart__wrap__form__table__head tr th:nth-child(2) {
-                width: calc(100% - 40rem); }
+                width: calc(100% - 44.4rem); }
                 @media only screen and (max-width: 967px) {
                   .cart__wrap__form__table__head tr th:nth-child(2) {
                     width: calc(100% - 10rem); } }
               .cart__wrap__form__table__head tr th:nth-child(3) {
-                width: 10rem; }
+                width: 14.4rem; }
               .cart__wrap__form__table__head tr th:nth-child(4) {
                 width: 15rem; }
               .cart__wrap__form__table__head tr th:nth-child(5) {
@@ -878,14 +878,14 @@ Product
                 .cart__wrap__form__table__body__row__cell:nth-child(1) {
                   border-bottom: 1px solid var(--grey-light); } }
             .cart__wrap__form__table__body__row__cell:nth-child(2) {
-              width: calc(100% - 40rem);
+              width: calc(100% - 44.4rem);
               padding-left: 4rem; }
               @media only screen and (max-width: 967px) {
                 .cart__wrap__form__table__body__row__cell:nth-child(2) {
                   width: calc(100% - 10rem);
                   border-bottom: 1px solid var(--grey-light); } }
             .cart__wrap__form__table__body__row__cell:nth-child(3) {
-              width: 10rem;
+              width: 14.4rem;
               text-align: center; }
             .cart__wrap__form__table__body__row__cell:nth-child(4) {
               width: 15rem;
@@ -1117,7 +1117,7 @@ input[type='checkbox'] {
       transform: translateY(-50%);
       transition: all 333ms ease;
       background: white;
-      border: 1px solid var(--grey-light);
+      border: 1px solid var(--primary);
       width: 20px;
       height: 20px;
       border-radius: 0; }
@@ -2099,7 +2099,7 @@ Search
         padding: 3rem 3rem 1rem;
         z-index: 2;
         position: relative; }
-        .hero__wrap__item__content .button {
+        .hero__wrap__item__content .button, .hero__wrap__item__content .shopify-challenge__button {
           width: 100%; }
 
 .icons-with-image {
@@ -2432,6 +2432,44 @@ Search
       display: block;
       max-width: 60rem;
       margin-bottom: -6rem; }
+
+/*------------------------------------------------------------------
+Login Page 
+------------------------------------------------------------------*/
+h2.title {
+  color: red !important; }
+
+body.Challenge .mobileMenu,
+body.Challenge .header__push,
+body.Challenge .footer,
+body.Challenge .header,
+.template--login .mobileMenu,
+.template--login .header__push,
+.template--login .footer,
+.template--login .header,
+.template--register .mobileMenu,
+.template--register .header__push,
+.template--register .footer,
+.template--register .header,
+.template-404 .mobileMenu,
+.template-404 .header__push,
+.template-404 .footer,
+.template-404 .header,
+.template-customers-register .mobileMenu,
+.template-customers-register .header__push,
+.template-customers-register .footer,
+.template-customers-register .header,
+.template-customers-login .mobileMenu,
+.template-customers-login .header__push,
+.template-customers-login .footer,
+.template-customers-login .header {
+  display: none !important; }
+
+.shopify-challenge__button {
+  margin-top: 2rem !important; }
+
+.shopify-challenge__message {
+  margin-top: 4rem; }
 
 /*------------------------------------------------------------------
 Mobile menu
@@ -2865,6 +2903,33 @@ Product
 ------------------------------------------------------------------*/
 .product {
   position: relative; }
+  .product .warning {
+    position: relative;
+    padding: 1rem 2rem;
+    background: var(--grey-mid);
+    color: white;
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: 600;
+    padding-left: 5rem; }
+    .product .warning span {
+      width: 4rem;
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      border-right: 1px solid rgba(255, 255, 255, 0.3); }
+      .product .warning span svg {
+        position: absolute;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        width: 2rem;
+        height: 2rem; }
+        .product .warning span svg polygon {
+          fill: white; }
   .product__wrap {
     margin: 0 auto;
     display: flex;
@@ -3336,7 +3401,7 @@ Quantity
           background-size: 800px 104px; }
         .searchPane__wrapper__item--placeholder .searchPane__wrapper__item__details p:last-of-type {
           width: 80%; }
-    .searchPane__wrapper .button {
+    .searchPane__wrapper .button, .searchPane__wrapper .shopify-challenge__button {
       width: 100%;
       text-align: center; }
 

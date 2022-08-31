@@ -121,16 +121,27 @@
       <p>
         <i>Shipping & taxes calculated at checkout</i>
       </p>
-      <p>
+      <p >
         <input style="float:none; vertical-align: middle;" type="checkbox" id="agree" />
-        <label style="display:inline; float:none" for="agree">
-          I agree with the <a href="/policies/terms-of-service" target="_blank" style="color:var(--green-light)">terms and conditions</a> & <a href="pages/health-and-safety" target="_blank" style="color:var(--green-light)">health and saftey</a> guidelines.
+        <label style="display:inline; float:none; font-weight:600;" for="agree">
+          We will need your prescription before you can dispense this item
+          <br>
+          I agree with the <a href="/policies/terms-of-service" target="_blank" style="color:var(--primary)">terms and conditions</a>.
         </label>
       </p>
       <p>
+        
         <a href="{{ routes.root_url }}checkout" class="button button--yellow [ js-click-through ]">
           Checkout
         </a>
+      </p>
+
+      <p>
+        <b>I already have the prescription. How do I get it to PillDrop Pets?<br></b>
+        Please post the original prescription to us: PO Box 62283, Sylvia Park, Auckland, 1060
+        <br>
+
+      Or you can ask your vet to email the prescription to us directly: email: <a href="mailto:delivery@pilldrop.co.nz" style="color:var(--primary)">delivery@pilldrop.co.nz</a> or via fax: <a href="tel:09 276 9292" style="color:var(--primary)">09 276 9292M</a>
       </p>
     </div>
 

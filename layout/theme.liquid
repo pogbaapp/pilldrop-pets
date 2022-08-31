@@ -109,11 +109,8 @@
 
     {% section 'header' %}
 
-    {% if request.path == '/challenge' %}
-        {% render 'challenge' %}
-    {% else %}
+ 
         {{ content_for_layout }}{{ locksmith_content_for_layout_addenda }}
-    {% endif %}
 
     {% comment %}
     Footer

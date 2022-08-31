@@ -1,0 +1,29 @@
+/*------------------------------------------------------------------
+Login Page 
+------------------------------------------------------------------*/
+h2.title {
+  color: red !important;
+}
+
+body.Challenge,
+.template--login,
+.template--register,
+.template-404,
+.template-customers-register,
+.template-customers-login {
+  .mobileMenu,
+  .header__push,
+  .footer,
+  .header {
+    display: none !important;
+  }
+}
+
+.shopify-challenge__button {
+  @extend .button;
+  margin-top: 2rem !important;
+}
+
+.shopify-challenge__message {
+  margin-top: 4rem;
+}
