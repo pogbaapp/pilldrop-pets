@@ -116,13 +116,6 @@
             "content": "<p>Yes, of course. We don’t want to sell you quantities that you don’t need. We always look for ways on how we can help you save!<\/p>"
           }
         },
-        "08bb9fd5-63a3-4ec9-a21a-56729f2fac46": {
-          "type": "accordion_item",
-          "settings": {
-            "heading": "Can I access my pet’s medication history and information online?",
-            "content": "<p>Yes, within your PillDrop account, the relevant info will appear in the customer portal – My Medicines.<\/p>"
-          }
-        },
         "558a6d14-8559-4c66-bc68-e84fcd88b0a8": {
           "type": "accordion_item",
           "settings": {
@@ -171,7 +164,6 @@
         "640ee2b0-a08a-4c6f-b05b-9a76a823e486",
         "25ace2b0-becd-474b-acc5-cf4b5da29415",
         "53fe48d6-d1e2-45f4-a0ba-71eb105e1e20",
-        "08bb9fd5-63a3-4ec9-a21a-56729f2fac46",
         "558a6d14-8559-4c66-bc68-e84fcd88b0a8",
         "f50cd388-7db9-432c-8489-e5278ea4d203",
         "291f9bfb-a826-44d0-b0dc-af5d1f2a5c4f",
