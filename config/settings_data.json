@@ -63,12 +63,12 @@
           "dropdownMenu": "slider",
           "mobile_nav_offset_top": 0,
           "shadow": true,
-          "border_radius": 4,
+          "border_radius": 8,
           "background_color": "#ffffff",
           "text_color": "#202202",
           "primary_color": "#ec1d24",
           "btn_text_color": "#ffffff",
-          "max_width": 800,
+          "max_width": 1200,
           "custom_css": ""
         }
       }
