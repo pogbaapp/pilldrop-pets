@@ -8,8 +8,9 @@ Product
     .warning {
         position: relative;
         padding: 1rem 2rem;
-        background: var(--grey-mid);
-        color: white;
+        
+        background: var(--off-white);
+        color: var(--text);
         font-size: 1rem;
         line-height: 1.3;
         font-weight: 600;
@@ -22,7 +23,7 @@ Product
             top: 0;
             bottom: 0;
             left: 0;
-            border-right: 1px solid rgba(white, 0.3);
+            border-right: 1px solid var(--text);
 
             svg {
                 position: absolute;
@@ -31,7 +32,7 @@ Product
                 height: 2rem;
 
                 polygon {
-                    fill: white;
+                    fill: var(--text);
                 }
             }
         }
