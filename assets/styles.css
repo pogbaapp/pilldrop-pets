@@ -2439,37 +2439,21 @@ Login Page
 h2.title {
   color: red !important; }
 
-body.Challenge .mobileMenu,
-body.Challenge .header__push,
-body.Challenge .footer,
-body.Challenge .header,
-.template--login .mobileMenu,
-.template--login .header__push,
-.template--login .footer,
-.template--login .header,
-.template--register .mobileMenu,
-.template--register .header__push,
-.template--register .footer,
-.template--register .header,
-.template-404 .mobileMenu,
-.template-404 .header__push,
-.template-404 .footer,
-.template-404 .header,
-.template-customers-register .mobileMenu,
-.template-customers-register .header__push,
-.template-customers-register .footer,
-.template-customers-register .header,
-.template-customers-login .mobileMenu,
-.template-customers-login .header__push,
-.template-customers-login .footer,
-.template-customers-login .header {
-  display: none !important; }
-
 .shopify-challenge__button {
   margin-top: 2rem !important; }
 
 .shopify-challenge__message {
   margin-top: 4rem; }
+
+.form__message {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+  .form__message span {
+    padding-right: 2rem; }
+  .form__message svg {
+    width: 4rem;
+    height: 4rem; }
 
 /*------------------------------------------------------------------
 Mobile menu

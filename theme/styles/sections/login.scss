@@ -15,7 +15,7 @@ body.Challenge,
   .header__push,
   .footer,
   .header {
-    display: none !important;
+    // display: none !important;
   }
 }
 
@@ -26,4 +26,19 @@ body.Challenge,
 
 .shopify-challenge__message {
   margin-top: 4rem;
+}
+
+.form__message {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  span {
+    padding-right: 2rem;
+  }
+
+  svg {
+    width: 4rem;
+    height: 4rem;
+  }
 }
