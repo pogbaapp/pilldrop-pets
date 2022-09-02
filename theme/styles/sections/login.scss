@@ -5,20 +5,6 @@ h2.title {
   color: red !important;
 }
 
-body.Challenge,
-.template--login,
-.template--register,
-.template-404,
-.template-customers-register,
-.template-customers-login {
-  .mobileMenu,
-  .header__push,
-  .footer,
-  .header {
-    // display: none !important;
-  }
-}
-
 .shopify-challenge__button {
   @extend .button;
   margin-top: 2rem !important;
@@ -42,4 +28,22 @@ body.Challenge,
     margin-right: 1rem;
     height: 4rem;
   }
+}
+
+.Account {
+  label {
+    font-weight: 700 !important;
+  }
+
+  [type='password'],
+  [type='text'],
+  [type='email'],
+  label {
+    padding-left: 0 !important;
+  }
+}
+
+.shopify-challenge__container {
+  padding-top: 20rem;
+  padding-bottom: 10rem;
 }

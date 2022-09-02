@@ -40,6 +40,11 @@
         display: block;
     }
 
+    &__push-alt {
+        margin-top: 20rem;
+        display: block;
+    }
+
     &__text {
         background: var(--green-mid);
         display: flex;
@@ -138,7 +143,6 @@
             left: 0;
             object-fit: cover;
             object-position: 80%;
-
         }
     }
 }
