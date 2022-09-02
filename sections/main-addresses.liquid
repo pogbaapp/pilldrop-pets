@@ -30,6 +30,7 @@
 
     <div data-address>
       <button
+        class="button"
         type="button"
         aria-expanded="false"
         aria-controls="AddAddress"
@@ -107,8 +108,8 @@
             <label for="address_default_address_new">Set as default address</label>
           </div>
           <div>
-            <button>Add address</button>
-            <button type="reset">Cancel</button>
+            <button class="button">Add address</button>
+            <button class="button" type="reset">Cancel</button>
           </div>
         {%- endform -%}
       </div>
@@ -118,7 +119,7 @@
       {%- for address in customer.addresses -%}
         <li data-address>
           {%- if address == customer.default_address -%}
-            <h2>Default</h2>
+            <h2 style="color:var(--primary)">Default</h2>
           {%- endif -%}
           {{ address | format_address }}
           <button
@@ -127,11 +128,13 @@
             aria-label="Edit address {{ forloop.index }}"
             aria-controls="EditAddress_{{ address.id }}"
             aria-expanded="false"
+            class="button"
             data-address-id="{{ address.id }}"
           >
             Edit address
           </button>
           <button
+            class="button"
             type="button"
             aria-label="Delete {{ forloop.index }}"
             data-target="{{ address.url }}"
@@ -218,8 +221,8 @@
                 </label>
               </div>
               <div>
-                <button>Update address</button>
-                <button type="reset">Cancel</button>
+                <button class="button">Update address</button>
+                <button class="button" type="reset">Cancel</button>
               </div>
             {%- endform -%}
           </div>

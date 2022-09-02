@@ -47,3 +47,26 @@ h2.title {
   padding-top: 20rem;
   padding-bottom: 10rem;
 }
+
+li[data-address] {
+  padding: 2.5rem;
+  box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 1rem;
+  margin: 2rem 2rem;
+  min-height: 18rem;
+  position: relative;
+
+  p {
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 0;
+  }
+}
+
+.account-link {
+  color: var(--primary);
+
+  path {
+    fill: var(--primary);
+  }
+}
