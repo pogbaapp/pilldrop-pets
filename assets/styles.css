@@ -2478,12 +2478,13 @@ li[data-address] {
   box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
   border-radius: 1rem;
   margin: 2rem 2rem;
-  min-height: 18rem;
   position: relative; }
   li[data-address] p {
     font-weight: 500;
     line-height: 1.4;
     margin: 0; }
+  li[data-address] .button, li[data-address] .shopify-challenge__button {
+    background: var(--primary) !important; }
 
 .account-link {
   color: var(--primary); }
