@@ -147,10 +147,6 @@ form .field + div {
   border-radius: 0 0.4rem 0 0.4rem;
 }
 
-
-
-
-
 /*------------------------------------------------------------------
 Table styles
 ------------------------------------------------------------------*/
@@ -186,8 +182,8 @@ table {
   th,
   td {
     text-align: left;
-    padding: 1rem;
-    border-right: 1px solid var(--grey-light);
+    padding: 1rem !important;
+    border-right: 1px solid var(--grey-light) !important;
 
     p {
       margin: 0;
@@ -201,5 +197,12 @@ table {
   th {
     background: var(--primary);
     color: white !important;
+    font-weight: bold;
   }
+}
+
+.account table td:first-of-type a {
+  padding: 0;
+  font-weight: bold;
+  color: var(--primary);
 }
