@@ -119,7 +119,7 @@
       {%- for address in customer.addresses -%}
         <li data-address>
           {%- if address == customer.default_address -%}
-            <h2 style="color:var(--primary)">Default</h2>
+            <h2 class="default-address" style="color:var(--primary)">Default</h2>
           {%- endif -%}
           {{ address | format_address }}
           <button
