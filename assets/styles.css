@@ -2483,7 +2483,7 @@ li[data-address] {
     font-weight: 500;
     line-height: 1.4;
     margin: 0; }
-  li[data-address] .button, li[data-address] .shopify-challenge__button {
+  li[data-address] .button:not(.button--outline), li[data-address] .shopify-challenge__button:not(.button--outline) {
     background: var(--primary) !important; }
   li[data-address] .field {
     position: relative; }
@@ -2532,6 +2532,7 @@ form .field + div {
 #address_form_new .field {
   width: 100% !important; }
 
+#address_form_new input[type='tel'] + label,
 #address_form_new input[type='text'] + label {
   display: none; }
 
