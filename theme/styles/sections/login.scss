@@ -64,17 +64,18 @@ li[data-address] {
   .button:not(.button--outline) {
     background: var(--primary) !important;
   }
+}
 
-  .field {
+[data-address] label,
+#AddAddress label {
+  display: none !important;
+}
+
+.field {
+  position: relative;
+
+  + div {
     position: relative;
-
-    + div {
-      position: relative;
-    }
-  }
-
-  #AddAddress label {
-    display: none !important;
   }
 }
 
@@ -129,9 +130,10 @@ form .field + div {
   width: 100% !important;
 }
 
+[name='address[zip]'] + label,
 #address_form_new input[type='tel'] + label,
 #address_form_new input[type='text'] + label {
-  display: none;
+  display: none !important  ;
 }
 
 .default-address {

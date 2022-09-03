@@ -2485,12 +2485,15 @@ li[data-address] {
     margin: 0; }
   li[data-address] .button:not(.button--outline), li[data-address] .shopify-challenge__button:not(.button--outline) {
     background: var(--primary) !important; }
-  li[data-address] .field {
+
+[data-address] label,
+#AddAddress label {
+  display: none !important; }
+
+.field {
+  position: relative; }
+  .field + div {
     position: relative; }
-    li[data-address] .field + div {
-      position: relative; }
-  li[data-address] #AddAddress label {
-    display: none !important; }
 
 .account-link {
   color: var(--primary); }
@@ -2532,9 +2535,10 @@ form .field + div {
 #address_form_new .field {
   width: 100% !important; }
 
+[name='address[zip]'] + label,
 #address_form_new input[type='tel'] + label,
 #address_form_new input[type='text'] + label {
-  display: none; }
+  display: none !important; }
 
 .default-address {
   position: absolute;
