@@ -61,8 +61,27 @@ li[data-address] {
     margin: 0;
   }
 
-  .button{
+  .button {
     background: var(--primary) !important;
+  }
+
+  select + svg {
+    width: 17px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+  }
+
+  .field {
+    position: relative;
+
+    + div {
+      position: relative;
+    }
+  }
+
+  #AddAddress label {
+    display: none !important;
   }
 }
 
@@ -71,5 +90,33 @@ li[data-address] {
 
   path {
     fill: var(--primary);
+  }
+}
+
+.customer.account {
+  max-width: var(--inner-content-width);
+  margin: 0 auto 10rem;
+}
+
+@media screen and (min-width: 990px) {
+  :is(.account, .order) > div:nth-of-type(2) > div:first-of-type {
+    flex-grow: 1;
+    padding-right: 3.2rem;
+    position: relative;
+
+    &:after {
+      @include pseudo;
+      right: 2rem;
+      padding-right: 3rem;
+      border-right: 1px solid var(--grey-light);
+      top: 0;
+      bottom: 0;
+      width: 1px;
+    }
+
+    + div {
+      min-width: 30rem;
+      padding-left: 2rem;
+    }
   }
 }

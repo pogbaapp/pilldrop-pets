@@ -2485,11 +2485,45 @@ li[data-address] {
     margin: 0; }
   li[data-address] .button, li[data-address] .shopify-challenge__button {
     background: var(--primary) !important; }
+  li[data-address] select + svg {
+    width: 17px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem; }
+  li[data-address] .field {
+    position: relative; }
+    li[data-address] .field + div {
+      position: relative; }
+  li[data-address] #AddAddress label {
+    display: none !important; }
 
 .account-link {
   color: var(--primary); }
   .account-link path {
     fill: var(--primary); }
+
+.customer.account {
+  max-width: var(--inner-content-width);
+  margin: 0 auto 10rem; }
+
+@media screen and (min-width: 990px) {
+  :is(.account, .order) > div:nth-of-type(2) > div:first-of-type {
+    flex-grow: 1;
+    padding-right: 3.2rem;
+    position: relative; }
+    :is(.account, .order) > div:nth-of-type(2) > div:first-of-type:after {
+      position: absolute;
+      display: block;
+      content: '';
+      right: 2rem;
+      padding-right: 3rem;
+      border-right: 1px solid var(--grey-light);
+      top: 0;
+      bottom: 0;
+      width: 1px; }
+    :is(.account, .order) > div:nth-of-type(2) > div:first-of-type + div {
+      min-width: 30rem;
+      padding-left: 2rem; } }
 
 /*------------------------------------------------------------------
 Mobile menu
