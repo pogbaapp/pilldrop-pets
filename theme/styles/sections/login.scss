@@ -100,7 +100,7 @@ li[data-address] {
 
     &:after {
       @include pseudo;
-      right: 2rem;
+      right: 1rem;
       padding-right: 3rem;
       border-right: 1px solid var(--grey-light);
       top: 0;
@@ -198,7 +198,7 @@ table {
   th {
     background: var(--primary);
     color: white !important;
-    font-weight: bold;
+    font-weight: bold !important;
   }
 }
 

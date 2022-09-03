@@ -2513,7 +2513,7 @@ li[data-address] {
       position: absolute;
       display: block;
       content: '';
-      right: 2rem;
+      right: 1rem;
       padding-right: 3rem;
       border-right: 1px solid var(--grey-light);
       top: 0;
@@ -2587,7 +2587,7 @@ table {
   table th {
     background: var(--primary);
     color: white !important;
-    font-weight: bold; }
+    font-weight: bold !important; }
 
 .account table td:first-of-type a {
   padding: 0;
