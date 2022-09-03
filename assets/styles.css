@@ -2485,11 +2485,6 @@ li[data-address] {
     margin: 0; }
   li[data-address] .button, li[data-address] .shopify-challenge__button {
     background: var(--primary) !important; }
-  li[data-address] select + svg {
-    width: 17px;
-    position: absolute;
-    right: 1rem;
-    top: 1rem; }
   li[data-address] .field {
     position: relative; }
     li[data-address] .field + div {
@@ -2524,6 +2519,21 @@ li[data-address] {
     :is(.account, .order) > div:nth-of-type(2) > div:first-of-type + div {
       min-width: 30rem;
       padding-left: 2rem; } }
+
+form select + svg {
+  width: 17px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem; }
+
+form .field + div {
+  position: relative; }
+
+#address_form_new .field {
+  width: 100% !important; }
+
+#address_form_new input[type='text'] + label {
+  display: none; }
 
 /*------------------------------------------------------------------
 Mobile menu

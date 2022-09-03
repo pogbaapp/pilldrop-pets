@@ -124,8 +124,8 @@
 
       {{ customer.default_address | format_address }}
 
-      <a href="{{ routes.account_addresses_url }}">
-        Addresses ({{ customer.addresses_count }})
+      <a href="{{ routes.account_addresses_url }}" style="color:var(--primary);">
+        <b>Addresses ({{ customer.addresses_count }})</b>
       </a>
     </div>
 

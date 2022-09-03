@@ -65,13 +65,6 @@ li[data-address] {
     background: var(--primary) !important;
   }
 
-  select + svg {
-    width: 17px;
-    position: absolute;
-    right: 1rem;
-    top: 1rem;
-  }
-
   .field {
     position: relative;
 
@@ -119,4 +112,23 @@ li[data-address] {
       padding-left: 2rem;
     }
   }
+}
+
+form select + svg {
+  width: 17px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+form .field + div {
+  position: relative;
+}
+
+#address_form_new .field {
+  width: 100% !important;
+}
+
+#address_form_new input[type='text'] + label {
+  display: none;
 }
