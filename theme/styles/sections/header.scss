@@ -193,6 +193,14 @@ body:not(.template--index) .header {
                 margin-right: 0;
                 position: relative;
                 margin-left: -1.5rem;
+
+                svg {
+                    @include vertical-center;
+
+                    path {
+                        fill: white;
+                    }
+                }
             }
 
             &__cart {

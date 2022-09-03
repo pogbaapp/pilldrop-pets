@@ -1802,6 +1802,13 @@ body:not(.template--index) .header {
         margin-right: 0;
         position: relative;
         margin-left: -1.5rem; }
+        .header__wrap__secondary__account svg {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateX(-50%) translateY(-50%); }
+          .header__wrap__secondary__account svg path {
+            fill: white; }
       .header__wrap__secondary__cart {
         width: 4rem;
         height: 4rem;
