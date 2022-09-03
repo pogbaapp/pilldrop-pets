@@ -2575,8 +2575,9 @@ table {
   table th,
   table td {
     text-align: left;
-    padding: 1rem !important;
-    border-right: 1px solid var(--grey-light) !important; }
+    padding: 1.5rem 1rem !important;
+    border-right: 1px solid var(--grey-light) !important;
+    font-size: 1.4rem !important; }
     table th p,
     table td p {
       margin: 0; }
@@ -2590,8 +2591,11 @@ table {
 
 .account table td:first-of-type a {
   padding: 0;
-  font-weight: bold;
+  font-weight: bold !important;
   color: var(--primary); }
+
+.visually-hidden {
+  display: none !important; }
 
 /*------------------------------------------------------------------
 Mobile menu
