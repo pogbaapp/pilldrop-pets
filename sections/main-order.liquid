@@ -59,7 +59,9 @@
               >
                 <div>
                   {%- if line_item.url != blank -%}
-                    <a href="{{ line_item.url }}">{{ line_item.title }}</a>
+                    <a href="{{ line_item.url }}" style="color:var(--primary)">
+                      <b>{{ line_item.title }}</b>
+                    </a>
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
                   {%- endif -%}
