@@ -2543,7 +2543,7 @@ form .field + div {
   background: var(--highlight);
   padding: 0.8rem 1rem;
   color: white !important;
-  font-size: 1rem;
+  font-size: 1rem !important;
   border-radius: 0 0.4rem 0 0.4rem; }
 
 /*------------------------------------------------------------------
