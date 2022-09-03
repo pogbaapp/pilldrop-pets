@@ -1796,6 +1796,12 @@ body:not(.template--index) .header {
           @media only screen and (max-width: 767px) {
             .header__wrap__secondary__menu__item {
               font-size: 1rem; } }
+      .header__wrap__secondary__account {
+        width: 4rem;
+        height: 4rem;
+        margin-right: 0;
+        position: relative;
+        margin-left: -1.5rem; }
       .header__wrap__secondary__cart {
         width: 4rem;
         height: 4rem;
