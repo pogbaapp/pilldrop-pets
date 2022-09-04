@@ -188,18 +188,27 @@ body:not(.template--index) .header {
             }
 
             &__account {
-                width: 4rem;
-                height: 4rem;
-                margin-right: 0;
+                margin-right: 1rem;
                 position: relative;
-                margin-left: -1.5rem;
+                padding-left: 1.8rem;
+                margin-left: -1rem;
 
                 svg {
-                    @include vertical-center;
+                    @include vertical-align;
+                    left: .4rem;
 
                     path {
                         fill: white;
                     }
+                }
+
+                p {
+                    color: white;
+                    display: inline-block;
+                    margin: 0;
+                    padding: 0.8rem;
+                    text-transform: uppercase;
+                    font-weight: 500;
                 }
             }
 
@@ -533,5 +542,82 @@ Search
                 fill: var(--primary);
             }
         }
+    }
+}
+
+/*------------------------------------------------------------------
+Subnav
+------------------------------------------------------------------*/
+
+.header__wrap__secondary__menu {
+    position: absolute;
+    background: white;
+    padding: 1.2rem;
+    border-radius: 0.5rem;
+    width: 20rem;
+    left: 50%;
+    margin-left: -10rem;
+    transform-origin: 50% 0;
+    transition: all $medium;
+    transform: translateY(0.5rem);
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 1rem;
+
+    &::after {
+        @include pseudo;
+        width: 2rem;
+        height: 2rem;
+        background: white;
+        border-radius: 0.2rem;
+        transform: rotate(45deg);
+        top: -0.3rem;
+        left: 50%;
+        margin-left: -1rem;
+    }
+    &__wrap {
+        &__item {
+            text-transform: uppercase;
+            color: var(--text);
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: all $fast;
+            padding: 1rem;
+            display: block;
+
+            &:hover {
+                color: var(--primary);
+            }
+        }
+    }
+}
+
+.header__wrap__menu__item {
+    position: relative;
+}
+
+.header__wrap__menu__item__link {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.2rem;
+    display: block;
+    position: relative;
+
+    &:hover {
+        + .header__wrap__secondary__menu {
+            opacity: 1 !important;
+            visibility: visible !important;
+            transform: rotateX(0deg) !important;
+        }
+    }
+}
+
+.header__wrap__menu__item:hover {
+    .header__wrap__secondary__menu {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transform: rotateX(0deg) !important;
     }
 }
