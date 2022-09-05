@@ -149,8 +149,9 @@
         {% endif %}
 
         <div class="sliderAlt__wrap__slider__carousel__item">
-          {% if product.media[0] %}
           <a  href="{{ product.url }}" class="sliderAlt__wrap__slider__carousel__item__image">
+          {% if product.media[0] %}
+          
             <img loading="lazy"
               srcset="{{ product.media[0] | image_url: width: 480, height: 480 }} 480w,
                       {{ product.media[0] | image_url: width: 600, height: 600 }} 600w"
@@ -168,11 +169,13 @@
 
         {% if product.available %}
         {% else %}
+        
           {% comment %} <span class="collection__grid__item__image__unavailable">SOLD OUT</span> {% endcomment %}
         {% endif %}
-
-      </a>
-    {% endif %}
+        {% else %}
+        <img loading="lazy" src="https://cdn.shopify.com/s/files/1/0617/3982/7386/products/RX_pillpets_1b69c80b-32d2-424d-b35d-4488e4e811d2.jpg?v=1662356631&width=1920" class="placeholder">
+      {% endif %}
+    </a>
 
       <a href="{{ product.url }}" class="collection__grid__item__details">
         <div class="collection__grid__item__details__title">

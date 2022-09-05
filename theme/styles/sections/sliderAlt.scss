@@ -2,6 +2,10 @@
     position: relative;
     padding: 10rem 8rem 8rem;
 
+    @include media($xs, max) {
+        padding: 6rem 2rem 0rem;
+    }
+
     $link: rgba(#144444, 0.99);
 
     a:not([class]) {
@@ -31,7 +35,6 @@
             width: 100%;
             max-width: var(--content-width);
             position: relative;
-
 
             .tns-controls {
                 button {
