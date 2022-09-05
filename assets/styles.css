@@ -2124,6 +2124,7 @@ Subnav
   transform: rotateX(0deg) !important; }
 
 .arrowed {
+  margin-right: 1rem;
   padding-right: 2rem;
   background-image: url("data:image/svg+xml; utf8, <svg width=\"16\" height=\"9\" viewBox=\"0 0 16 9\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.839 5.96L13.936.108a.399.399 0 01.553.007l1.07 1.047a.38.38 0 01.008.542L8.122 8.851a.365.365 0 01-.283.105.387.387 0 01-.284-.105L.111 1.704a.38.38 0 01.007-.542L1.188.115a.399.399 0 01.554-.007L7.839 5.96z\" fill=\"%23fff\" fill-rule=\"evenodd\"/></svg>");
   background-repeat: no-repeat;
