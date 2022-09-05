@@ -190,7 +190,8 @@
       <div class="collection__grid__item" data-tags="{% for tag in product.tags %}{{ tag }},{% endfor %}" data-collections="{% for collection in product.collections %}{{ collection.title }},{% endfor %}" data-brand="{{ product.vendor }}">
         {% if product.media[0] %}
         <a  href="{{ product.url }}" class="collection__grid__item__image">
-
+          
+          
           <img loading="lazy"
             srcset="{{ product.media[0] | image_url: width: 480 }} 480w,
                     {{ product.media[0] | image_url: width: 800 }} 800w,
@@ -216,6 +217,7 @@
         </a>
       {% else %}
       <a  href="{{ product.url }}" class="collection__grid__item__image">
+        <img loading="lazy" src="https://cdn.shopify.com/s/files/1/0617/3982/7386/products/RX_pillpets_1b69c80b-32d2-424d-b35d-4488e4e811d2.jpg?v=1662356631&width=1920" class="placeholder">
 
 
 

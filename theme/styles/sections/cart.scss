@@ -83,7 +83,7 @@ Product
               }
 
               &:nth-child(2) {
-                width: calc(100% - 44.4rem);
+                width: calc(100% - 47.2rem);
 
                 @include media($xmd, max) {
                   width: calc(100% - 10rem);
@@ -91,7 +91,7 @@ Product
               }
  
               &:nth-child(3) {
-                width: 14.4rem;
+                width: 17.2rem;
               }
 
               &:nth-child(4) {
@@ -218,7 +218,7 @@ Product
               }
 
               &:nth-child(2) {
-                width: calc(100% - 44.4rem);
+                width: calc(100% - 47.2rem);
                 padding-left: 4rem;
 
                 @include media($xmd, max) {
@@ -228,7 +228,7 @@ Product
               }
 
               &:nth-child(3) {
-                width: 14.4rem;
+                width: 17.2rem;
                 text-align: center;
               }
 

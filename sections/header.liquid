@@ -23,8 +23,8 @@ Header
 
 
             <div class="header__wrap__menu__item [ js-indicator-hover ]">
-                <a href="/about-us" class="header__wrap__menu__item__link {% if link.current %}current{% endif %}">
-                    About us
+                <a href="/about-us" class="header__wrap__menu__item__link arrowed {% if link.current %}current{% endif %}">
+                    About us 
                 </a>
 
                 <div class="header__wrap__secondary__menu">
@@ -46,7 +46,11 @@ Header
 
             <a href="/account" class="header__wrap__secondary__account">
                 <?xml version="1.0" encoding="UTF-8"?><svg version="1.1" width="13px" height="16px" viewBox="0 0 13.0 16.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><clipPath id="1165612250110565011857109"><path d="M24,0 L24,24 L0,24 L0,0 L24,0 Z"></path></clipPath><clipPath id="1115611411653103112122108112"><path d="M8.05938407,7.56447776 C10.7841843,7.56447776 13.0012758,9.75238525 13,12.4399936 L13,15.3428737 C13,15.7054323 12.701485,16 12.3340985,16 L0.665900436,16 C0.298500786,16 0,15.7054195 0,15.3428737 L0,12.4399936 C0,9.75235302 2.21581464,7.56447776 4.94061483,7.56447776 Z M8.06114752,8.87873045 L4.94218235,8.87873045 C2.95209002,8.87873045 1.33330308,10.4762522 1.33330308,12.4400581 L1.33330308,14.685844 L11.6684593,14.685844 L11.6700268,12.4400581 C11.6700268,10.4761878 10.0511745,8.87873045 8.06114752,8.87873045 Z M6.50075055,0 C8.45890473,0 10.0534605,1.57228861 10.0534605,3.50460937 C10.0534605,5.43821918 8.45887208,7.01050779 6.50075055,7.01050779 C4.54132276,7.01050779 2.94804061,5.43821918 2.94804061,3.50589842 C2.94804061,1.57228861 4.54135542,0 6.50075055,0 Z M6.50075055,1.31418823 C5.2774022,1.31418823 4.28111509,2.29734798 4.28111509,3.50457714 C4.28111509,4.71306313 5.2774022,5.69496605 6.50075055,5.69496605 C7.72537251,5.69496605 8.72038602,4.7118063 8.72038602,3.50457714 C8.72038602,2.29609115 7.7240989,1.31418823 6.50075055,1.31418823 Z"></path></clipPath></defs><g transform="translate(-6.0 -4.0)"><g clip-path="url(#1165612250110565011857109)"><g transform="translate(6.0 4.0)"><g clip-path="url(#1115611411653103112122108112)"><polygon points="0,0 13.0000006,0 13.0000006,16 0,16 0,0" stroke="none" fill="#FFFFFF"></polygon></g></g></g></g></svg>            
-                <p>Account</p>
+                {% if customer.id == null %}
+                    <p>Login/Signup</p>
+                    {% else %}
+                    <p>Account</p>
+                {% endif %}
             </a>
 
             <a href="#" class="header__wrap__secondary__cart [ js-my-cart ]">

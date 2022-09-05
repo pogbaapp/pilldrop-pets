@@ -763,12 +763,12 @@ Product
                 .cart__wrap__form__table__head tr th:nth-child(1) h6 {
                   text-align: left; }
               .cart__wrap__form__table__head tr th:nth-child(2) {
-                width: calc(100% - 44.4rem); }
+                width: calc(100% - 47.2rem); }
                 @media only screen and (max-width: 967px) {
                   .cart__wrap__form__table__head tr th:nth-child(2) {
                     width: calc(100% - 10rem); } }
               .cart__wrap__form__table__head tr th:nth-child(3) {
-                width: 14.4rem; }
+                width: 17.2rem; }
               .cart__wrap__form__table__head tr th:nth-child(4) {
                 width: 15rem; }
               .cart__wrap__form__table__head tr th:nth-child(5) {
@@ -882,14 +882,14 @@ Product
                 .cart__wrap__form__table__body__row__cell:nth-child(1) {
                   border-bottom: 1px solid var(--grey-light); } }
             .cart__wrap__form__table__body__row__cell:nth-child(2) {
-              width: calc(100% - 44.4rem);
+              width: calc(100% - 47.2rem);
               padding-left: 4rem; }
               @media only screen and (max-width: 967px) {
                 .cart__wrap__form__table__body__row__cell:nth-child(2) {
                   width: calc(100% - 10rem);
                   border-bottom: 1px solid var(--grey-light); } }
             .cart__wrap__form__table__body__row__cell:nth-child(3) {
-              width: 14.4rem;
+              width: 17.2rem;
               text-align: center; }
             .cart__wrap__form__table__body__row__cell:nth-child(4) {
               width: 15rem;
@@ -1805,7 +1805,7 @@ body:not(.template--index) .header {
           top: 50%;
           transform: translateY(-50%);
           position: absolute;
-          left: .4rem; }
+          left: 0.4rem; }
           .header__wrap__secondary__account svg path {
             fill: white; }
         .header__wrap__secondary__account p {
@@ -2046,7 +2046,7 @@ Search
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     margin-right: 1rem;
-    font-weight: bold;
+    font-weight: 500;
     text-transform: uppercase; }
     @media only screen and (max-width: 767px) {
       .header__wrap__search p {
@@ -2122,6 +2122,13 @@ Subnav
   opacity: 1 !important;
   visibility: visible !important;
   transform: rotateX(0deg) !important; }
+
+.arrowed {
+  padding-right: 2rem;
+  background-image: url("data:image/svg+xml; utf8, <svg width=\"16\" height=\"9\" viewBox=\"0 0 16 9\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M7.839 5.96L13.936.108a.399.399 0 01.553.007l1.07 1.047a.38.38 0 01.008.542L8.122 8.851a.365.365 0 01-.283.105.387.387 0 01-.284-.105L.111 1.704a.38.38 0 01.007-.542L1.188.115a.399.399 0 01.554-.007L7.839 5.96z\" fill=\"%23fff\" fill-rule=\"evenodd\"/></svg>");
+  background-repeat: no-repeat;
+  background-position: 99% 50%;
+  background-size: 12.8px 7.2px; }
 
 .hero {
   margin: -18rem auto 10rem;
@@ -3241,6 +3248,18 @@ Product
         flex-wrap: wrap; }
         .product__wrap__details form button {
           padding: 1.5rem 4rem; }
+
+.why-pay {
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1rem;
+  position: relative;
+  top: -2px;
+  background: var(--primary) !important;
+  color: white !important;
+  padding: 1rem 2rem;
+  font-size: 1rem; }
 
 /*------------------------------------------------------------------
 Quantity
